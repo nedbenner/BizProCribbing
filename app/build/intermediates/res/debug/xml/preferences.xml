@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Standard Items" >
+        <EditTextPreference
+            android:title="Employee Number"
+            android:key="pref_key_employee_number"
+            android:summary="Used to access your time sheet"
+            android:defaultValue="0" />
+    </PreferenceCategory>
+</PreferenceScreen>
+<!-- From: file:/C:/Users/Superlaptop/AndroidstudioProjects/BizProCribbing/app/src/main/res/xml/preferences.xml -->

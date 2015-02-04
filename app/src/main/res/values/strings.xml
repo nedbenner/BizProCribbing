@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BizPro Cribbing</string>
+    <string name="action_settings">Settings</string>
+    <string name="timeTrackerButton">Time Tracker</string>
+    <string name="newProjectButton">New Project</string>
+    
+    <string name="editLocation">Edit Location Information\n(Address, Latitude, Longitude)</string>
+    <string name="addressField">Address</string>
+    <string name="addressHint">Street Address</string>
+    <string name="latField">Latitude</string>
+    <string name="latHint">Decimal Degrees</string>
+    <string name="lngField">Longitude</string>
+    <string name="lngHint">Decimal Degrees</string>
+    <string name="projectIdField">Project ID</string>
+    <string name="projectIdHint">A number</string>
+   	<string name="customerField">Customer</string>
+	<string name="customerHint">Usually a Builder</string>	
+	<string name="statusField">Status</string>
+	<string name="show">where is this used?</string>
+	
+	<string name="view_button">Satellite, Terrain or Road Map</string>
+	<string name="add_button">Add a Project</string>
+    <string name="edit_button">Edit project data</string>
+    <string name="time_button">Input time on the project</string>
+
+	<string-array name="statusList">
+        <item>Planned</item>
+        <item>Staked</item>
+        <item>Excavated</item>
+        <item>Footing In</item>
+        <item>Wall Stood</item>
+        <item>Stripped</item>
+        <item>Completed</item>
+        <item>Deleted</item>
+    </string-array>
+		
+</resources>

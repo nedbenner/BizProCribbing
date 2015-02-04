@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\exploded-aar\com.android.support\support-v13\20.0.0\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="e128103d5281ddd26195a7f980b36d0d005a4e56">
+        <dex dex="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\pre-dexed\debug\classes-9f7ac729f851e91bbf459c752860848fc95853c3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\libs\internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.0-482bf22ab0b43648c56fa186576600de81c06504.jar" />
+    </item>
+    <item
+        jar="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\exploded-aar\com.android.support\support-v13\20.0.0\libs\internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="27bbd3982cdfe4468a9bf99c8c773734a9049e33">
+        <dex dex="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-be2a91649b6ae18dd5a41c12ccc30e05374e3ebb.jar" />
+    </item>
+    <item
+        jar="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.5.87\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\pre-dexed\debug\classes-6fd6adaccd2a2fab92c8e3ddaee36737dc7842f9.jar" />
+    </item>
+    <item
+        jar="C:\Program Files (x86)\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.0\support-annotations-21.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
+        <dex dex="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.0-8983e6e567b6edd74e462d5010829aae3b2038bb.jar" />
+    </item>
+    <item
+        jar="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\pre-dexed\debug\classes-92c2c40c0f29007ca80ecafb54728302a9edae6b.jar" />
+    </item>
+
+</items>

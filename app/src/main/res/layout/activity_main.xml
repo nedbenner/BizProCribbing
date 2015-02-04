@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <FrameLayout
+        xmlns:android						="http://schemas.android.com/apk/res/android"
+        xmlns:map							="http://schemas.android.com/apk/res-auto"
+        xmlns:tools							="http://schemas.android.com/tools"
+        tools:ignore						="MissingPrefix"
+        android:layout_width				="match_parent"
+        android:layout_height				="match_parent" >
+
+        <fragment
+            android:id						="@+id/startscreen"
+            android:name					="com.google.android.gms.maps.MapFragment"
+            map:mapType						="normal"
+            map:uiCompass					="true"
+            map:uiRotateGestures			="true"
+            map:uiScrollGestures			="true"
+            map:uiTiltGestures				="true"
+            map:uiZoomControls				="true"
+            map:uiZoomGestures				="true"
+            android:layout_width			="match_parent"
+            android:layout_height			="match_parent" />
+
+        <SeekBar
+            android:id="@+id/timeLine"
+            android:layout_height="36dp"
+            android:layout_width="match_parent"
+            android:progress="100"
+            android:max="100"
+            android:visibility="invisible"
+            android:layout_gravity="bottom"/>
+
+        <TextView
+            android:id="@+id/textMessage"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:background="@color/wallet_bright_foreground_holo_light"
+            android:textColor="@color/solid_yellow"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="45dp"
+            android:textSize="15sp"/>
+
+</FrameLayout>

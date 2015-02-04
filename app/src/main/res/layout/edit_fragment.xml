@@ -1,0 +1,91 @@
+<?xml version= "1.0" encoding= "utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/edit_fragment"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingLeft="15dp"
+android:scrollbars="vertical" >
+
+<TableLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <TableRow>
+
+        <TextView
+            style="@style/FieldNames"
+            android:text="@string/projectIdField" />
+
+        <TextView
+            android:id="@+id/projectId"
+            style="@style/FieldValues" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            style="@style/FieldNames"
+            android:text="@string/addressField" />
+
+        <EditText
+            android:id="@+id/address"
+            style="@style/FieldValues"
+            android:hint="@string/addressHint"
+            android:inputType="text" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            style="@style/FieldNames"
+            android:text="@string/statusField" />
+
+        <Spinner
+            android:id="@+id/status"
+            android:layout_width="match_parent"
+            android:layout_height="48dip" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            style="@style/FieldNames"
+            android:text="@string/customerField" />
+
+        <EditText
+            android:id="@+id/customer"
+            style="@style/FieldValues"
+            android:hint="@string/customerHint"
+            android:inputType="text" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            style="@style/FieldNames"
+            android:text="@string/latField" />
+
+        <EditText
+            android:id="@+id/lat"
+            style="@style/FieldValues"
+            android:hint="@string/latHint"
+            android:inputType="numberDecimal"
+            android:typeface="monospace" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            style="@style/FieldNames"
+            android:text="@string/lngField" />
+
+        <EditText
+            android:id="@+id/lng"
+            style="@style/FieldValues"
+            android:hint="@string/lngHint"
+            android:inputType="numberDecimal|numberSigned"
+            android:typeface="monospace" />
+    </TableRow>
+</TableLayout>
+</ScrollView>

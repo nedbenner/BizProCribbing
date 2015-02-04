@@ -1,0 +1,2640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidConfiguredLogFilters">
+    <filters>
+      <filter>
+        <option name="name" value="app: ca.nbenner.bizprocribbing" />
+        <option name="packageNamePattern" value="ca.nbenner.bizprocribbing" />
+      </filter>
+    </filters>
+  </component>
+  <component name="AndroidLayoutPreviewToolWindow">
+    <option name="state">
+      <GlobalState />
+    </option>
+  </component>
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/drawable/edit_icon.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/project_window.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+    </layouts>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="info" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="DEBUG" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: ca.nbenner.bizprocribbing" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="66d1d1fa-b921-46cf-86a6-46768e197aac" name="Default" comment="" />
+    <ignored path="BizProCribbing.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="BizProCribbing" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="444" max-vertical-offset="1207">
+              <caret line="420" column="13" selection-start-line="420" selection-start-column="13" selection-end-line="420" selection-end-column="13" />
+              <folding>
+                <element signature="n#!!doc;n#mMap#0;n#MainActivity#0" expanded="false" />
+                <element signature="method#onCreate#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#onStart#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#onStop#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#onSaveInstanceState#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#onCreateOptionsMenu#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#onPrepareOptionsMenu#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#onMapReady#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#onActivityResult#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#onToggleRoads#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#onToggleAdd#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#onToggleTimeline#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#onProgressChanged#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#onStartTrackingTouch#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#onCopyDB#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#seeWholeMap#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#onMarkerClick#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#onMarkerDrag#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#onMarkerDragStart#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#onMarkerDragEnd#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#onMapClick#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#showEditDialog#0;class#MainActivity#0" expanded="false" />
+                <element signature="e#18439#18440#0" expanded="true" />
+                <element signature="e#18476#18477#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GC.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/GC.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2091">
+              <caret line="29" column="55" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1258">
+              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <folding>
+                <element signature="e#1210#1228#0" expanded="true" />
+                <element signature="e#1538#1577#0" expanded="true" />
+                <element signature="e#1932#1950#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TrackLocations.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/TrackLocations.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.35789475" vertical-offset="867" max-vertical-offset="1649">
+              <caret line="150" column="39" selection-start-line="150" selection-start-column="39" selection-end-line="150" selection-end-column="39" />
+              <folding>
+                <element signature="method#onCreate#0;class#TrackLocations#0" expanded="false" />
+                <element signature="method#onDestroy#0;class#TrackLocations#0" expanded="false" />
+                <element signature="method#servicesConnected#0;class#LocationBP#0;class#TrackLocations#0" expanded="false" />
+                <element signature="method#connectAPI#0;class#LocationBP#0;class#TrackLocations#0" expanded="false" />
+                <element signature="method#updateLocation#0;class#LocationBP#0;class#TrackLocations#0" expanded="false" />
+                <element signature="method#showLocationMarkers#0;class#LocationBP#0;class#TrackLocations#0" expanded="false" />
+                <element signature="method#onConnectionSuspended#0;class#LocationBP#0;class#TrackLocations#0" expanded="false" />
+                <element signature="e#7012#7051#0" expanded="false" />
+                <element signature="method#onConnectionFailed#0;class#LocationBP#0;class#TrackLocations#0" expanded="false" />
+                <element signature="method#showErrorDialog#0;class#LocationBP#0;class#TrackLocations#0" expanded="false" />
+                <element signature="class#ErrorDialogFragment#0;class#LocationBP#0;class#TrackLocations#0" expanded="false" />
+                <element signature="method#onCreateDialog#0;class#ErrorDialogFragment#0;class#LocationBP#0;class#TrackLocations#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LocnBP.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/LocnBP.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+              <caret line="192" column="0" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc;n#CONNECTION_FAILURE_RESOLUTION_REQUEST#0;n#LocnBP#0" expanded="false" />
+                <element signature="method#LocnBP#0;class#LocnBP#0" expanded="false" />
+                <element signature="method#buildGoogleApiClient#0;class#LocnBP#0" expanded="false" />
+                <element signature="method#servicesConnected#0;class#LocnBP#0" expanded="false" />
+                <element signature="method#connectAPI#0;class#LocnBP#0" expanded="false" />
+                <element signature="method#updateLocation#0;class#LocnBP#0" expanded="false" />
+                <element signature="method#showLocationMarkers#0;class#LocnBP#0" expanded="false" />
+                <element signature="method#onConnected#0;class#LocnBP#0" expanded="false" />
+                <element signature="method#onConnectionSuspended#0;class#LocnBP#0" expanded="false" />
+                <element signature="e#5730#5769#0" expanded="false" />
+                <element signature="method#onConnectionFailed#0;class#LocnBP#0" expanded="false" />
+                <element signature="method#showErrorDialog#0;class#LocnBP#0" expanded="false" />
+                <element signature="class#ErrorDialogFragment#0;class#LocnBP#0" expanded="false" />
+                <element signature="method#onCreateDialog#0;class#ErrorDialogFragment#0;class#LocnBP#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="tasksExpandState">
+      <map>
+        <entry key="" value="true" />
+      </map>
+    </option>
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="BizProCribbing" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value=":app" />
+                <option name="path" value="$PROJECT_DIR$/app" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="BizProCribbing" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="availableTasks">
+      <map>
+        <entry key="$PROJECT_DIR$/app">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the Android dependencies of the project" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="androidDependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles all variants of all applications and secondary packages." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles all Debug builds" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="assembleDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the Test build for the Debug build" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="assembleDebugTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles all Release builds" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="assembleRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="checkDebugManifest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="checkReleaseManifest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="compileDebugAidl" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="compileDebugJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="compileDebugNdk" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="compileDebugRenderscript" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="compileDebugSources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="compileDebugTestAidl" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="compileDebugTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="compileDebugTestNdk" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="compileDebugTestRenderscript" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="compileDebugTestSources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="compileLint" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="compileReleaseAidl" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="compileReleaseJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="compileReleaseNdk" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="compileReleaseRenderscript" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="compileReleaseSources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs and runs the tests for Build 'debug' on connected devices." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="connectedAndroidTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all device checks on currently connected devices." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="connectedCheck" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all device checks using Device Providers and Test Servers." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="deviceCheck" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="dexDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="dexDebugTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="dexRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="generateDebugAssets" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="generateDebugBuildConfig" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="generateDebugResValues" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="generateDebugResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="generateDebugSources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="generateDebugTestAssets" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="generateDebugTestBuildConfig" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="generateDebugTestResValues" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="generateDebugTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="generateDebugTestSources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="generateReleaseAssets" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="generateReleaseBuildConfig" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="generateReleaseResValues" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="generateReleaseResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="generateReleaseSources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs the Debug build" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="installDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs the Test build for the Debug build" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="installDebugTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs lint on all variants." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="lint" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs lint on the Debug build" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="lintDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs lint on the Release build" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="lintRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs lint on just the fatal issues in the Release build" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="lintVitalRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="mergeDebugAssets" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="mergeDebugResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="mergeDebugTestAssets" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="mergeDebugTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="mergeReleaseAssets" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="mergeReleaseResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="packageDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="packageDebugTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="packageRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="preBuild" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="preDebugBuild" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="preDebugTestBuild" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="preDexDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="preDexDebugTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="preDexRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="preReleaseBuild" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-v13:20.0.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComAndroidSupportSupportV132000Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-v4:21.0.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComAndroidSupportSupportV42100Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.google.android.gms:play-services:6.5.87" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComGoogleAndroidGmsPlayServices6587Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareDebugDependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareDebugTestDependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareReleaseDependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="processDebugJavaRes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="processDebugManifest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="processDebugResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="processDebugTestJavaRes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="processDebugTestManifest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="processDebugTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="processReleaseJavaRes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="processReleaseManifest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="processReleaseResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the signing info for each variant" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="signingReport" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Uninstall all applications." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="uninstallAll" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Uninstalls the Debug build" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="uninstallDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Uninstalls the Test build for the Debug build" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="uninstallDebugTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Uninstalls the Release build" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="uninstallRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="validateDebugSigning" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="zipalignDebug" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="4255049280792" />
+      </map>
+    </option>
+    <option name="projectBuildClasspath">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <ExternalProjectBuildClasspathPojo>
+              <option name="modulesBuildClasspath">
+                <map>
+                  <entry key="$PROJECT_DIR$">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="entries">
+                          <list>
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/1.0.0/builder-1.0.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/1.0.0/gradle-1.0.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/1.0.0/builder-model-1.0.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/1.0.0/builder-1.0.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/1.0.0/builder-model-1.0.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/1.0.0/gradle-1.0.0.jar" />
+                          </list>
+                        </option>
+                        <option name="path" value="$PROJECT_DIR$" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$PROJECT_DIR$/app">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="entries">
+                          <list>
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/1.0.0/builder-1.0.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/1.0.0/gradle-1.0.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/1.0.0/builder-model-1.0.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/1.0.0/builder-1.0.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/1.0.0/builder-model-1.0.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/1.0.0/gradle-1.0.0.jar" />
+                          </list>
+                        </option>
+                        <option name="path" value="$PROJECT_DIR$/app" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="name" value="app" />
+              <option name="projectBuildClasspath">
+                <list>
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/ant-1.9.3.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/ant-launcher-1.9.3.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/gradle-base-services-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/gradle-base-services-groovy-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/gradle-cli-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/gradle-core-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/gradle-docs-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/gradle-launcher-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/gradle-messaging-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/gradle-model-core-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/gradle-model-groovy-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/gradle-native-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/gradle-open-api-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/gradle-resources-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/gradle-tooling-api-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/gradle-ui-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/gradle-wrapper-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/groovy-all-2.3.6.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/ant-antlr-1.9.3.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-announce-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-antlr-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-build-comparison-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-build-init-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-code-quality-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-cunit-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-dependency-management-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-diagnostics-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-ear-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-ide-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-ide-native-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-ivy-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-jacoco-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-javascript-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-jetty-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-language-groovy-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-language-java-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-language-jvm-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-language-native-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-maven-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-osgi-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-platform-base-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-platform-jvm-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-platform-native-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-plugin-development-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-plugin-use-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-plugins-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-publish-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-reporting-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-resources-http-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-scala-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-signing-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-sonar-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
+                  <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
+                </list>
+              </option>
+            </ExternalProjectBuildClasspathPojo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/edit_scaled.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/button_background.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/my_test2.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/edit_icon.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/time_icon.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/project_edit_window.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/edit_project.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/EditWindow.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/ProjectEdit2.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/integers.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values-v14/styles.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/Time.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/preferences.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/SettingsActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/edit_menu.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/preferences_layout.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/SettingsFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/Settings.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/my_spinner.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/time_fragment.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/title_tab.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/xml/preferences.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/sample_time_window.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/MyRelativeLayout.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/MyViewPager.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/project_window.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" />
+        <option value="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values/wallet_colors.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/time_window.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/MyActionBar.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/FireMissilesDialogFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/GetInternalData.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/edit_fragment.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/TimeWindow.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/ExchangeDataWithWebServer.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/TimeSheet.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/Location.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/Projects.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/DBBaseAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/LocnBP.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/ProjectEdit.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/UpdateDatabases.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/toggle.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/GC.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/TrackLocations.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/MainActivity.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Abstraction issues</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BizProCribbing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BizProCribbing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BizProCribbing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BizProCribbing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BizProCribbing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BizProCribbing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BizProCribbing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BizProCribbing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BizProCribbing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bizprocribbing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UpdateDatabases.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BizProCribbing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BizProCribbing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bizprocribbing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="preferences.sourceCode.Java" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="android.project.structure.last.selected" value="app" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="015d2994871be80c" />
+    <property name="LayoutCode.rearrangeEntriesJava" value="false" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.WIDTH" value="454" />
+    <property name="extract.method.default.visibility" value="private" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ca.nbenner.bizprocribbing" />
+    </key>
+    <key name="android.template.packageName">
+      <recent name="ca.nbenner.bizprocribbing" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\src\main\res\drawable" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\src\main\res\xml" />
+      <recent name="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\src\main\res\drawable" />
+      <recent name="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\src\main\res\menu" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ca.nbenner.bizprocribbing" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android Application.app">
+    <configuration default="false" name="MainActivity" type="AndroidRunConfigurationType" factoryName="Android Application" temporary="true">
+      <module name="app" />
+      <option name="ACTIVITY_CLASS" value="ca.nbenner.bizprocribbing.MainActivity" />
+      <option name="MODE" value="specific_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="true" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="app" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="app" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="true" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Android Application.app" />
+      <item index="1" class="java.lang.String" itemvalue="Android Application.MainActivity" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Android Application.MainActivity" />
+      </list>
+    </recent_temporary>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SliceManager">
+    <option name="analysisUIOptions">
+      <AnalysisUIOptions />
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="66d1d1fa-b921-46cf-86a6-46768e197aac" name="Default" comment="" />
+      <created>1414597470999</created>
+      <updated>1414597470999</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32816902" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29014084" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" x="226" y="57" width="1205" height="693" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23851204" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32816902" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32968637" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21663019" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.32708934" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="0" y="338" width="1446" height="236" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32816902" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="FLOATING" visible="false" weight="0.28674352" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" x="78" y="60" width="1370" height="800" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.32965517" sideWeight="0.5" order="14" side_tool="true" content_ui="tabs" x="121" y="328" width="1153" height="440" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16409266" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32968637" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24945295" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.39769453" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="0" y="27" width="1468" height="820" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23851204" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" x="-1332" y="103" width="1200" height="660" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39913544" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.4855908" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="77" y="259" width="1371" height="337" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="577" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/support-v13/20.0.0/classes.jar!/android/support/v13/app/FragmentPagerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4254317" vertical-offset="35" max-vertical-offset="697">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Android/sdk/sources/android-19/android/widget/ScrollView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5526" max-vertical-offset="25143">
+          <caret line="473" column="52" selection-start-line="473" selection-start-column="12" selection-end-line="473" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values/wallet_colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45368916" vertical-offset="0" max-vertical-offset="637">
+          <caret line="17" column="69" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/attrs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Android/sdk/extras/android/m2repository/com/android/support/support-v4/20.0.0/support-v4-20.0.0-sources.jar!/android/support/v4/view/ViewPager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3323263" vertical-offset="7362" max-vertical-offset="11254">
+          <caret line="1929" column="0" selection-start-line="1929" selection-start-column="0" selection-end-line="1929" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Android/sdk/sources/android-19/android/view/ViewGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3323263" vertical-offset="30567" max-vertical-offset="86938">
+          <caret line="2209" column="0" selection-start-line="2209" selection-start-column="0" selection-end-line="2209" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/time_fragment.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.8387096" vertical-offset="0" max-vertical-offset="1768">
+          <caret line="7" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Android/sdk/sources/android-19/android/database/sqlite/SQLiteOpenHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="508" max-vertical-offset="3723">
+          <caret line="105" column="25" selection-start-line="104" selection-start-column="25" selection-end-line="105" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Android/sdk/sources/android-19/android/preference/PreferenceManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47583082" vertical-offset="3272" max-vertical-offset="8670">
+          <caret line="397" column="49" selection-start-line="397" selection-start-column="49" selection-end-line="397" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/MyViewPager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="59" max-vertical-offset="493">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Android/sdk/sources/android-19/android/app/AlertDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5084" max-vertical-offset="7990">
+          <caret line="626" column="0" selection-start-line="626" selection-start-column="0" selection-end-line="626" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Android/sdk/sources/android-19/android/app/FragmentManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="19687" max-vertical-offset="30022">
+          <caret line="1456" column="0" selection-start-line="1456" selection-start-column="0" selection-end-line="1456" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Android/sdk/sources/android-19/android/widget/ArrayAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22960725" vertical-offset="3146" max-vertical-offset="5508">
+          <caret line="369" column="34" selection-start-line="369" selection-start-column="34" selection-end-line="369" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Android/sdk/sources/android-19/android/view/LayoutInflater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3323263" vertical-offset="5441" max-vertical-offset="11237">
+          <caret line="593" column="0" selection-start-line="593" selection-start-column="0" selection-end-line="593" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Android/sdk/sources/android-19/android/provider/BaseColumns.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17975831" vertical-offset="0" max-vertical-offset="662">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Android/sdk/sources/android-19/android/view/GestureDetector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7380952" vertical-offset="1099" max-vertical-offset="2533">
+          <caret line="280" column="77" selection-start-line="280" selection-start-column="77" selection-end-line="280" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Android/sdk/sources/android-19/android/view/MotionEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="11323" max-vertical-offset="26843">
+          <caret line="1830" column="0" selection-start-line="1830" selection-start-column="0" selection-end-line="1830" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/project_window.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.83835185" vertical-offset="134" max-vertical-offset="765">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/edit_fragment.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29952458" vertical-offset="134" max-vertical-offset="1649">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/time_window.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.806452" vertical-offset="306" max-vertical-offset="969">
+          <caret line="45" column="27" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Android/sdk/sources/android-19/android/app/DialogFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3323263" vertical-offset="2636" max-vertical-offset="5304">
+          <caret line="397" column="0" selection-start-line="397" selection-start-column="0" selection-end-line="398" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Android/sdk/sources/android-19/android/app/Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="13516" max-vertical-offset="14263">
+          <caret line="5234" column="0" selection-start-line="5234" selection-start-column="0" selection-end-line="5234" selection-end-column="0" />
+          <folding>
+            <element signature="class#ManagedDialog#0;class#Activity#0" expanded="false" />
+            <element signature="class#35402:35551" expanded="false" />
+            <element signature="class#ManagedCursor#0;class#Activity#0" expanded="false" />
+            <element signature="method#ManagedCursor#0;class#ManagedCursor#0;class#Activity#0" expanded="false" />
+            <element signature="method#getLoaderManager#0;class#Activity#0" expanded="false" />
+            <element signature="method#getLoaderManager#1;class#Activity#0" expanded="false" />
+            <element signature="method#onCreate#0;class#Activity#0" expanded="false" />
+            <element signature="method#performRestoreInstanceState#0;class#Activity#0" expanded="false" />
+            <element signature="method#onRestoreInstanceState#0;class#Activity#0" expanded="false" />
+            <element signature="method#restoreManagedDialogs#0;class#Activity#0" expanded="false" />
+            <element signature="e#44282#44352#0" expanded="false" />
+            <element signature="method#createDialog#0;class#Activity#0" expanded="false" />
+            <element signature="method#savedDialogArgsKeyFor#0;class#Activity#0" expanded="false" />
+            <element signature="method#onPostCreate#0;class#Activity#0" expanded="false" />
+            <element signature="method#onStart#0;class#Activity#0" expanded="false" />
+            <element signature="method#onResume#0;class#Activity#0" expanded="false" />
+            <element signature="method#onPostResume#0;class#Activity#0" expanded="false" />
+            <element signature="method#onNewIntent#0;class#Activity#0" expanded="false" />
+            <element signature="method#performSaveInstanceState#0;class#Activity#0" expanded="false" />
+            <element signature="method#onSaveInstanceState#0;class#Activity#0" expanded="false" />
+            <element signature="method#saveManagedDialogs#0;class#Activity#0" expanded="false" />
+            <element signature="method#onPause#0;class#Activity#0" expanded="false" />
+            <element signature="method#onUserLeaveHint#0;class#Activity#0" expanded="false" />
+            <element signature="method#onProvideAssistData#0;class#Activity#0" expanded="false" />
+            <element signature="method#onStop#0;class#Activity#0" expanded="false" />
+            <element signature="method#onDestroy#0;class#Activity#0" expanded="false" />
+            <element signature="method#reportFullyDrawn#0;class#Activity#0" expanded="false" />
+            <element signature="method#onConfigurationChanged#0;class#Activity#0" expanded="false" />
+            <element signature="e#67517#67568#0" expanded="false" />
+            <element signature="method#getLastNonConfigurationInstance#0;class#Activity#0" expanded="false" />
+            <element signature="method#getLastNonConfigurationChildInstances#0;class#Activity#0" expanded="false" />
+            <element signature="method#retainNonConfigurationInstances#0;class#Activity#0" expanded="false" />
+            <element signature="e#74902#74967#0" expanded="false" />
+            <element signature="method#onLowMemory#0;class#Activity#0" expanded="false" />
+            <element signature="method#onTrimMemory#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#getFragmentManager#0;class#Activity#0" expanded="false" />
+            <element signature="method#invalidateFragment#0;class#Activity#0" expanded="false" />
+            <element signature="method#onAttachFragment#0;class#Activity#0" expanded="false" />
+            <element signature="method#managedQuery#0;class#Activity#0" expanded="false" />
+            <element signature="method#managedQuery#1;class#Activity#0" expanded="false" />
+            <element signature="method#startManagingCursor#0;class#Activity#0" expanded="false" />
+            <element signature="method#stopManagingCursor#0;class#Activity#0" expanded="false" />
+            <element signature="method#setPersistent#0;class#Activity#0" expanded="false" />
+            <element signature="method#getActionBar#0;class#Activity#0" expanded="false" />
+            <element signature="method#initActionBar#0;class#Activity#0" expanded="false" />
+            <element signature="e#84490#84555#0" expanded="false" />
+            <element signature="method#setContentView#0;class#Activity#0" expanded="false" />
+            <element signature="method#setContentView#1;class#Activity#0" expanded="false" />
+            <element signature="method#setContentView#2;class#Activity#0" expanded="false" />
+            <element signature="method#addContentView#0;class#Activity#0" expanded="false" />
+            <element signature="method#setDefaultKeyMode#0;class#Activity#0" expanded="false" />
+            <element signature="e#90430#90505#0" expanded="false" />
+            <element signature="method#onKeyDown#0;class#Activity#0" expanded="false" />
+            <element signature="method#onKeyUp#0;class#Activity#0" expanded="false" />
+            <element signature="method#onBackPressed#0;class#Activity#0" expanded="false" />
+            <element signature="method#onTouchEvent#0;class#Activity#0" expanded="false" />
+            <element signature="method#onUserInteraction#0;class#Activity#0" expanded="false" />
+            <element signature="method#onWindowAttributesChanged#0;class#Activity#0" expanded="false" />
+            <element signature="e#101383#101440#0" expanded="false" />
+            <element signature="method#onContentChanged#0;class#Activity#0" expanded="false" />
+            <element signature="method#onWindowFocusChanged#0;class#Activity#0" expanded="false" />
+            <element signature="method#onAttachedToWindow#0;class#Activity#0" expanded="false" />
+            <element signature="method#onDetachedFromWindow#0;class#Activity#0" expanded="false" />
+            <element signature="method#hasWindowFocus#0;class#Activity#0" expanded="false" />
+            <element signature="method#dispatchKeyEvent#0;class#Activity#0" expanded="false" />
+            <element signature="method#dispatchKeyShortcutEvent#0;class#Activity#0" expanded="false" />
+            <element signature="method#dispatchTouchEvent#0;class#Activity#0" expanded="false" />
+            <element signature="method#dispatchTrackballEvent#0;class#Activity#0" expanded="false" />
+            <element signature="method#dispatchGenericMotionEvent#0;class#Activity#0" expanded="false" />
+            <element signature="method#dispatchPopulateAccessibilityEvent#0;class#Activity#0" expanded="false" />
+            <element signature="method#onCreatePanelMenu#0;class#Activity#0" expanded="false" />
+            <element signature="method#onPreparePanel#0;class#Activity#0" expanded="false" />
+            <element signature="method#onMenuOpened#0;class#Activity#0" expanded="false" />
+            <element signature="method#onMenuItemSelected#0;class#Activity#0" expanded="false" />
+            <element signature="e#111279#111339#0" expanded="false" />
+            <element signature="method#onPanelClosed#0;class#Activity#0" expanded="false" />
+            <element signature="method#invalidateOptionsMenu#0;class#Activity#0" expanded="false" />
+            <element signature="method#onCreateOptionsMenu#0;class#Activity#0" expanded="false" />
+            <element signature="method#onPrepareOptionsMenu#0;class#Activity#0" expanded="false" />
+            <element signature="method#onOptionsItemSelected#0;class#Activity#0" expanded="false" />
+            <element signature="method#onNavigateUp#0;class#Activity#0" expanded="false" />
+            <element signature="e#118922#118986#0" expanded="false" />
+            <element signature="e#119176#119245#0" expanded="false" />
+            <element signature="e#119691#119738#0" expanded="false" />
+            <element signature="method#onCreateNavigateUpTaskStack#0;class#Activity#0" expanded="false" />
+            <element signature="method#onPrepareNavigateUpTaskStack#0;class#Activity#0" expanded="false" />
+            <element signature="method#onOptionsMenuClosed#0;class#Activity#0" expanded="false" />
+            <element signature="method#onCreateContextMenu#0;class#Activity#0" expanded="false" />
+            <element signature="method#onContextItemSelected#0;class#Activity#0" expanded="false" />
+            <element signature="method#onContextMenuClosed#0;class#Activity#0" expanded="false" />
+            <element signature="method#onPrepareDialog#1;class#Activity#0" expanded="false" />
+            <element signature="method#showDialog#1;class#Activity#0" expanded="false" />
+            <element signature="method#dismissDialog#0;class#Activity#0" expanded="false" />
+            <element signature="method#missingDialog#0;class#Activity#0" expanded="false" />
+            <element signature="method#removeDialog#0;class#Activity#0" expanded="false" />
+            <element signature="method#onSearchRequested#0;class#Activity#0" expanded="false" />
+            <element signature="method#startSearch#0;class#Activity#0" expanded="false" />
+            <element signature="method#triggerSearch#0;class#Activity#0" expanded="false" />
+            <element signature="method#requestWindowFeature#0;class#Activity#0" expanded="false" />
+            <element signature="method#setFeatureDrawableResource#0;class#Activity#0" expanded="false" />
+            <element signature="method#setFeatureDrawableUri#0;class#Activity#0" expanded="false" />
+            <element signature="method#setFeatureDrawable#0;class#Activity#0" expanded="false" />
+            <element signature="method#setFeatureDrawableAlpha#0;class#Activity#0" expanded="false" />
+            <element signature="method#getMenuInflater#0;class#Activity#0" expanded="false" />
+            <element signature="method#onApplyThemeResource#0;class#Activity#0" expanded="false" />
+            <element signature="method#startActivityForResult#0;class#Activity#0" expanded="false" />
+            <element signature="method#startActivityForResult#1;class#Activity#0" expanded="false" />
+            <element signature="e#145913#145973#0" expanded="false" />
+            <element signature="e#146951#147015#0" expanded="false" />
+            <element signature="method#startActivityAsUser#0;class#Activity#0" expanded="false" />
+            <element signature="method#startActivityAsUser#1;class#Activity#0" expanded="false" />
+            <element signature="method#startIntentSenderForResult#0;class#Activity#0" expanded="false" />
+            <element signature="method#startIntentSenderForResult#1;class#Activity#0" expanded="false" />
+            <element signature="e#151203#151265#0" expanded="false" />
+            <element signature="method#startIntentSenderForResultInner#0;class#Activity#0" expanded="false" />
+            <element signature="e#152661#152721#0" expanded="false" />
+            <element signature="method#startActivity#1;class#Activity#0" expanded="false" />
+            <element signature="e#154863#154925#0" expanded="false" />
+            <element signature="method#startActivities#1;class#Activity#0" expanded="false" />
+            <element signature="method#startIntentSender#0;class#Activity#0" expanded="false" />
+            <element signature="method#startIntentSender#1;class#Activity#0" expanded="false" />
+            <element signature="e#159035#159097#0" expanded="false" />
+            <element signature="method#startActivityIfNeeded#0;class#Activity#0" expanded="false" />
+            <element signature="method#startActivityIfNeeded#1;class#Activity#0" expanded="false" />
+            <element signature="e#162565#162625#0" expanded="false" />
+            <element signature="method#startNextMatchingActivity#0;class#Activity#0" expanded="false" />
+            <element signature="method#startNextMatchingActivity#1;class#Activity#0" expanded="false" />
+            <element signature="method#startActivityFromChild#1;class#Activity#0" expanded="false" />
+            <element signature="method#startActivityFromFragment#1;class#Activity#0" expanded="false" />
+            <element signature="method#startIntentSenderFromChild#0;class#Activity#0" expanded="false" />
+            <element signature="method#startIntentSenderFromChild#1;class#Activity#0" expanded="false" />
+            <element signature="method#overridePendingTransition#0;class#Activity#0" expanded="false" />
+            <element signature="method#setResult#0;class#Activity#0" expanded="false" />
+            <element signature="method#setResult#1;class#Activity#0" expanded="false" />
+            <element signature="method#getCallingPackage#0;class#Activity#0" expanded="false" />
+            <element signature="method#getCallingActivity#0;class#Activity#0" expanded="false" />
+            <element signature="method#setVisible#0;class#Activity#0" expanded="false" />
+            <element signature="method#makeVisible#0;class#Activity#0" expanded="false" />
+            <element signature="method#recreate#0;class#Activity#0" expanded="false" />
+            <element signature="method#finish#0;class#Activity#0" expanded="false" />
+            <element signature="method#finishAffinity#0;class#Activity#0" expanded="false" />
+            <element signature="method#finishActivity#0;class#Activity#0" expanded="false" />
+            <element signature="method#finishActivityFromChild#0;class#Activity#0" expanded="false" />
+            <element signature="method#onActivityResult#0;class#Activity#0" expanded="false" />
+            <element signature="method#createPendingResult#0;class#Activity#0" expanded="false" />
+            <element signature="method#setRequestedOrientation#0;class#Activity#0" expanded="false" />
+            <element signature="method#getRequestedOrientation#0;class#Activity#0" expanded="false" />
+            <element signature="method#getTaskId#0;class#Activity#0" expanded="false" />
+            <element signature="method#isTaskRoot#0;class#Activity#0" expanded="false" />
+            <element signature="method#moveTaskToBack#0;class#Activity#0" expanded="false" />
+            <element signature="method#getLocalClassName#0;class#Activity#0" expanded="false" />
+            <element signature="method#getPreferences#0;class#Activity#0" expanded="false" />
+            <element signature="method#ensureSearchManager#0;class#Activity#0" expanded="false" />
+            <element signature="method#getSystemService#0;class#Activity#0" expanded="false" />
+            <element signature="method#setTitle#0;class#Activity#0" expanded="false" />
+            <element signature="method#setTitleColor#0;class#Activity#0" expanded="false" />
+            <element signature="method#onTitleChanged#0;class#Activity#0" expanded="false" />
+            <element signature="method#onChildTitleChanged#0;class#Activity#0" expanded="false" />
+            <element signature="method#setProgressBarVisibility#0;class#Activity#0" expanded="false" />
+            <element signature="method#setProgressBarIndeterminateVisibility#0;class#Activity#0" expanded="false" />
+            <element signature="method#setProgressBarIndeterminate#0;class#Activity#0" expanded="false" />
+            <element signature="method#setProgress#0;class#Activity#0" expanded="false" />
+            <element signature="method#setSecondaryProgress#0;class#Activity#0" expanded="false" />
+            <element signature="method#setVolumeControlStream#0;class#Activity#0" expanded="false" />
+            <element signature="method#runOnUiThread#0;class#Activity#0" expanded="false" />
+            <element signature="method#onCreateView#1;class#Activity#0" expanded="false" />
+            <element signature="e#201283#201343#0" expanded="false" />
+            <element signature="e#202531#202594#0" expanded="false" />
+            <element signature="e#202957#203019#0" expanded="false" />
+            <element signature="e#203097#203160#0" expanded="false" />
+            <element signature="method#dump#0;class#Activity#0" expanded="false" />
+            <element signature="method#dumpInner#0;class#Activity#0" expanded="false" />
+            <element signature="method#isImmersive#0;class#Activity#0" expanded="false" />
+            <element signature="method#convertFromTranslucent#0;class#Activity#0" expanded="false" />
+            <element signature="method#convertToTranslucent#0;class#Activity#0" expanded="false" />
+            <element signature="method#onTranslucentConversionComplete#0;class#Activity#0" expanded="false" />
+            <element signature="method#setImmersive#0;class#Activity#0" expanded="false" />
+            <element signature="method#startActionMode#0;class#Activity#0" expanded="false" />
+            <element signature="method#onWindowStartingActionMode#0;class#Activity#0" expanded="false" />
+            <element signature="method#onActionModeStarted#0;class#Activity#0" expanded="false" />
+            <element signature="method#onActionModeFinished#0;class#Activity#0" expanded="false" />
+            <element signature="method#shouldUpRecreateTask#0;class#Activity#0" expanded="false" />
+            <element signature="method#navigateUpTo#0;class#Activity#0" expanded="false" />
+            <element signature="method#navigateUpToFromChild#0;class#Activity#0" expanded="false" />
+            <element signature="method#getParentActivityIntent#0;class#Activity#0" expanded="false" />
+            <element signature="method#attach#0;class#Activity#0" expanded="false" />
+            <element signature="method#attach#1;class#Activity#0" expanded="false" />
+            <element signature="method#getActivityToken#0;class#Activity#0" expanded="false" />
+            <element signature="method#performStart#0;class#Activity#0" expanded="false" />
+            <element signature="method#performRestart#0;class#Activity#0" expanded="false" />
+            <element signature="method#performResume#0;class#Activity#0" expanded="false" />
+            <element signature="method#performPause#0;class#Activity#0" expanded="false" />
+            <element signature="method#performUserLeaving#0;class#Activity#0" expanded="false" />
+            <element signature="method#performStop#0;class#Activity#0" expanded="false" />
+            <element signature="method#performDestroy#0;class#Activity#0" expanded="false" />
+            <element signature="method#dispatchActivityResult#0;class#Activity#0" expanded="false" />
+            <element signature="class#TranslucentConversionListener#0;class#Activity#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Android/sdk/sources/android-19/android/app/BackStackRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3323263" vertical-offset="10626" max-vertical-offset="12665">
+          <caret line="683" column="0" selection-start-line="683" selection-start-column="0" selection-end-line="684" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Android/sdk/sources/android-19/com/android/internal/app/ActionBarImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48640484" vertical-offset="7702" max-vertical-offset="18241">
+          <caret line="576" column="0" selection-start-line="576" selection-start-column="0" selection-end-line="576" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/TimeWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3323263" vertical-offset="290" max-vertical-offset="1258">
+          <caret line="243" column="0" selection-start-line="243" selection-start-column="0" selection-end-line="243" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc;n#mTimeThickness#0;n#TimeWindow#0" expanded="false" />
+            <element signature="method#TimeWindow#0;class#TimeWindow#0" expanded="false" />
+            <element signature="method#init#0;class#TimeWindow#0" expanded="false" />
+            <element signature="method#initPaints#0;class#TimeWindow#0" expanded="false" />
+            <element signature="method#onSizeChanged#0;class#TimeWindow#0" expanded="false" />
+            <element signature="e#5191#5255#0" expanded="false" />
+            <element signature="method#onMeasure#0;class#TimeWindow#0" expanded="false" />
+            <element signature="method#onDraw#0;class#TimeWindow#0" expanded="false" />
+            <element signature="method#formatTime#0;class#TimeWindow#0" expanded="false" />
+            <element signature="method#onWindowFocusChanged#0;class#TimeWindow#0" expanded="false" />
+            <element signature="method#hitTest#0;class#TimeWindow#0" expanded="false" />
+            <element signature="class#ChangeProject#0;class#TimeWindow#0" expanded="false" />
+            <element signature="method#newInstance#0;class#ChangeProject#0;class#TimeWindow#0" expanded="false" />
+            <element signature="method#onCreateDialog#0;class#ChangeProject#0;class#TimeWindow#0" expanded="false" />
+            <element signature="class#ProjectListOnClick#0;class#ChangeProject#0;class#TimeWindow#0" expanded="false" />
+            <element signature="method#ProjectListOnClick#0;class#ProjectListOnClick#0;class#ChangeProject#0;class#TimeWindow#0" expanded="false" />
+            <element signature="method#onClick#0;class#ProjectListOnClick#0;class#ChangeProject#0;class#TimeWindow#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5604396" vertical-offset="102" max-vertical-offset="765">
+          <caret line="27" column="34" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Android/sdk/sources/android-19/com/android/internal/os/ZygoteInit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="9912" max-vertical-offset="10574">
+          <caret line="787" column="0" selection-start-line="787" selection-start-column="0" selection-end-line="787" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.612904" vertical-offset="151" max-vertical-offset="833">
+          <caret line="41" column="37" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/classes.jar!/com/google/android/gms/maps/GoogleMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3196">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/classes.jar!/com/google/android/gms/maps/internal/n.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.2" vertical-offset="0" max-vertical-offset="561">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Android/sdk/sources/android-19/android/os/Binder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3010" max-vertical-offset="5610">
+          <caret line="360" column="0" selection-start-line="360" selection-start-column="0" selection-end-line="360" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Android/sdk/sources/android-19/android/os/AsyncTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2823" max-vertical-offset="4505">
+          <caret line="534" column="0" selection-start-line="534" selection-start-column="0" selection-end-line="534" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Android/sdk/sources/android-19/android/os/Looper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3323263" vertical-offset="1072" max-vertical-offset="2550">
+          <caret line="137" column="0" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Android/sdk/sources/android-19/android/os/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3323263" vertical-offset="409" max-vertical-offset="6239">
+          <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Android/sdk/sources/android-19/android/view/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3323263" vertical-offset="55251" max-vertical-offset="56797">
+          <caret line="18422" column="0" selection-start-line="18422" selection-start-column="0" selection-end-line="18422" selection-end-column="0" />
+          <folding>
+            <element signature="e#105370#106276#1" expanded="false" />
+            <element signature="e#106447#107176#1" expanded="false" />
+            <element signature="class#TransformationInfo#0;class#View#0" expanded="false" />
+            <element signature="class#ListenerInfo#0;class#View#0" expanded="false" />
+            <element signature="e#127340#127642#1" expanded="false" />
+            <element signature="method#View#0;class#View#0" expanded="false" />
+            <element signature="e#130430#130511#0" expanded="false" />
+            <element signature="method#View#2;class#View#0" expanded="false" />
+            <element signature="class#146788:148705" expanded="false" />
+            <element signature="method#onClick#0;class#146788:148705" expanded="false" />
+            <element signature="e#150742#150831#0" expanded="false" />
+            <element signature="e#151125#151213#0" expanded="false" />
+            <element signature="e#151731#151805#0" expanded="false" />
+            <element signature="e#152814#152903#0" expanded="false" />
+            <element signature="method#toString#0;class#View#0" expanded="false" />
+            <element signature="method#initializeFadingEdge#0;class#View#0" expanded="false" />
+            <element signature="method#getVerticalFadingEdgeLength#0;class#View#0" expanded="false" />
+            <element signature="method#setFadingEdgeLength#0;class#View#0" expanded="false" />
+            <element signature="method#getHorizontalFadingEdgeLength#0;class#View#0" expanded="false" />
+            <element signature="method#getVerticalScrollbarWidth#0;class#View#0" expanded="false" />
+            <element signature="method#getHorizontalScrollbarHeight#0;class#View#0" expanded="false" />
+            <element signature="method#initializeScrollbars#0;class#View#0" expanded="false" />
+            <element signature="method#initScrollCache#0;class#View#0" expanded="false" />
+            <element signature="method#getScrollCache#0;class#View#0" expanded="false" />
+            <element signature="method#setVerticalScrollbarPosition#0;class#View#0" expanded="false" />
+            <element signature="method#getListenerInfo#0;class#View#0" expanded="false" />
+            <element signature="method#setOnFocusChangeListener#0;class#View#0" expanded="false" />
+            <element signature="method#addOnLayoutChangeListener#0;class#View#0" expanded="false" />
+            <element signature="method#removeOnLayoutChangeListener#0;class#View#0" expanded="false" />
+            <element signature="method#addOnAttachStateChangeListener#0;class#View#0" expanded="false" />
+            <element signature="method#removeOnAttachStateChangeListener#0;class#View#0" expanded="false" />
+            <element signature="method#getOnFocusChangeListener#0;class#View#0" expanded="false" />
+            <element signature="method#setOnClickListener#0;class#View#0" expanded="false" />
+            <element signature="method#hasOnClickListeners#0;class#View#0" expanded="false" />
+            <element signature="method#setOnLongClickListener#0;class#View#0" expanded="false" />
+            <element signature="method#setOnCreateContextMenuListener#0;class#View#0" expanded="false" />
+            <element signature="method#callOnClick#0;class#View#0" expanded="false" />
+            <element signature="method#performLongClick#0;class#View#0" expanded="false" />
+            <element signature="method#performButtonActionOnTouchDown#0;class#View#0" expanded="false" />
+            <element signature="method#startActionMode#0;class#View#0" expanded="false" />
+            <element signature="method#setOnGenericMotionListener#0;class#View#0" expanded="false" />
+            <element signature="method#handleFocusGainInternal#0;class#View#0" expanded="false" />
+            <element signature="method#requestRectangleOnScreen#0;class#View#0" expanded="false" />
+            <element signature="method#requestRectangleOnScreen#1;class#View#0" expanded="false" />
+            <element signature="method#clearFocus#0;class#View#0" expanded="false" />
+            <element signature="method#clearFocusInternal#0;class#View#0" expanded="false" />
+            <element signature="method#notifyGlobalFocusCleared#0;class#View#0" expanded="false" />
+            <element signature="method#rootViewRequestFocus#0;class#View#0" expanded="false" />
+            <element signature="method#unFocus#0;class#View#0" expanded="false" />
+            <element signature="method#hasFocusable#0;class#View#0" expanded="false" />
+            <element signature="method#onFocusChanged#0;class#View#0" expanded="false" />
+            <element signature="method#sendAccessibilityEvent#0;class#View#0" expanded="false" />
+            <element signature="method#announceForAccessibility#0;class#View#0" expanded="false" />
+            <element signature="method#sendAccessibilityEventInternal#0;class#View#0" expanded="false" />
+            <element signature="method#sendAccessibilityEventUnchecked#0;class#View#0" expanded="false" />
+            <element signature="method#sendAccessibilityEventUncheckedInternal#0;class#View#0" expanded="false" />
+            <element signature="method#dispatchPopulateAccessibilityEvent#0;class#View#0" expanded="false" />
+            <element signature="method#dispatchPopulateAccessibilityEventInternal#0;class#View#0" expanded="false" />
+            <element signature="method#onPopulateAccessibilityEvent#0;class#View#0" expanded="false" />
+            <element signature="method#onPopulateAccessibilityEventInternal#0;class#View#0" expanded="false" />
+            <element signature="method#onInitializeAccessibilityEvent#0;class#View#0" expanded="false" />
+            <element signature="method#onInitializeAccessibilityEventInternal#0;class#View#0" expanded="false" />
+            <element signature="method#createAccessibilityNodeInfo#0;class#View#0" expanded="false" />
+            <element signature="method#createAccessibilityNodeInfoInternal#0;class#View#0" expanded="false" />
+            <element signature="method#onInitializeAccessibilityNodeInfo#0;class#View#0" expanded="false" />
+            <element signature="method#getBoundsOnScreen#0;class#View#0" expanded="false" />
+            <element signature="method#onInitializeAccessibilityNodeInfoInternal#0;class#View#0" expanded="false" />
+            <element signature="e#205269#205335#0" expanded="false" />
+            <element signature="method#findLabelForView#0;class#View#0" expanded="false" />
+            <element signature="method#isVisibleToUser#1;class#View#0" expanded="false" />
+            <element signature="e#209059#209115#0" expanded="false" />
+            <element signature="e#209315#209378#0" expanded="false" />
+            <element signature="method#setAccessibilityDelegate#0;class#View#0" expanded="false" />
+            <element signature="method#getAccessibilityNodeProvider#0;class#View#0" expanded="false" />
+            <element signature="method#getAccessibilityViewId#0;class#View#0" expanded="false" />
+            <element signature="method#getAccessibilityWindowId#0;class#View#0" expanded="false" />
+            <element signature="method#setContentDescription#0;class#View#0" expanded="false" />
+            <element signature="method#setLabelFor#0;class#View#0" expanded="false" />
+            <element signature="method#resetPressedState#0;class#View#0" expanded="false" />
+            <element signature="method#isScrollContainer#0;class#View#0" expanded="false" />
+            <element signature="method#setScrollContainer#0;class#View#0" expanded="false" />
+            <element signature="method#setDrawingCacheQuality#0;class#View#0" expanded="false" />
+            <element signature="method#setKeepScreenOn#0;class#View#0" expanded="false" />
+            <element signature="method#setNextFocusForwardId#0;class#View#0" expanded="false" />
+            <element signature="method#isShown#0;class#View#0" expanded="false" />
+            <element signature="method#fitSystemWindows#0;class#View#0" expanded="false" />
+            <element signature="method#computeFitSystemWindows#0;class#View#0" expanded="false" />
+            <element signature="e#230148#230214#0" expanded="false" />
+            <element signature="method#setFitsSystemWindows#0;class#View#0" expanded="false" />
+            <element signature="method#getFitsSystemWindows#0;class#View#0" expanded="false" />
+            <element signature="method#requestFitSystemWindows#0;class#View#0" expanded="false" />
+            <element signature="method#makeOptionalFitsSystemWindows#0;class#View#0" expanded="false" />
+            <element signature="e#233133#233375#0" expanded="false" />
+            <element signature="method#setVisibility#0;class#View#0" expanded="false" />
+            <element signature="method#setEnabled#0;class#View#0" expanded="false" />
+            <element signature="e#234759#234823#0" expanded="false" />
+            <element signature="method#setFocusable#0;class#View#0" expanded="false" />
+            <element signature="method#setFocusableInTouchMode#0;class#View#0" expanded="false" />
+            <element signature="e#236033#236106#0" expanded="false" />
+            <element signature="method#setSoundEffectsEnabled#0;class#View#0" expanded="false" />
+            <element signature="method#isSoundEffectsEnabled#0;class#View#0" expanded="false" />
+            <element signature="method#setHapticFeedbackEnabled#0;class#View#0" expanded="false" />
+            <element signature="method#isHapticFeedbackEnabled#0;class#View#0" expanded="false" />
+            <element signature="e#239079#239460#0" expanded="false" />
+            <element signature="method#getRawLayoutDirection#0;class#View#0" expanded="false" />
+            <element signature="method#setLayoutDirection#0;class#View#0" expanded="false" />
+            <element signature="e#241580#241830#0" expanded="false" />
+            <element signature="method#getLayoutDirection#0;class#View#0" expanded="false" />
+            <element signature="method#hasTransientState#0;class#View#0" expanded="false" />
+            <element signature="method#setHasTransientState#0;class#View#0" expanded="false" />
+            <element signature="method#isLaidOut#0;class#View#0" expanded="false" />
+            <element signature="method#setWillNotDraw#0;class#View#0" expanded="false" />
+            <element signature="method#setWillNotCacheDrawing#0;class#View#0" expanded="false" />
+            <element signature="method#willNotCacheDrawing#0;class#View#0" expanded="false" />
+            <element signature="method#setLongClickable#0;class#View#0" expanded="false" />
+            <element signature="method#setPressed#0;class#View#0" expanded="false" />
+            <element signature="method#dispatchSetPressed#0;class#View#0" expanded="false" />
+            <element signature="method#setSaveEnabled#0;class#View#0" expanded="false" />
+            <element signature="method#getFilterTouchesWhenObscured#0;class#View#0" expanded="false" />
+            <element signature="method#setFilterTouchesWhenObscured#0;class#View#0" expanded="false" />
+            <element signature="method#isSaveFromParentEnabled#0;class#View#0" expanded="false" />
+            <element signature="method#setSaveFromParentEnabled#0;class#View#0" expanded="false" />
+            <element signature="method#isFocusableInTouchMode#0;class#View#0" expanded="false" />
+            <element signature="method#focusSearch#0;class#View#0" expanded="false" />
+            <element signature="method#findUserSetNextFocus#0;class#View#0" expanded="false" />
+            <element signature="class#258261:258461" expanded="false" />
+            <element signature="method#findViewInsideOutShouldExist#0;class#View#0" expanded="false" />
+            <element signature="method#getFocusables#0;class#View#0" expanded="false" />
+            <element signature="method#addFocusables#0;class#View#0" expanded="false" />
+            <element signature="method#addFocusables#1;class#View#0" expanded="false" />
+            <element signature="method#findViewsWithText#0;class#View#0" expanded="false" />
+            <element signature="method#getTouchables#0;class#View#0" expanded="false" />
+            <element signature="method#addTouchables#0;class#View#0" expanded="false" />
+            <element signature="method#isAccessibilityFocused#0;class#View#0" expanded="false" />
+            <element signature="method#requestAccessibilityFocus#0;class#View#0" expanded="false" />
+            <element signature="method#clearAccessibilityFocus#0;class#View#0" expanded="false" />
+            <element signature="e#265456#265516#0" expanded="false" />
+            <element signature="method#sendAccessibilityHoverEvent#0;class#View#0" expanded="false" />
+            <element signature="e#266002#266074#0" expanded="false" />
+            <element signature="method#clearAccessibilityFocusNoCallbacks#0;class#View#0" expanded="false" />
+            <element signature="method#requestFocus#2;class#View#0" expanded="false" />
+            <element signature="method#requestFocusNoSearch#0;class#View#0" expanded="false" />
+            <element signature="method#requestFocusFromTouch#0;class#View#0" expanded="false" />
+            <element signature="method#hasAncestorThatBlocksDescendantFocus#0;class#View#0" expanded="false" />
+            <element signature="e#273879#274358#0" expanded="false" />
+            <element signature="method#getImportantForAccessibility#0;class#View#0" expanded="false" />
+            <element signature="method#setAccessibilityLiveRegion#0;class#View#0" expanded="false" />
+            <element signature="method#getAccessibilityLiveRegion#0;class#View#0" expanded="false" />
+            <element signature="method#setImportantForAccessibility#0;class#View#0" expanded="false" />
+            <element signature="e#277560#277628#0" expanded="false" />
+            <element signature="method#isImportantForAccessibility#0;class#View#0" expanded="false" />
+            <element signature="method#getParentForAccessibility#0;class#View#0" expanded="false" />
+            <element signature="method#addChildrenForAccessibility#0;class#View#0" expanded="false" />
+            <element signature="method#includeForAccessibility#0;class#View#0" expanded="false" />
+            <element signature="method#isActionableForAccessibility#0;class#View#0" expanded="false" />
+            <element signature="method#hasListenersForAccessibility#0;class#View#0" expanded="false" />
+            <element signature="method#notifyViewAccessibilityStateChangedIfNeeded#0;class#View#0" expanded="false" />
+            <element signature="method#notifySubtreeAccessibilityStateChangedIfNeeded#0;class#View#0" expanded="false" />
+            <element signature="method#resetSubtreeAccessibilityStateChanged#0;class#View#0" expanded="false" />
+            <element signature="method#performAccessibilityAction#0;class#View#0" expanded="false" />
+            <element signature="method#performAccessibilityActionInternal#0;class#View#0" expanded="false" />
+            <element signature="e#286883#286927#0" expanded="false" />
+            <element signature="method#traverseAtGranularity#0;class#View#0" expanded="false" />
+            <element signature="method#setAccessibilitySelection#0;class#View#0" expanded="false" />
+            <element signature="method#sendViewTextTraversedAtGranularityEvent#0;class#View#0" expanded="false" />
+            <element signature="method#getIteratorForGranularity#0;class#View#0" expanded="false" />
+            <element signature="method#dispatchStartTemporaryDetach#0;class#View#0" expanded="false" />
+            <element signature="method#onStartTemporaryDetach#0;class#View#0" expanded="false" />
+            <element signature="method#onFinishTemporaryDetach#0;class#View#0" expanded="false" />
+            <element signature="method#getKeyDispatcherState#0;class#View#0" expanded="false" />
+            <element signature="method#dispatchKeyEventPreIme#0;class#View#0" expanded="false" />
+            <element signature="method#dispatchKeyEvent#0;class#View#0" expanded="false" />
+            <element signature="e#298539#298600#0" expanded="false" />
+            <element signature="method#dispatchKeyShortcutEvent#0;class#View#0" expanded="false" />
+            <element signature="method#onFilterTouchEventForSecurity#0;class#View#0" expanded="false" />
+            <element signature="method#dispatchTrackballEvent#0;class#View#0" expanded="false" />
+            <element signature="method#dispatchGenericMotionEvent#0;class#View#0" expanded="false" />
+            <element signature="method#dispatchGenericMotionEventInternal#0;class#View#0" expanded="false" />
+            <element signature="method#dispatchHoverEvent#0;class#View#0" expanded="false" />
+            <element signature="method#dispatchPointerEvent#0;class#View#0" expanded="false" />
+            <element signature="method#onWindowFocusChanged#0;class#View#0" expanded="false" />
+            <element signature="method#dispatchVisibilityChanged#0;class#View#0" expanded="false" />
+            <element signature="method#onVisibilityChanged#0;class#View#0" expanded="false" />
+            <element signature="method#onDisplayHint#0;class#View#0" expanded="false" />
+            <element signature="method#dispatchWindowVisibilityChanged#0;class#View#0" expanded="false" />
+            <element signature="method#onWindowVisibilityChanged#0;class#View#0" expanded="false" />
+            <element signature="method#getWindowVisibility#0;class#View#0" expanded="false" />
+            <element signature="method#getWindowVisibleDisplayFrame#0;class#View#0" expanded="false" />
+            <element signature="e#313401#313464#0" expanded="false" />
+            <element signature="e#313871#313939#0" expanded="false" />
+            <element signature="method#dispatchConfigurationChanged#0;class#View#0" expanded="false" />
+            <element signature="method#onConfigurationChanged#0;class#View#0" expanded="false" />
+            <element signature="method#dispatchCollectViewAttributes#0;class#View#0" expanded="false" />
+            <element signature="method#performCollectViewAttributes#0;class#View#0" expanded="false" />
+            <element signature="method#needGlobalAttributesUpdate#0;class#View#0" expanded="false" />
+            <element signature="method#isInTouchMode#0;class#View#0" expanded="false" />
+            <element signature="method#onKeyDown#0;class#View#0" expanded="false" />
+            <element signature="method#onKeyUp#0;class#View#0" expanded="false" />
+            <element signature="method#createContextMenu#0;class#View#0" expanded="false" />
+            <element signature="e#325312#325378#0" expanded="false" />
+            <element signature="e#325719#325792#0" expanded="false" />
+            <element signature="method#onCreateContextMenu#0;class#View#0" expanded="false" />
+            <element signature="method#onHoverEvent#0;class#View#0" expanded="false" />
+            <element signature="e#331176#331259#0" expanded="false" />
+            <element signature="e#332273#332342#0" expanded="false" />
+            <element signature="e#332930#332998#0" expanded="false" />
+            <element signature="e#333493#333560#0" expanded="false" />
+            <element signature="method#isHoverable#0;class#View#0" expanded="false" />
+            <element signature="method#setHovered#0;class#View#0" expanded="false" />
+            <element signature="method#onHoverChanged#0;class#View#0" expanded="false" />
+            <element signature="method#onTouchEvent#0;class#View#0" expanded="false" />
+            <element signature="e#336859#336920#0" expanded="false" />
+            <element signature="e#337654#337712#0" expanded="false" />
+            <element signature="e#338047#338097#0" expanded="false" />
+            <element signature="e#338740#338791#0" expanded="false" />
+            <element signature="e#340397#340470#0" expanded="false" />
+            <element signature="method#isInScrollingContainer#0;class#View#0" expanded="false" />
+            <element signature="method#removeLongPressCallback#0;class#View#0" expanded="false" />
+            <element signature="method#removePerformClickCallback#0;class#View#0" expanded="false" />
+            <element signature="method#removeUnsetPressCallback#0;class#View#0" expanded="false" />
+            <element signature="method#removeTapCallback#0;class#View#0" expanded="false" />
+            <element signature="method#cancelLongPress#0;class#View#0" expanded="false" />
+            <element signature="method#removeSendViewScrolledAccessibilityEventCallback#0;class#View#0" expanded="false" />
+            <element signature="method#setFlags#0;class#View#0" expanded="false" />
+            <element signature="e#346803#346859#0" expanded="false" />
+            <element signature="e#347841#347916#0" expanded="false" />
+            <element signature="method#bringToFront#0;class#View#0" expanded="false" />
+            <element signature="method#onScrollChanged#0;class#View#0" expanded="false" />
+            <element signature="class#OnLayoutChangeListener#0;class#View#0" expanded="false" />
+            <element signature="method#onSizeChanged#0;class#View#0" expanded="false" />
+            <element signature="method#dispatchDraw#0;class#View#0" expanded="false" />
+            <element signature="method#getDrawingRect#0;class#View#0" expanded="false" />
+            <element signature="method#getMeasuredState#0;class#View#0" expanded="false" />
+            <element signature="method#getMatrix#0;class#View#0" expanded="false" />
+            <element signature="method#nonzero#0;class#View#0" expanded="false" />
+            <element signature="method#hasIdentityMatrix#0;class#View#0" expanded="false" />
+            <element signature="method#ensureTransformationInfo#0;class#View#0" expanded="false" />
+            <element signature="method#updateMatrix#0;class#View#0" expanded="false" />
+            <element signature="e#362058#362130#0" expanded="false" />
+            <element signature="method#getInverseMatrix#0;class#View#0" expanded="false" />
+            <element signature="method#getCameraDistance#0;class#View#0" expanded="false" />
+            <element signature="method#setCameraDistance#0;class#View#0" expanded="false" />
+            <element signature="method#getRotation#0;class#View#0" expanded="false" />
+            <element signature="method#setRotation#0;class#View#0" expanded="false" />
+            <element signature="method#getRotationY#0;class#View#0" expanded="false" />
+            <element signature="method#setRotationY#0;class#View#0" expanded="false" />
+            <element signature="method#getRotationX#0;class#View#0" expanded="false" />
+            <element signature="method#setRotationX#0;class#View#0" expanded="false" />
+            <element signature="method#getScaleX#0;class#View#0" expanded="false" />
+            <element signature="method#setScaleX#0;class#View#0" expanded="false" />
+            <element signature="method#getScaleY#0;class#View#0" expanded="false" />
+            <element signature="method#setScaleY#0;class#View#0" expanded="false" />
+            <element signature="method#getPivotX#0;class#View#0" expanded="false" />
+            <element signature="method#setPivotX#0;class#View#0" expanded="false" />
+            <element signature="method#getPivotY#0;class#View#0" expanded="false" />
+            <element signature="method#setPivotY#0;class#View#0" expanded="false" />
+            <element signature="method#setAlpha#0;class#View#0" expanded="false" />
+            <element signature="method#setAlphaNoInvalidation#0;class#View#0" expanded="false" />
+            <element signature="method#setTransitionAlpha#0;class#View#0" expanded="false" />
+            <element signature="method#getFinalAlpha#0;class#View#0" expanded="false" />
+            <element signature="method#getTransitionAlpha#0;class#View#0" expanded="false" />
+            <element signature="method#setTop#0;class#View#0" expanded="false" />
+            <element signature="method#setBottom#0;class#View#0" expanded="false" />
+            <element signature="method#setLeft#0;class#View#0" expanded="false" />
+            <element signature="method#setRight#0;class#View#0" expanded="false" />
+            <element signature="method#getX#0;class#View#0" expanded="false" />
+            <element signature="method#getY#0;class#View#0" expanded="false" />
+            <element signature="method#getTranslationX#0;class#View#0" expanded="false" />
+            <element signature="method#setTranslationX#0;class#View#0" expanded="false" />
+            <element signature="method#getTranslationY#0;class#View#0" expanded="false" />
+            <element signature="method#setTranslationY#0;class#View#0" expanded="false" />
+            <element signature="method#getHitRect#0;class#View#0" expanded="false" />
+            <element signature="method#pointInView#0;class#View#0" expanded="false" />
+            <element signature="method#pointInView#1;class#View#0" expanded="false" />
+            <element signature="method#getGlobalVisibleRect#0;class#View#0" expanded="false" />
+            <element signature="method#getLocalVisibleRect#0;class#View#0" expanded="false" />
+            <element signature="method#offsetTopAndBottom#0;class#View#0" expanded="false" />
+            <element signature="method#offsetLeftAndRight#0;class#View#0" expanded="false" />
+            <element signature="method#setLayoutParams#0;class#View#0" expanded="false" />
+            <element signature="method#resolveLayoutParams#0;class#View#0" expanded="false" />
+            <element signature="method#scrollTo#0;class#View#0" expanded="false" />
+            <element signature="method#awakenScrollBars#0;class#View#0" expanded="false" />
+            <element signature="method#initialAwakenScrollBars#0;class#View#0" expanded="false" />
+            <element signature="method#awakenScrollBars#1;class#View#0" expanded="false" />
+            <element signature="method#awakenScrollBars#2;class#View#0" expanded="false" />
+            <element signature="e#419702#419753#0" expanded="false" />
+            <element signature="e#420021#420079#0" expanded="false" />
+            <element signature="method#skipInvalidate#0;class#View#0" expanded="false" />
+            <element signature="method#invalidate#0;class#View#0" expanded="false" />
+            <element signature="e#422432#422510#0" expanded="false" />
+            <element signature="method#invalidate#1;class#View#0" expanded="false" />
+            <element signature="e#424577#424655#0" expanded="false" />
+            <element signature="method#invalidate#3;class#View#0" expanded="false" />
+            <element signature="e#427228#427306#0" expanded="false" />
+            <element signature="e#427685#427747#0" expanded="false" />
+            <element signature="method#invalidateViewProperty#0;class#View#0" expanded="false" />
+            <element signature="method#transformRect#0;class#View#0" expanded="false" />
+            <element signature="method#invalidateParentCaches#0;class#View#0" expanded="false" />
+            <element signature="method#invalidateParentIfNeeded#0;class#View#0" expanded="false" />
+            <element signature="method#isOpaque#0;class#View#0" expanded="false" />
+            <element signature="method#computeOpaqueFlags#0;class#View#0" expanded="false" />
+            <element signature="e#432557#432570#0" expanded="false" />
+            <element signature="method#hasOpaqueScrollbars#0;class#View#0" expanded="false" />
+            <element signature="method#getHandler#0;class#View#0" expanded="false" />
+            <element signature="method#getViewRootImpl#0;class#View#0" expanded="false" />
+            <element signature="method#post#0;class#View#0" expanded="false" />
+            <element signature="method#postDelayed#0;class#View#0" expanded="false" />
+            <element signature="method#postOnAnimation#0;class#View#0" expanded="false" />
+            <element signature="method#postOnAnimationDelayed#0;class#View#0" expanded="false" />
+            <element signature="method#removeCallbacks#0;class#View#0" expanded="false" />
+            <element signature="method#postInvalidate#1;class#View#0" expanded="false" />
+            <element signature="method#postInvalidateDelayed#0;class#View#0" expanded="false" />
+            <element signature="e#440906#440981#0" expanded="false" />
+            <element signature="method#postInvalidateDelayed#1;class#View#0" expanded="false" />
+            <element signature="e#442182#442257#0" expanded="false" />
+            <element signature="method#postInvalidateOnAnimation#0;class#View#0" expanded="false" />
+            <element signature="e#443096#443171#0" expanded="false" />
+            <element signature="method#postInvalidateOnAnimation#1;class#View#0" expanded="false" />
+            <element signature="e#444152#444227#0" expanded="false" />
+            <element signature="method#postSendViewScrolledAccessibilityEventCallback#0;class#View#0" expanded="false" />
+            <element signature="method#computeScroll#0;class#View#0" expanded="false" />
+            <element signature="method#isHorizontalFadingEdgeEnabled#0;class#View#0" expanded="false" />
+            <element signature="method#setHorizontalFadingEdgeEnabled#0;class#View#0" expanded="false" />
+            <element signature="method#isVerticalFadingEdgeEnabled#0;class#View#0" expanded="false" />
+            <element signature="method#setVerticalFadingEdgeEnabled#0;class#View#0" expanded="false" />
+            <element signature="method#getTopFadingEdgeStrength#0;class#View#0" expanded="false" />
+            <element signature="method#getBottomFadingEdgeStrength#0;class#View#0" expanded="false" />
+            <element signature="method#getLeftFadingEdgeStrength#0;class#View#0" expanded="false" />
+            <element signature="method#getRightFadingEdgeStrength#0;class#View#0" expanded="false" />
+            <element signature="method#isHorizontalScrollBarEnabled#0;class#View#0" expanded="false" />
+            <element signature="method#setHorizontalScrollBarEnabled#0;class#View#0" expanded="false" />
+            <element signature="method#isVerticalScrollBarEnabled#0;class#View#0" expanded="false" />
+            <element signature="method#setVerticalScrollBarEnabled#0;class#View#0" expanded="false" />
+            <element signature="method#recomputePadding#0;class#View#0" expanded="false" />
+            <element signature="method#setScrollbarFadingEnabled#0;class#View#0" expanded="false" />
+            <element signature="method#isScrollbarFadingEnabled#0;class#View#0" expanded="false" />
+            <element signature="method#getScrollBarDefaultDelayBeforeFade#0;class#View#0" expanded="false" />
+            <element signature="method#setScrollBarDefaultDelayBeforeFade#0;class#View#0" expanded="false" />
+            <element signature="method#getScrollBarFadeDuration#0;class#View#0" expanded="false" />
+            <element signature="method#setScrollBarFadeDuration#0;class#View#0" expanded="false" />
+            <element signature="method#getScrollBarSize#0;class#View#0" expanded="false" />
+            <element signature="method#setScrollBarSize#0;class#View#0" expanded="false" />
+            <element signature="method#setScrollBarStyle#0;class#View#0" expanded="false" />
+            <element signature="e#457823#458236#0" expanded="false" />
+            <element signature="method#canScrollHorizontally#0;class#View#0" expanded="false" />
+            <element signature="method#canScrollVertically#0;class#View#0" expanded="false" />
+            <element signature="method#onDrawScrollBars#0;class#View#0" expanded="false" />
+            <element signature="e#465575#465631#0" expanded="false" />
+            <element signature="e#465824#465881#0" expanded="false" />
+            <element signature="method#onDrawHorizontalScrollBar#0;class#View#0" expanded="false" />
+            <element signature="method#onDrawVerticalScrollBar#0;class#View#0" expanded="false" />
+            <element signature="method#onDraw#0;class#View#0" expanded="false" />
+            <element signature="method#assignParent#0;class#View#0" expanded="false" />
+            <element signature="method#onAttachedToWindow#0;class#View#0" expanded="false" />
+            <element signature="method#resolveRtlPropertiesIfNeeded#0;class#View#0" expanded="false" />
+            <element signature="e#473875#473961#0" expanded="false" />
+            <element signature="method#resetRtlProperties#0;class#View#0" expanded="false" />
+            <element signature="method#onScreenStateChanged#0;class#View#0" expanded="false" />
+            <element signature="method#isRtlCompatibilityMode#0;class#View#0" expanded="false" />
+            <element signature="method#needRtlPropertiesResolution#0;class#View#0" expanded="false" />
+            <element signature="method#onRtlPropertiesChanged#0;class#View#0" expanded="false" />
+            <element signature="method#resolveLayoutDirection#0;class#View#0" expanded="false" />
+            <element signature="e#477352#477431#0" expanded="false" />
+            <element signature="method#canResolveLayoutDirection#0;class#View#0" expanded="false" />
+            <element signature="method#resetResolvedLayoutDirection#0;class#View#0" expanded="false" />
+            <element signature="method#isLayoutDirectionInherited#0;class#View#0" expanded="false" />
+            <element signature="method#isLayoutDirectionResolved#0;class#View#0" expanded="false" />
+            <element signature="method#isPaddingResolved#0;class#View#0" expanded="false" />
+            <element signature="method#resolvePadding#0;class#View#0" expanded="false" />
+            <element signature="e#480994#481082#0" expanded="false" />
+            <element signature="method#onDetachedFromWindow#0;class#View#0" expanded="false" />
+            <element signature="method#cleanupDraw#0;class#View#0" expanded="false" />
+            <element signature="method#executeHardwareAction#0;class#View#0" expanded="false" />
+            <element signature="method#invalidateInheritedLayoutMode#0;class#View#0" expanded="false" />
+            <element signature="method#getWindowToken#0;class#View#0" expanded="false" />
+            <element signature="method#getWindowId#0;class#View#0" expanded="false" />
+            <element signature="method#getApplicationWindowToken#0;class#View#0" expanded="false" />
+            <element signature="method#getWindowSession#0;class#View#0" expanded="false" />
+            <element signature="method#dispatchAttachedToWindow#0;class#View#0" expanded="false" />
+            <element signature="e#489586#489667#0" expanded="false" />
+            <element signature="method#dispatchDetachedFromWindow#0;class#View#0" expanded="false" />
+            <element signature="e#490977#491058#0" expanded="false" />
+            <element signature="method#dispatchCancelPendingInputEvents#0;class#View#0" expanded="false" />
+            <element signature="method#onCancelPendingInputEvents#0;class#View#0" expanded="false" />
+            <element signature="method#saveHierarchyState#0;class#View#0" expanded="false" />
+            <element signature="method#dispatchSaveInstanceState#0;class#View#0" expanded="false" />
+            <element signature="e#496152#496208#0" expanded="false" />
+            <element signature="method#onSaveInstanceState#0;class#View#0" expanded="false" />
+            <element signature="method#restoreHierarchyState#0;class#View#0" expanded="false" />
+            <element signature="method#dispatchRestoreInstanceState#0;class#View#0" expanded="false" />
+            <element signature="e#498943#499001#0" expanded="false" />
+            <element signature="method#onRestoreInstanceState#0;class#View#0" expanded="false" />
+            <element signature="method#setDuplicateParentStateEnabled#0;class#View#0" expanded="false" />
+            <element signature="method#isDuplicateParentStateEnabled#0;class#View#0" expanded="false" />
+            <element signature="method#setLayerType#0;class#View#0" expanded="false" />
+            <element signature="method#setLayerPaint#0;class#View#0" expanded="false" />
+            <element signature="method#buildLayer#0;class#View#0" expanded="false" />
+            <element signature="e#509685#509734#0" expanded="false" />
+            <element signature="method#getHardwareLayer#0;class#View#0" expanded="false" />
+            <element signature="e#511733#511793#0" expanded="false" />
+            <element signature="method#destroyLayer#0;class#View#0" expanded="false" />
+            <element signature="method#destroyHardwareResources#0;class#View#0" expanded="false" />
+            <element signature="method#setDrawingCacheEnabled#0;class#View#0" expanded="false" />
+            <element signature="method#isDrawingCacheEnabled#0;class#View#0" expanded="false" />
+            <element signature="method#outputDirtyFlags#0;class#View#0" expanded="false" />
+            <element signature="method#canHaveDisplayList#0;class#View#0" expanded="false" />
+            <element signature="method#getHardwareRenderer#0;class#View#0" expanded="false" />
+            <element signature="method#getDisplayList#0;class#View#0" expanded="false" />
+            <element signature="e#519627#519692#0" expanded="false" />
+            <element signature="e#520129#520199#0" expanded="false" />
+            <element signature="e#520490#520568#0" expanded="false" />
+            <element signature="method#getHardwareLayerDisplayList#0;class#View#0" expanded="false" />
+            <element signature="method#getDisplayList#1;class#View#0" expanded="false" />
+            <element signature="method#clearDisplayList#0;class#View#0" expanded="false" />
+            <element signature="method#resetDisplayList#0;class#View#0" expanded="false" />
+            <element signature="method#getDrawingCache#1;class#View#0" expanded="false" />
+            <element signature="method#destroyDrawingCache#0;class#View#0" expanded="false" />
+            <element signature="method#setDrawingCacheBackgroundColor#0;class#View#0" expanded="false" />
+            <element signature="method#buildDrawingCache#1;class#View#0" expanded="false" />
+            <element signature="e#531814#531860#0" expanded="false" />
+            <element signature="e#532376#532415#0" expanded="false" />
+            <element signature="e#533302#533367#0" expanded="false" />
+            <element signature="e#534110#534178#0" expanded="false" />
+            <element signature="method#createSnapshot#0;class#View#0" expanded="false" />
+            <element signature="e#537161#537229#0" expanded="false" />
+            <element signature="method#getFadeTop#0;class#View#0" expanded="false" />
+            <element signature="method#getFadeHeight#0;class#View#0" expanded="false" />
+            <element signature="method#isHardwareAccelerated#0;class#View#0" expanded="false" />
+            <element signature="method#setClipBounds#0;class#View#0" expanded="false" />
+            <element signature="method#drawAnimation#0;class#View#0" expanded="false" />
+            <element signature="e#546221#546286#0" expanded="false" />
+            <element signature="e#546877#546942#0" expanded="false" />
+            <element signature="method#setDisplayListProperties#0;class#View#0" expanded="false" />
+            <element signature="method#draw#0;class#View#0" expanded="false" />
+            <element signature="e#553451#553520#0" expanded="false" />
+            <element signature="e#554167#554245#0" expanded="false" />
+            <element signature="e#555591#555664#0" expanded="false" />
+            <element signature="e#556064#556146#0" expanded="false" />
+            <element signature="e#558434#558498#0" expanded="false" />
+            <element signature="e#562138#562220#0" expanded="false" />
+            <element signature="method#draw#1;class#View#0" expanded="false" />
+            <element signature="e#569854#569909#0" expanded="false" />
+            <element signature="method#getOverlay#0;class#View#0" expanded="false" />
+            <element signature="method#printFlags#0;class#View#0" expanded="false" />
+            <element signature="method#printPrivateFlags#0;class#View#0" expanded="false" />
+            <element signature="method#isLayoutRequested#0;class#View#0" expanded="false" />
+            <element signature="method#isLayoutModeOptical#0;class#View#0" expanded="false" />
+            <element signature="method#setOpticalFrame#0;class#View#0" expanded="false" />
+            <element signature="method#layout#0;class#View#0" expanded="false" />
+            <element signature="method#onLayout#0;class#View#0" expanded="false" />
+            <element signature="method#setFrame#0;class#View#0" expanded="false" />
+            <element signature="e#583560#583615#0" expanded="false" />
+            <element signature="e#583978#584057#0" expanded="false" />
+            <element signature="method#sizeChange#0;class#View#0" expanded="false" />
+            <element signature="method#onFinishInflate#0;class#View#0" expanded="false" />
+            <element signature="method#invalidateDrawable#0;class#View#0" expanded="false" />
+            <element signature="method#scheduleDrawable#0;class#View#0" expanded="false" />
+            <element signature="method#unscheduleDrawable#0;class#View#0" expanded="false" />
+            <element signature="method#unscheduleDrawable#1;class#View#0" expanded="false" />
+            <element signature="method#resolveDrawables#0;class#View#0" expanded="false" />
+            <element signature="e#588115#588205#0" expanded="false" />
+            <element signature="method#onResolveDrawables#0;class#View#0" expanded="false" />
+            <element signature="method#isDrawablesResolved#0;class#View#0" expanded="false" />
+            <element signature="method#drawableStateChanged#0;class#View#0" expanded="false" />
+            <element signature="method#refreshDrawableState#0;class#View#0" expanded="false" />
+            <element signature="method#getDrawableState#0;class#View#0" expanded="false" />
+            <element signature="method#onCreateDrawableState#0;class#View#0" expanded="false" />
+            <element signature="e#594077#594144#0" expanded="false" />
+            <element signature="method#mergeDrawableStates#0;class#View#0" expanded="false" />
+            <element signature="method#jumpDrawablesToCurrentState#0;class#View#0" expanded="false" />
+            <element signature="method#setBackgroundColor#0;class#View#0" expanded="false" />
+            <element signature="method#setBackgroundResource#0;class#View#0" expanded="false" />
+            <element signature="method#setBackground#0;class#View#0" expanded="false" />
+            <element signature="method#setBackgroundDrawable#0;class#View#0" expanded="false" />
+            <element signature="e#600563#600650#0" expanded="false" />
+            <element signature="e#602321#602382#0" expanded="false" />
+            <element signature="method#setPadding#0;class#View#0" expanded="false" />
+            <element signature="method#internalSetPadding#0;class#View#0" expanded="false" />
+            <element signature="method#setPaddingRelative#0;class#View#0" expanded="false" />
+            <element signature="method#getPaddingLeft#0;class#View#0" expanded="false" />
+            <element signature="method#getPaddingStart#0;class#View#0" expanded="false" />
+            <element signature="method#getPaddingRight#0;class#View#0" expanded="false" />
+            <element signature="method#getPaddingEnd#0;class#View#0" expanded="false" />
+            <element signature="method#isPaddingRelative#0;class#View#0" expanded="false" />
+            <element signature="method#computeOpticalInsets#0;class#View#0" expanded="false" />
+            <element signature="method#resetPaddingToInitialValues#0;class#View#0" expanded="false" />
+            <element signature="method#getOpticalInsets#0;class#View#0" expanded="false" />
+            <element signature="method#setSelected#0;class#View#0" expanded="false" />
+            <element signature="method#dispatchSetSelected#0;class#View#0" expanded="false" />
+            <element signature="method#setActivated#0;class#View#0" expanded="false" />
+            <element signature="method#dispatchSetActivated#0;class#View#0" expanded="false" />
+            <element signature="method#getViewTreeObserver#0;class#View#0" expanded="false" />
+            <element signature="method#getRootView#0;class#View#0" expanded="false" />
+            <element signature="method#toGlobalMotionEvent#0;class#View#0" expanded="false" />
+            <element signature="method#toLocalMotionEvent#0;class#View#0" expanded="false" />
+            <element signature="method#transformMotionEventToLocal#0;class#View#0" expanded="false" />
+            <element signature="method#transformMotionEventToGlobal#0;class#View#0" expanded="false" />
+            <element signature="method#getLocationOnScreen#0;class#View#0" expanded="false" />
+            <element signature="method#getLocationInWindow#0;class#View#0" expanded="false" />
+            <element signature="method#findViewTraversal#0;class#View#0" expanded="false" />
+            <element signature="method#findViewWithTagTraversal#0;class#View#0" expanded="false" />
+            <element signature="method#findViewByPredicateTraversal#0;class#View#0" expanded="false" />
+            <element signature="method#findViewById#0;class#View#0" expanded="false" />
+            <element signature="method#findViewByAccessibilityId#0;class#View#0" expanded="false" />
+            <element signature="method#findViewByAccessibilityIdTraversal#0;class#View#0" expanded="false" />
+            <element signature="method#findViewWithTag#0;class#View#0" expanded="false" />
+            <element signature="method#findViewByPredicate#0;class#View#0" expanded="false" />
+            <element signature="method#findViewByPredicateInsideOut#0;class#View#0" expanded="false" />
+            <element signature="method#setId#0;class#View#0" expanded="false" />
+            <element signature="method#setIsRootNamespace#0;class#View#0" expanded="false" />
+            <element signature="method#getTag#1;class#View#0" expanded="false" />
+            <element signature="method#setTag#1;class#View#0" expanded="false" />
+            <element signature="e#629280#629350#0" expanded="false" />
+            <element signature="method#setTagInternal#0;class#View#0" expanded="false" />
+            <element signature="method#setKeyedTag#0;class#View#0" expanded="false" />
+            <element signature="method#debug#1;class#View#0" expanded="false" />
+            <element signature="method#debugIndent#0;class#View#0" expanded="false" />
+            <element signature="method#isInLayout#0;class#View#0" expanded="false" />
+            <element signature="method#requestLayout#0;class#View#0" expanded="false" />
+            <element signature="e#634790#634868#0" expanded="false" />
+            <element signature="method#forceLayout#0;class#View#0" expanded="false" />
+            <element signature="method#measure#0;class#View#0" expanded="false" />
+            <element signature="e#638519#638584#0" expanded="false" />
+            <element signature="method#onMeasure#0;class#View#0" expanded="false" />
+            <element signature="method#setMeasuredDimension#0;class#View#0" expanded="false" />
+            <element signature="method#combineMeasuredStates#0;class#View#0" expanded="false" />
+            <element signature="method#resolveSize#0;class#View#0" expanded="false" />
+            <element signature="method#resolveSizeAndState#0;class#View#0" expanded="false" />
+            <element signature="method#getDefaultSize#0;class#View#0" expanded="false" />
+            <element signature="method#getSuggestedMinimumHeight#0;class#View#0" expanded="false" />
+            <element signature="method#getSuggestedMinimumWidth#0;class#View#0" expanded="false" />
+            <element signature="method#setMinimumHeight#0;class#View#0" expanded="false" />
+            <element signature="method#setMinimumWidth#0;class#View#0" expanded="false" />
+            <element signature="method#startAnimation#0;class#View#0" expanded="false" />
+            <element signature="method#clearAnimation#0;class#View#0" expanded="false" />
+            <element signature="method#setAnimation#0;class#View#0" expanded="false" />
+            <element signature="e#650358#650431#0" expanded="false" />
+            <element signature="method#gatherTransparentRegion#0;class#View#0" expanded="false" />
+            <element signature="e#653367#653431#0" expanded="false" />
+            <element signature="e#653877#653945#0" expanded="false" />
+            <element signature="method#playSoundEffect#0;class#View#0" expanded="false" />
+            <element signature="method#performHapticFeedback#0;class#View#0" expanded="false" />
+            <element signature="method#performHapticFeedback#1;class#View#0" expanded="false" />
+            <element signature="method#setSystemUiVisibility#0;class#View#0" expanded="false" />
+            <element signature="method#getWindowSystemUiVisibility#0;class#View#0" expanded="false" />
+            <element signature="method#onWindowSystemUiVisibilityChanged#0;class#View#0" expanded="false" />
+            <element signature="method#dispatchWindowSystemUiVisiblityChanged#0;class#View#0" expanded="false" />
+            <element signature="method#setOnSystemUiVisibilityChangeListener#0;class#View#0" expanded="false" />
+            <element signature="method#dispatchSystemUiVisibilityChanged#0;class#View#0" expanded="false" />
+            <element signature="method#updateLocalSystemUiVisibility#0;class#View#0" expanded="false" />
+            <element signature="method#setDisabledSystemUiVisibility#0;class#View#0" expanded="false" />
+            <element signature="class#DragShadowBuilder#0;class#View#0" expanded="false" />
+            <element signature="method#onProvideShadowMetrics#0;class#DragShadowBuilder#0;class#View#0" expanded="false" />
+            <element signature="method#onDrawShadow#0;class#DragShadowBuilder#0;class#View#0" expanded="false" />
+            <element signature="method#startDrag#0;class#View#0" expanded="false" />
+            <element signature="e#673315#673380#0" expanded="false" />
+            <element signature="method#dispatchDragEvent#0;class#View#0" expanded="false" />
+            <element signature="method#onCloseSystemDialogs#0;class#View#0" expanded="false" />
+            <element signature="method#applyDrawableToTransparentRegion#0;class#View#0" expanded="false" />
+            <element signature="method#checkForLongClick#0;class#View#0" expanded="false" />
+            <element signature="method#inflate#0;class#View#0" expanded="false" />
+            <element signature="method#overScrollBy#0;class#View#0" expanded="false" />
+            <element signature="method#onOverScrolled#0;class#View#0" expanded="false" />
+            <element signature="method#setOverScrollMode#0;class#View#0" expanded="false" />
+            <element signature="method#getVerticalScrollFactor#0;class#View#0" expanded="false" />
+            <element signature="method#getHorizontalScrollFactor#0;class#View#0" expanded="false" />
+            <element signature="e#686732#687286#0" expanded="false" />
+            <element signature="method#getRawTextDirection#0;class#View#0" expanded="false" />
+            <element signature="method#setTextDirection#0;class#View#0" expanded="false" />
+            <element signature="e#689202#689756#0" expanded="false" />
+            <element signature="method#getTextDirection#0;class#View#0" expanded="false" />
+            <element signature="method#resolveTextDirection#0;class#View#0" expanded="false" />
+            <element signature="method#canResolveTextDirection#0;class#View#0" expanded="false" />
+            <element signature="method#resetResolvedTextDirection#0;class#View#0" expanded="false" />
+            <element signature="method#isTextDirectionInherited#0;class#View#0" expanded="false" />
+            <element signature="method#isTextDirectionResolved#0;class#View#0" expanded="false" />
+            <element signature="e#696160#696819#0" expanded="false" />
+            <element signature="method#getRawTextAlignment#0;class#View#0" expanded="false" />
+            <element signature="method#setTextAlignment#0;class#View#0" expanded="false" />
+            <element signature="e#698850#699509#0" expanded="false" />
+            <element signature="method#getTextAlignment#0;class#View#0" expanded="false" />
+            <element signature="method#resolveTextAlignment#0;class#View#0" expanded="false" />
+            <element signature="e#702418#702479#0" expanded="false" />
+            <element signature="method#canResolveTextAlignment#0;class#View#0" expanded="false" />
+            <element signature="method#resetResolvedTextAlignment#0;class#View#0" expanded="false" />
+            <element signature="method#isTextAlignmentInherited#0;class#View#0" expanded="false" />
+            <element signature="method#isTextAlignmentResolved#0;class#View#0" expanded="false" />
+            <element signature="method#generateViewId#0;class#View#0" expanded="false" />
+            <element signature="e#706213#706215#0" expanded="false" />
+            <element signature="class#706473:706737" expanded="false" />
+            <element signature="class#707001:707294" expanded="false" />
+            <element signature="class#707558:707843" expanded="false" />
+            <element signature="class#708062:708314" expanded="false" />
+            <element signature="class#708533:708785" expanded="false" />
+            <element signature="class#709032:709305" expanded="false" />
+            <element signature="class#709557:709833" expanded="false" />
+            <element signature="class#710085:710361" expanded="false" />
+            <element signature="class#710601:710868" expanded="false" />
+            <element signature="class#711108:711375" expanded="false" />
+            <element signature="class#MeasureSpec#0;class#View#0" expanded="false" />
+            <element signature="method#makeMeasureSpec#0;class#MeasureSpec#0;class#View#0" expanded="false" />
+            <element signature="method#adjust#0;class#MeasureSpec#0;class#View#0" expanded="false" />
+            <element signature="method#toString#0;class#MeasureSpec#0;class#View#0" expanded="false" />
+            <element signature="class#CheckForLongPress#0;class#View#0" expanded="false" />
+            <element signature="method#run#0;class#CheckForLongPress#0;class#View#0" expanded="false" />
+            <element signature="class#CheckForTap#0;class#View#0" expanded="false" />
+            <element signature="method#run#0;class#CheckForTap#0;class#View#0" expanded="false" />
+            <element signature="e#717286#717287#0" expanded="false" />
+            <element signature="method#hackTurnOffWindowResizeAnim#0;class#View#0" expanded="false" />
+            <element signature="method#animate#0;class#View#0" expanded="false" />
+            <element signature="class#OnKeyListener#0;class#View#0" expanded="false" />
+            <element signature="class#OnTouchListener#0;class#View#0" expanded="false" />
+            <element signature="class#OnHoverListener#0;class#View#0" expanded="false" />
+            <element signature="class#OnGenericMotionListener#0;class#View#0" expanded="false" />
+            <element signature="class#OnLongClickListener#0;class#View#0" expanded="false" />
+            <element signature="class#OnDragListener#0;class#View#0" expanded="false" />
+            <element signature="class#OnFocusChangeListener#0;class#View#0" expanded="false" />
+            <element signature="class#OnClickListener#0;class#View#0" expanded="false" />
+            <element signature="class#OnCreateContextMenuListener#0;class#View#0" expanded="false" />
+            <element signature="class#OnSystemUiVisibilityChangeListener#0;class#View#0" expanded="false" />
+            <element signature="class#OnAttachStateChangeListener#0;class#View#0" expanded="false" />
+            <element signature="class#UnsetPressedState#0;class#View#0" expanded="false" />
+            <element signature="class#BaseSavedState#0;class#View#0" expanded="false" />
+            <element signature="class#727255:727549" expanded="false" />
+            <element signature="class#AttachInfo#0;class#View#0" expanded="false" />
+            <element signature="class#Callbacks#0;class#AttachInfo#0;class#View#0" expanded="false" />
+            <element signature="class#InvalidateInfo#0;class#AttachInfo#0;class#View#0" expanded="false" />
+            <element signature="method#obtain#0;class#InvalidateInfo#0;class#AttachInfo#0;class#View#0" expanded="false" />
+            <element signature="method#recycle#0;class#InvalidateInfo#0;class#AttachInfo#0;class#View#0" expanded="false" />
+            <element signature="method#AttachInfo#0;class#AttachInfo#0;class#View#0" expanded="false" />
+            <element signature="class#ScrollabilityCache#0;class#View#0" expanded="false" />
+            <element signature="method#ScrollabilityCache#0;class#ScrollabilityCache#0;class#View#0" expanded="false" />
+            <element signature="e#740272#740335#0" expanded="false" />
+            <element signature="method#setFadeColor#0;class#ScrollabilityCache#0;class#View#0" expanded="false" />
+            <element signature="method#run#0;class#ScrollabilityCache#0;class#View#0" expanded="false" />
+            <element signature="e#741537#741590#0" expanded="false" />
+            <element signature="class#SendViewScrolledAccessibilityEvent#0;class#View#0" expanded="false" />
+            <element signature="method#run#0;class#SendViewScrolledAccessibilityEvent#0;class#View#0" expanded="false" />
+            <element signature="class#AccessibilityDelegate#0;class#View#0" expanded="false" />
+            <element signature="method#sendAccessibilityEvent#0;class#AccessibilityDelegate#0;class#View#0" expanded="false" />
+            <element signature="method#performAccessibilityAction#0;class#AccessibilityDelegate#0;class#View#0" expanded="false" />
+            <element signature="method#sendAccessibilityEventUnchecked#0;class#AccessibilityDelegate#0;class#View#0" expanded="false" />
+            <element signature="method#dispatchPopulateAccessibilityEvent#0;class#AccessibilityDelegate#0;class#View#0" expanded="false" />
+            <element signature="method#onPopulateAccessibilityEvent#0;class#AccessibilityDelegate#0;class#View#0" expanded="false" />
+            <element signature="method#onInitializeAccessibilityEvent#0;class#AccessibilityDelegate#0;class#View#0" expanded="false" />
+            <element signature="method#onInitializeAccessibilityNodeInfo#0;class#AccessibilityDelegate#0;class#View#0" expanded="false" />
+            <element signature="method#onRequestSendAccessibilityEvent#0;class#AccessibilityDelegate#0;class#View#0" expanded="false" />
+            <element signature="method#createAccessibilityNodeInfo#0;class#AccessibilityDelegate#0;class#View#0" expanded="false" />
+            <element signature="class#MatchIdPredicate#0;class#View#0" expanded="false" />
+            <element signature="class#MatchLabelForPredicate#0;class#View#0" expanded="false" />
+            <element signature="class#SendViewStateChangedAccessibilityEvent#0;class#View#0" expanded="false" />
+            <element signature="method#run#0;class#SendViewStateChangedAccessibilityEvent#0;class#View#0" expanded="false" />
+            <element signature="method#runOrPost#0;class#SendViewStateChangedAccessibilityEvent#0;class#View#0" expanded="false" />
+            <element signature="e#756638#756704#0" expanded="false" />
+            <element signature="method#inLiveRegion#0;class#View#0" expanded="false" />
+            <element signature="method#dumpFlags#0;class#View#0" expanded="false" />
+            <element signature="method#dumpFlag#0;class#View#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5604396" vertical-offset="0" max-vertical-offset="637">
+          <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/TimeSheet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="663">
+          <caret line="126" column="33" selection-start-line="126" selection-start-column="18" selection-end-line="126" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Android/sdk/sources/android-19/android/app/ActivityThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3323263" vertical-offset="36976" max-vertical-offset="82008">
+          <caret line="2359" column="0" selection-start-line="2359" selection-start-column="0" selection-end-line="2359" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Android/sdk/sources/android-19/android/view/ViewTreeObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="10433" max-vertical-offset="11118">
+          <caret line="995" column="0" selection-start-line="995" selection-start-column="0" selection-end-line="995" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Android/sdk/sources/android-19/com/android/internal/os/RuntimeInit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3323263" vertical-offset="494" max-vertical-offset="5474">
+          <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Android/sdk/sources/android-19/android/app/Instrumentation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3323263" vertical-offset="715" max-vertical-offset="18479">
+          <caret line="156" column="0" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/Projects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4592145" vertical-offset="189" max-vertical-offset="867">
+          <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="101" selection-end-column="5" />
+          <folding>
+            <element signature="method#Projects#0;class#Projects#0" expanded="false" />
+            <element signature="method#Projects#1;class#Projects#0" expanded="false" />
+            <element signature="method#setId#0;class#Projects#0" expanded="false" />
+            <element signature="method#setMarker#0;class#Projects#0" expanded="false" />
+            <element signature="method#removeMarker#0;class#Projects#0" expanded="false" />
+            <element signature="method#createURLString#0;class#Projects#0" expanded="false" />
+            <element signature="method#findProjectIndex#0;class#Projects#0" expanded="false" />
+            <element signature="method#maxRecord#0;class#Projects#0" expanded="false" />
+            <element signature="method#writeToParcel#0;class#Projects#0" expanded="false" />
+            <element signature="class#5372:5608" expanded="false" />
+            <element signature="method#Projects#2;class#Projects#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/ProjectEdit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="661" max-vertical-offset="1462">
+          <caret line="323" column="20" selection-start-line="323" selection-start-column="20" selection-end-line="323" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/UpdateDatabases.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4539">
+          <caret line="45" column="69" selection-start-line="45" selection-start-column="69" selection-end-line="45" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/toggle.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+          <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+          <folding>
+            <element signature="e#177#198#0" expanded="true" />
+            <element signature="e#669#689#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1258">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <element signature="e#1210#1228#0" expanded="true" />
+            <element signature="e#1538#1577#0" expanded="true" />
+            <element signature="e#1932#1950#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/DBBaseAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/LocnBP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+          <caret line="192" column="0" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc;n#CONNECTION_FAILURE_RESOLUTION_REQUEST#0;n#LocnBP#0" expanded="false" />
+            <element signature="method#LocnBP#0;class#LocnBP#0" expanded="false" />
+            <element signature="method#buildGoogleApiClient#0;class#LocnBP#0" expanded="false" />
+            <element signature="method#servicesConnected#0;class#LocnBP#0" expanded="false" />
+            <element signature="method#connectAPI#0;class#LocnBP#0" expanded="false" />
+            <element signature="method#updateLocation#0;class#LocnBP#0" expanded="false" />
+            <element signature="method#showLocationMarkers#0;class#LocnBP#0" expanded="false" />
+            <element signature="method#onConnected#0;class#LocnBP#0" expanded="false" />
+            <element signature="method#onConnectionSuspended#0;class#LocnBP#0" expanded="false" />
+            <element signature="e#5730#5769#0" expanded="false" />
+            <element signature="method#onConnectionFailed#0;class#LocnBP#0" expanded="false" />
+            <element signature="method#showErrorDialog#0;class#LocnBP#0" expanded="false" />
+            <element signature="class#ErrorDialogFragment#0;class#LocnBP#0" expanded="false" />
+            <element signature="method#onCreateDialog#0;class#ErrorDialogFragment#0;class#LocnBP#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/GC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2091">
+          <caret line="29" column="55" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="444" max-vertical-offset="1207">
+          <caret line="420" column="13" selection-start-line="420" selection-start-column="13" selection-end-line="420" selection-end-column="13" />
+          <folding>
+            <element signature="n#!!doc;n#mMap#0;n#MainActivity#0" expanded="false" />
+            <element signature="method#onCreate#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onStart#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onStop#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onSaveInstanceState#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onCreateOptionsMenu#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onPrepareOptionsMenu#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onMapReady#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onActivityResult#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onToggleRoads#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onToggleAdd#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onToggleTimeline#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onProgressChanged#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onStartTrackingTouch#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onCopyDB#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#seeWholeMap#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onMarkerClick#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onMarkerDrag#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onMarkerDragStart#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onMarkerDragEnd#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onMapClick#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#showEditDialog#0;class#MainActivity#0" expanded="false" />
+            <element signature="e#18439#18440#0" expanded="true" />
+            <element signature="e#18476#18477#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/TrackLocations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35789475" vertical-offset="867" max-vertical-offset="1649">
+          <caret line="150" column="39" selection-start-line="150" selection-start-column="39" selection-end-line="150" selection-end-column="39" />
+          <folding>
+            <element signature="method#onCreate#0;class#TrackLocations#0" expanded="false" />
+            <element signature="method#onDestroy#0;class#TrackLocations#0" expanded="false" />
+            <element signature="method#servicesConnected#0;class#LocationBP#0;class#TrackLocations#0" expanded="false" />
+            <element signature="method#connectAPI#0;class#LocationBP#0;class#TrackLocations#0" expanded="false" />
+            <element signature="method#updateLocation#0;class#LocationBP#0;class#TrackLocations#0" expanded="false" />
+            <element signature="method#showLocationMarkers#0;class#LocationBP#0;class#TrackLocations#0" expanded="false" />
+            <element signature="method#onConnectionSuspended#0;class#LocationBP#0;class#TrackLocations#0" expanded="false" />
+            <element signature="e#7012#7051#0" expanded="false" />
+            <element signature="method#onConnectionFailed#0;class#LocationBP#0;class#TrackLocations#0" expanded="false" />
+            <element signature="method#showErrorDialog#0;class#LocationBP#0;class#TrackLocations#0" expanded="false" />
+            <element signature="class#ErrorDialogFragment#0;class#LocationBP#0;class#TrackLocations#0" expanded="false" />
+            <element signature="method#onCreateDialog#0;class#ErrorDialogFragment#0;class#LocationBP#0;class#TrackLocations#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>JDK</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TimeWindow">
+        <attr name="quantized" format="integer"/>
+        <attr name="timeOnColour" format="color"/>
+        <attr name="timeOffColour" format="color"/>
+        <attr name="lunchOnColour" format="color"/>
+        <attr name="thumbColour" format="color"/>
+        <attr name="selectedThumbColour" format="color"/>
+        <attr name="labelTextColor" format="color"/>
+        <attr name="timeThickness" format="dimension"/>
+        <attr name="mTimeLinePad" format="dimension"/>
+        <attr name="thumbThickness" format="dimension"/>
+        <attr name="labelTextSize" format="dimension"/>
+    </declare-styleable>
+</resources>
+
+

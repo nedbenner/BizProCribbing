@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/spinnerText"
+    style="@style/FieldValues"
+    android:singleLine="true"
+    android:lineSpacingMultiplier="2.0"
+    android:ellipsize="marquee" />
+

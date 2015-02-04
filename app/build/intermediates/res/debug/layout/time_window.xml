@@ -1,0 +1,52 @@
+<?xml version= "1.0" encoding= "utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/time_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="20dp">
+
+    <LinearLayout
+        android:id="@+id/sizeButtons"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/minusButton"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="-" />
+
+        <Button
+            android:id="@+id/plusButton"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="+" />
+
+    </LinearLayout>
+
+    <ca.nbenner.bizprocribbing.TimeWindow
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/timeLines"
+        android:layout_alignParentTop="true"
+        android:layout_above="@id/sizeButtons"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:quantized="15"
+        app:timeOnColour="#d0d0"
+        app:timeOffColour="#da00"
+        app:lunchOnColour="#dff0"
+        app:thumbColour="#d00f"
+        app:selectedThumbColour="#df0f"
+        app:timeThickness="20dp"
+        app:mTimeLinePad="7dp"
+        app:thumbThickness="8dp"
+        app:labelTextSize="16sp"
+        app:labelTextColor="#d000"
+        />
+
+   </RelativeLayout><!-- From: file:/C:/Users/Superlaptop/AndroidstudioProjects/BizProCribbing/app/src/main/res/layout/time_window.xml -->

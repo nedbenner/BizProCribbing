@@ -1,0 +1,23 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion '19.1.0'
+    defaultConfig {
+        applicationId 'ca.nbenner.bizprocribbing'
+        minSdkVersion 19
+        targetSdkVersion 19
+    }
+    buildTypes {
+        release {
+            minifyEnabled
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile 'com.google.android.gms:play-services:6.5.87'
+    compile 'com.android.support:support-v13:20.0.0'
+}

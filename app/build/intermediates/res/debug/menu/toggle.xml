@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id			= "@+id/view_button"
+          android:title			= "@string/view_button"
+          android:icon			= "@drawable/view_satellite"
+          android:showAsAction	= "ifRoom"
+          android:onClick		= "onToggleRoads" />
+    <item android:id			= "@+id/timeline_button"
+          android:title			= "Adjust which projects are visible"
+          android:icon			= "@drawable/time_input"
+          android:showAsAction	= "ifRoom"
+          android:onClick		= "onToggleTimeline" />
+    <item android:id			= "@+id/add_button"
+          android:title			= "@string/add_button"
+          android:icon			= "@drawable/add_project"
+          android:showAsAction	= "ifRoom"
+          android:onClick		= "onToggleAdd" />
+    <item android:id			= "@+id/preferences"
+          android:title			= "Modify Preferences"
+          android:icon			= "@drawable/ic_action_settings"
+          android:showAsAction	= "ifRoom"
+          android:onClick		= "onPreferences" />
+    <item android:id			= "@+id/copyDB"
+          android:title			= "Copy Database"
+          android:icon			= "@drawable/copy_db"
+          android:showAsAction	= "ifRoom"
+          android:onClick		= "onCopyDB" />
+
+</menu>
+<!-- From: file:/C:/Users/Superlaptop/AndroidstudioProjects/BizProCribbing/app/src/main/res/menu/toggle.xml -->

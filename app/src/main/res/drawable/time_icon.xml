@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <selector
+            android:exitFadeDuration="@android:integer/config_mediumAnimTime">
+
+            <item android:state_pressed="true"  android:drawable="@drawable/highlight_pressed2" />
+            <item android:state_pressed="false" android:drawable="@drawable/highlight_selected2" />
+            <item android:drawable="@drawable/highlight_selected2" />
+        </selector>
+    </item>
+    <item  android:bottom="50dp"
+        android:drawable="@drawable/time_input" />
+    <item android:top="220dp" android:left="20dp" android:right="20dp" android:bottom = "15dp"
+        android:drawable="@drawable/button_onoff_indicator_on" />
+</layer-list>
