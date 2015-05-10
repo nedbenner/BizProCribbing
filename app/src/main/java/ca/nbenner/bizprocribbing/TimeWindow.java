@@ -7,6 +7,7 @@ import android.app.DialogFragment;
 import android.app.FragmentManager;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.res.TypedArray;
 import android.graphics.Canvas;
 import android.graphics.Paint;
@@ -23,7 +24,7 @@ import java.util.Arrays;
 public class TimeWindow extends View {
     // <editor-fold desc="Constants"
     private float mTimeThickness, mTimeLinePad, mThumbThickness, lengthOfMinutes;
-    private static int maxNumOfProjects = MainActivity.maxNumOfProjects;
+    private static int maxNumOfProjects = ActivityMain.maxNumOfProjects;
     private long pointer_down;
     private String[] timeLineTitle = new String[maxNumOfProjects + 1];
     private Rect[] rTime = new Rect[maxNumOfProjects + 1];
@@ -138,14 +139,13 @@ public class TimeWindow extends View {
     @Override protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         setMeasuredDimension(widthMeasureSpec, heightMeasureSpec);
     }
-
     //  Drawing Methods
     @Override protected void onDraw(Canvas canvas) {
         boolean claimed;
         int[] allottedTime = new int[maxNumOfProjects + 1];
 
         super.onDraw(canvas);
-        mTimeSheet = ProjectEdit.selectedTimeSheet;
+        mTimeSheet = ActivityEditProject.selectedTimeSheet;
         // Create array of start and end times and titles for each project (displayed in middle of timeline bar)
         for (int i = 0; i <= maxNumOfProjects; i++) {
             int p = mTimeSheet.getProjectID(i);
@@ -154,8 +154,8 @@ public class TimeWindow extends View {
             } else if (p == -1) {
                 timeLineTitle[i] = "Press to select another project";
                 } else {
-                    int j = Projects.findProjectIndex(MainActivity.allProjects, p);
-                    timeLineTitle[i] = (j == -1) ? "Project " + p + " was deleted" : MainActivity.allProjects.get(j).getAddress();
+                    int j = Project.findProjectIndex(ActivityMain.allProjects, p);
+                    timeLineTitle[i] = (j == -1) ? "Project " + p + " was deleted" : ActivityMain.allProjects.get(j).getAddress();
             }
             timeWayPoints[i * 2 + 0] = mTimeSheet.getStartTime(i);
             timeWayPoints[i * 2 + 1] = mTimeSheet.getEndTime(i);
@@ -333,7 +333,7 @@ public class TimeWindow extends View {
             int i = 0;
             while (i < 6) {
                 if (used.size() >= i+1) {
-                    for (Projects p : MainActivity.allProjects) {
+                    for (Project p : ActivityMain.allProjects) {
                         if (p.getId() == used.get(i)) {
                             items.add("#" + p.getId() + ", " + p.getAddress());
                             break;
@@ -374,6 +374,7 @@ public class TimeWindow extends View {
                         i++;
                     }
                 } else if (which == listSize-1) {   // SELECT FROM MAP
+                    ActivityEditProject.launchIntent(new Intent(), GD.codeIntent.GET_PROJECT_ID, indexToLabel);
                 } else {                            // Enter Selection
                     mTimeSheet.setProject(indexToLabel, used.get(which));
                 }

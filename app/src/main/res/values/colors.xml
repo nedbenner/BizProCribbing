@@ -29,4 +29,6 @@
     <color name="solid_green">#f0f0</color>
     <color name="solid_yellow">#ffffff00</color>
 
+    <color name="black_overlay">#66000000</color>
+
 </resources>

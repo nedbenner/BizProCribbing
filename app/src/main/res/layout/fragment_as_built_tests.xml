@@ -1,0 +1,129 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="ca.nbenner.bizprocribbing.FragABTests">
+
+    <!-- Background Image for JPEG tests -->
+    <ImageView
+        android:id="@+id/test_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        <!-- Title -->
+        <TextView
+            android:id = "@+id/test_title"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/ABTestsTitle" />
+        <!-- Description -->
+        <TextView
+            android:id = "@+id/test_description"
+            style="@style/ABTestsDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"   />
+        <!-- Enter measurements -->
+        <LinearLayout
+            android:id="@+id/test_entry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:orientation="horizontal">
+            <!-- Measurement field -->
+            <ca.nbenner.bizprocribbing.EditTextBackEvent
+                android:id = "@+id/test_result"
+                style="@style/ABTestsEntry"
+                android:inputType="numberSigned"
+                android:layout_weight="1"
+                android:gravity="right|bottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:imeOptions="actionDone" />
+            <!-- Measurement units -->
+            <TextView
+                android:id = "@+id/test_units"
+                style="@style/ABTestsUnits"
+                android:layout_weight="0"
+                android:gravity="left|bottom"
+                android:paddingRight="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom" />
+
+        </LinearLayout>
+        <!-- Boolean flags -->
+        <RadioGroup
+                android:id = "@+id/test_radio_buttons"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:gravity="center_horizontal">
+            <RadioButton android:id="@+id/test_radio_true"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:onClick="onRadioButtonClicked"
+                         android:text="TRUE" />
+            <RadioButton android:id="@+id/test_radio_false"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:onClick="onRadioButtonClicked"
+                         android:text="FALSE" />
+            <RadioButton android:id="@+id/test_radio_not_done"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:onClick="onRadioButtonClicked"
+                         android:text="Not Done Yet" />
+        </RadioGroup>
+        <!-- Camera Button -->
+        <Button
+            android:id = "@+id/test_camera_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:visibility="gone"
+            android:text="Press Button to Activate the camera and take a picture!"
+            />
+        <!-- Measurement thresholds -->
+        <RelativeLayout
+            android:id="@+id/test_thresholds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp" >
+            <!-- Header Field -->
+            <TextView
+                android:id = "@+id/test_threshold_header"
+                style="@style/ABTestsEntry"
+                android:text="For a test to PASS:"
+                android:layout_alignParentLeft="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/test_threshold"
+                android:layout_alignBottom="@+id/test_threshold"
+                android:gravity="fill_horizontal|center_vertical"/>
+            <!-- Measurement field -->
+            <TextView
+                android:id = "@+id/test_threshold"
+                style="@style/ABTestsEntry"
+                android:layout_toRightOf="@+id/test_threshold_header"
+                android:layout_alignParentRight="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal|center_vertical"
+                android:padding="20dp"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

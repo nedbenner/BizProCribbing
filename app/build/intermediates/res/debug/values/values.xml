@@ -2,6 +2,74 @@
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
     <!-- From: file:/C:/Users/Superlaptop/AndroidstudioProjects/BizProCribbing/app/src/main/res/values/strings.xml -->
     <eat-comment/>
+    <string-array name="stage1title">
+     // Planned                <item>Loaded plans on drive</item>
+        <item>Identified excavation specials</item>
+        <item>Identified wall specials</item>
+        <item>Location Verified</item>
+    </string-array>
+    <integer-array name="stage1type">       // Planned
+        <item>-6</item>
+        <item>-5</item>
+        <item>-5</item>
+        <item>-1</item>
+    </integer-array>
+    <string-array name="stage2title">
+     // Staked                <item>Verified Stake Locations</item>
+    </string-array>
+    <integer-array name="stage2type">       // Staked
+        <item>-6</item>
+    </integer-array>
+    <string-array name="stage3title">
+     // Excavated                <item>Verified all specials</item>
+    </string-array>
+    <integer-array name="stage3type">       // Excavated
+        <item>-6</item>
+    </integer-array>
+    <string-array name="stage4title">
+     // Footing In                <item>Rebar</item>
+        <item>Measured diagonals</item>
+        <item>Pad depth</item>
+        <item>Pad size</item>
+    </string-array>
+    <integer-array name="stage4type">       // Footing In
+        <item>-1</item>
+        <item>-3</item>
+        <item>-2</item>
+        <item>-2</item>
+    </integer-array>
+    <string-array name="stage5title">
+     // Wall Stood                <item>Diagonal 1</item>
+        <item>Diagonal 2</item>
+        <item>Plumb north wall</item>
+        <item>Plumb east wall</item>
+        <item>Plumb west wall</item>
+        <item>Plumb south wall</item>
+    </string-array>
+    <integer-array name="stage5type">       // Wall Stood
+        <item>-3</item>
+        <item>-3</item>
+        <item>-2</item>
+        <item>-2</item>
+        <item>-2</item>
+        <item>-2</item>
+    </integer-array>
+    <string-array name="stage6title">
+     // Stripped                <item>Checked for voids</item>
+        <item>Checked for blow outs</item>
+    </string-array>
+    <integer-array name="stage6type">       // Stripped
+        <item>-6</item>
+        <item>-6</item>
+    </integer-array>
+    <string-array name="stage7title">
+     // Completed                <item>Pad special</item>
+        <item>Final wall</item>
+    </string-array>
+    <integer-array name="stage7type">       // Completed
+        <item>-1</item>
+        <item>-1</item>
+    </integer-array>
     <string-array name="statusList">
         <item>Planned</item>
         <item>Staked</item>
@@ -12,7 +80,10 @@
         <item>Completed</item>
         <item>Deleted</item>
     </string-array>
-    <!-- From: file:/C:/Users/Superlaptop/AndroidstudioProjects/BizProCribbing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values/common_colors.xml -->
+    <!-- From: file:/C:/Users/Superlaptop/AndroidstudioProjects/BizProCribbing/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="black_overlay">#66000000</color>
+    <!-- From: file:/C:/Users/Superlaptop/AndroidstudioProjects/BizProCribbing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/res/values/common_colors.xml -->
     <eat-comment/>
     <color name="common_action_bar_splitter">#d2d2d2</color>
     <color name="common_signin_btn_dark_text_default">@android:color/white</color>
@@ -30,7 +101,7 @@
     <color name="solid_green">#f0f0</color>
     <color name="solid_red">#f00</color>
     <color name="solid_yellow">#ffffff00</color>
-    <!-- From: file:/C:/Users/Superlaptop/AndroidstudioProjects/BizProCribbing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values/wallet_colors.xml -->
+    <!-- From: file:/C:/Users/Superlaptop/AndroidstudioProjects/BizProCribbing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.0.0/res/values/wallet_colors.xml -->
     <eat-comment/>
     <color name="wallet_bright_foreground_disabled_holo_light">#ffb2b2b2</color>
     <color name="wallet_bright_foreground_holo_dark">#fff3f3f3</color>
@@ -46,6 +117,8 @@
     <color name="wallet_holo_blue_light">#ff33b5e5</color>
     <color name="wallet_link_text_light">#0000ee</color>
     <declare-styleable name="AdsAttrs"><attr format="string" name="adSize"/><attr format="string" name="adSizes"/><attr format="string" name="adUnitId"/></declare-styleable>
+    <declare-styleable name="ButtonBarContainerTheme"><attr format="reference" name="metaButtonBarStyle"/><attr format="reference" name="metaButtonBarButtonStyle"/></declare-styleable>
+    <declare-styleable name="CustomWalletTheme"><attr format="enum" name="windowTransitionStyle"><enum name="slide" value="1"/><enum name="none" value="2"/></attr></declare-styleable>
     <declare-styleable name="LoadingImageView"><attr format="enum" name="imageAspectRatioAdjust"><enum name="none" value="0"/><enum name="adjust_width" value="1"/><enum name="adjust_height" value="2"/></attr><attr format="float" name="imageAspectRatio"/><attr format="boolean" name="circleCrop"/></declare-styleable>
     <declare-styleable name="MapAttrs"><attr format="enum" name="mapType"><enum name="none" value="0"/><enum name="normal" value="1"/><enum name="satellite" value="2"/><enum name="terrain" value="3"/><enum name="hybrid" value="4"/></attr><attr format="float" name="cameraBearing"/><attr format="float" name="cameraTargetLat"/><attr format="float" name="cameraTargetLng"/><attr format="float" name="cameraTilt"/><attr format="float" name="cameraZoom"/><attr format="boolean" name="liteMode"/><attr format="boolean" name="uiCompass"/><attr format="boolean" name="uiRotateGestures"/><attr format="boolean" name="uiScrollGestures"/><attr format="boolean" name="uiTiltGestures"/><attr format="boolean" name="uiZoomControls"/><attr format="boolean" name="uiZoomGestures"/><attr format="boolean" name="useViewLifecycle"/><attr format="boolean" name="zOrderOnTop"/><attr format="boolean" name="uiMapToolbar"/></declare-styleable>
     <declare-styleable name="TimeWindow"><attr format="integer" name="quantized"/><attr format="color" name="timeOnColour"/><attr format="color" name="timeOffColour"/><attr format="color" name="lunchOnColour"/><attr format="color" name="thumbColour"/><attr format="color" name="selectedThumbColour"/><attr format="color" name="labelTextColor"/><attr format="dimension" name="timeThickness"/><attr format="dimension" name="mTimeLinePad"/><attr format="dimension" name="thumbThickness"/><attr format="dimension" name="labelTextSize"/></declare-styleable>
@@ -55,6 +128,7 @@
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="thumbnail_size">60dp</dimen>
     <!-- From: file:/C:/Users/Superlaptop/AndroidstudioProjects/BizProCribbing/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <drawable name="blue">#770000ff</drawable>
@@ -64,10 +138,13 @@
     <drawable name="translucent_background">#e0000000</drawable>
     <drawable name="transparent_background">#00000000</drawable>
     <drawable name="yellow">#77ffff00</drawable>
-    <!-- From: file:/C:/Users/Superlaptop/AndroidstudioProjects/BizProCribbing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values/version.xml -->
+    <!-- From: file:/C:/Users/Superlaptop/AndroidstudioProjects/BizProCribbing/app/src/main/res/values/integers.xml -->
     <eat-comment/>
-    <integer name="google_play_services_version">6587000</integer>
-    <!-- From: file:/C:/Users/Superlaptop/AndroidstudioProjects/BizProCribbing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values/admob_strings.xml -->
+    <integer name="ab_cells"> 9</integer>
+    <!-- From: file:/C:/Users/Superlaptop/AndroidstudioProjects/BizProCribbing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/res/values/version.xml -->
+    <eat-comment/>
+    <integer name="google_play_services_version">7095000</integer>
+    <!-- From: file:/C:/Users/Superlaptop/AndroidstudioProjects/BizProCribbing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.0.0/res/values/admob_strings.xml -->
     <eat-comment/>
     <string name="accept">Accept</string>
     <!-- From: file:/C:/Users/Superlaptop/AndroidstudioProjects/BizProCribbing/app/src/main/res/values/strings.xml -->
@@ -77,7 +154,7 @@
     <string name="addressField">Address</string>
     <string name="addressHint">Street Address</string>
     <string name="app_name">BizPro Cribbing</string>
-    <!-- From: file:/C:/Users/Superlaptop/AndroidstudioProjects/BizProCribbing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values/common_strings.xml -->
+    <!-- From: file:/C:/Users/Superlaptop/AndroidstudioProjects/BizProCribbing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/res/values/common_strings.xml -->
     <eat-comment/>
     <string name="common_android_wear_notification_needs_update_text">An application requires an update to the Android Wear app.</string>
     <string name="common_android_wear_update_text">This app won\'t run unless you update the Android Wear app.</string>
@@ -98,6 +175,8 @@
     <string name="common_google_play_services_notification_needs_installation_title">An application requires installation of Google Play services.</string>
     <string name="common_google_play_services_notification_needs_update_title">An application requires an update for Google Play services.</string>
     <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_sign_in_failed_text">Error signing in the specified account. Please choose a different account.</string>
+    <string name="common_google_play_services_sign_in_failed_title">Sign in failed</string>
     <string name="common_google_play_services_unknown_issue">Unknown issue with Google Play services.</string>
     <string name="common_google_play_services_unsupported_text">Google Play services, which some of your applications rely on, is not supported by your device. Please contact the manufacturer for assistance.</string>
     <string name="common_google_play_services_unsupported_title">Google Play services</string>
@@ -107,7 +186,9 @@
     <string name="common_open_on_phone">Open on phone</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
-    <!-- From: file:/C:/Users/Superlaptop/AndroidstudioProjects/BizProCribbing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values/admob_strings.xml -->
+    <string name="commono_google_play_services_api_unavailable_text">This app requires one or more Google Play services that are not currently
+available. Please contact the developer for assistance.</string>
+    <!-- From: file:/C:/Users/Superlaptop/AndroidstudioProjects/BizProCribbing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.0.0/res/values/admob_strings.xml -->
     <eat-comment/>
     <string name="create_calendar_message">Allow Ad to create a calendar event?</string>
     <string name="create_calendar_title">Create calendar event</string>
@@ -115,11 +196,13 @@
     <eat-comment/>
     <string name="customerField">Customer</string>
     <string name="customerHint">Usually a Builder</string>
-    <!-- From: file:/C:/Users/Superlaptop/AndroidstudioProjects/BizProCribbing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values/admob_strings.xml -->
+    <!-- From: file:/C:/Users/Superlaptop/AndroidstudioProjects/BizProCribbing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.0.0/res/values/admob_strings.xml -->
     <eat-comment/>
     <string name="decline">Decline</string>
     <!-- From: file:/C:/Users/Superlaptop/AndroidstudioProjects/BizProCribbing/app/src/main/res/values/strings.xml -->
     <eat-comment/>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="editLocation">Edit Location Information\n(Address, Latitude, Longitude)</string>
     <string name="edit_button">Edit project data</string>
     <string name="latField">Latitude</string>
@@ -131,7 +214,7 @@
     <string name="projectIdHint">A number</string>
     <string name="show">where is this used?</string>
     <string name="statusField">Status</string>
-    <!-- From: file:/C:/Users/Superlaptop/AndroidstudioProjects/BizProCribbing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values/admob_strings.xml -->
+    <!-- From: file:/C:/Users/Superlaptop/AndroidstudioProjects/BizProCribbing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.0.0/res/values/admob_strings.xml -->
     <eat-comment/>
     <string name="store_picture_message">"Allow Ad to store image in Picture gallery?"</string>
     <string name="store_picture_title">Save image</string>
@@ -139,21 +222,76 @@
     <eat-comment/>
     <string name="timeTrackerButton">Time Tracker</string>
     <string name="time_button">Input time on the project</string>
+    <string name="title_activity_list_project">ListProject</string>
+    <string name="title_activity_record_as_built">Record As Built</string>
     <string name="view_button">Satellite, Terrain or Road Map</string>
-    <!-- From: file:/C:/Users/Superlaptop/AndroidstudioProjects/BizProCribbing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values/wallet_strings.xml -->
+    <!-- From: file:/C:/Users/Superlaptop/AndroidstudioProjects/BizProCribbing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.0.0/res/values/wallet_strings.xml -->
     <eat-comment/>
     <string name="wallet_buy_button_place_holder" translation_description="Text on a button that allows a user to make a payment with Google Wallet [CHAR LIMIT=30]">Buy with Google</string>
     <!-- From: file:/C:/Users/Superlaptop/AndroidstudioProjects/BizProCribbing/app/src/main/res/values/styles.xml -->
     <eat-comment/>
-    <style name="AppBaseTheme" parent="android:Theme.Holo">
+    <style name="ABStagesFont" parent="@android:style/TextAppearance.Medium">
+        <item name="android:gravity">left|bottom</item>
+        <item name="android:layout_gravity">left|center_vertical</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:typeface">normal</item>
+    </style>
+    <style name="ABTestsDescription">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">18sp</item> />
+    </style>
+    <style name="ABTestsEntry" parent="@style/ABTestsUnits">
+    </style>
+    <style name="ABTestsTitle">
+        <item name="android:textColor">#0080ff</item>
+        <item name="android:textSize">30sp</item> />
+    </style>
+    <style name="ABTestsUnits" parent="@style/ABTestsTitle">
+        <item name="android:textSize">20sp</item> />
+    </style>
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
         <!--
             Theme customizations available in newer API levels can go in
             res/values-vXX/styles.xml, while customizations related to
             backward-compatibility can go here.
         -->
     </style>
-    <style name="AppTheme" parent="AppBaseTheme">
-	</style>
+    <style name="AppTheme" parent="AppBaseTheme"/>
+    <style name="AsBuiltDue" parent="@style/ABStagesFont">
+        <item name="android:textColor">#00FF00</item>
+    </style>
+    <style name="AsBuiltNotDue" parent="@style/ABStagesFont">
+        <item name="android:textColor">#707070</item>
+    </style>
+    <style name="ButtonBar">
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:background">@android:drawable/bottom_bar</item>
+    </style>
+    <style name="ButtonBarButton"/>
+    <style name="FieldNames">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">right|center_vertical</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:textSize">11sp</item> />
+    </style>
+    <style name="FieldValues">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:textColor">#0000ff</item>
+        <item name="android:textSize">18sp</item> />
+    </style>
+    <style name="FullscreenTheme" parent="android:Theme.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">@style/ButtonBar</item>
+        <item name="metaButtonBarButtonStyle">@style/ButtonBarButton</item>
+    </style>
     <style name="PopupTheme" parent="android:Theme.Holo.Light.Dialog">
         <item name="android:windowIsFloating">false</item>
         <item name="android:windowContentOverlay">@null</item>
@@ -161,7 +299,14 @@
         <item name="android:windowActionModeOverlay">true</item>
         <item name="android:windowIsTranslucent">true</item>
     </style>
-    <!-- From: file:/C:/Users/Superlaptop/AndroidstudioProjects/BizProCribbing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values/admob_iap_style.xml -->
+    <style name="RowStyle">
+        <item name="android:layout_height">40sp</item>
+        <item name="android:height">40sp</item>
+        <item name="android:padding">3sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">left</item>
+    </style>
+    <!-- From: file:/C:/Users/Superlaptop/AndroidstudioProjects/BizProCribbing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.0.0/res/values/admob_iap_style.xml -->
     <eat-comment/>
     <style name="Theme.IAPTheme" parent="android:Theme">
     <item name="android:windowIsTranslucent">true</item>
@@ -171,7 +316,7 @@
     <item name="android:windowIsFloating">true</item>
     <item name="android:backgroundDimEnabled">false</item>
   </style>
-    <!-- From: file:/C:/Users/Superlaptop/AndroidstudioProjects/BizProCribbing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values/wallet_styles.xml -->
+    <!-- From: file:/C:/Users/Superlaptop/AndroidstudioProjects/BizProCribbing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.0.0/res/values/wallet_styles.xml -->
     <eat-comment/>
     <style name="WalletFragmentDefaultButtonTextAppearance">
         <item name="android:textColor">@color/wallet_primary_text_holo_light</item>

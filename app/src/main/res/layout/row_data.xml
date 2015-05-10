@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_project_data"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent" >
+
+    <TableRow>
+        <TextView android:id="@+id/col_lat"
+                  style="@style/RowStyle"
+                  android:layout_width="100sp"
+                  android:background="?android:attr/activatedBackgroundIndicator"
+                  android:text="Latitude"/>
+        <TextView android:id="@+id/col_long"
+                  style="@style/RowStyle"
+                  android:background="?android:attr/activatedBackgroundIndicator"
+                  android:layout_width="100sp"
+                  android:text="Longitude"/>
+        <TextView android:id="@+id/col_status"
+                  style="@style/RowStyle"
+                  android:background="?android:attr/activatedBackgroundIndicator"
+                  android:layout_width="100sp"
+                  android:text="Status"/>
+        <TextView android:id="@+id/col_customer"
+                  style="@style/RowStyle"
+                  android:background="?android:attr/activatedBackgroundIndicator"
+                  android:layout_width="150sp"
+                  android:text="Customer"/>
+        <TextView android:id="@+id/col_change"
+                  style="@style/RowStyle"
+                  android:background="?android:attr/activatedBackgroundIndicator"
+                  android:layout_width="100sp"
+                  android:text="Last Change"/>
+
+    </TableRow>
+
+    </TableLayout>
+

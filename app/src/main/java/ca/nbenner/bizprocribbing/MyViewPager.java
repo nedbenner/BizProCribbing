@@ -21,7 +21,7 @@ public class MyViewPager extends ViewPager {
     }
 
     @Override public boolean onInterceptTouchEvent (MotionEvent ev) {
-        if (getCurrentItem() == 0)
+        if (getCurrentItem() <= 1)
            return super.onInterceptTouchEvent(ev);
         return false;
     }

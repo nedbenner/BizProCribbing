@@ -17,7 +17,7 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <!-- My Location -->
-    <!-- <uses-permission android:name	="android.permission.ACCESS_COARSE_LOCATION" /> -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <!-- Maps API needs OpenGL ES 2.0. -->
@@ -26,11 +26,17 @@
         android:required="true" />
 
     <application
+        android:name="ca.nbenner.bizprocribbing.GD"
         android:allowBackup="true"
         android:hardwareAccelerated="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+        <service
+            android:name="ca.nbenner.bizprocribbing.LocnService"
+            android:enabled="true"
+            android:exported="false" />
+
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
@@ -41,7 +47,7 @@
         <uses-library android:name="com.google.android.maps" />
 
         <activity
-            android:name="ca.nbenner.bizprocribbing.MainActivity"
+            android:name="ca.nbenner.bizprocribbing.ActivityMain"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -50,12 +56,17 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="ca.nbenner.bizprocribbing.ProjectEdit"
+            android:name="ca.nbenner.bizprocribbing.ActivityEditProject"
             android:label="Project"
             android:windowSoftInputMode="adjustResize" />
         <activity
             android:name="ca.nbenner.bizprocribbing.Settings"
             android:label="my Settings" />
+        <activity
+            android:name="ca.nbenner.bizprocribbing.ListProject"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_list_project" >
+        </activity>
     </application>
 
 </manifest>

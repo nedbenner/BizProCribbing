@@ -1,0 +1,20 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:background="#a0a0e0"
+             tools:context="ca.nbenner.bizprocribbing.FragABStages">
+
+    <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/list_of_stages"
+        android:listSelector="@drawable/list_selector"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnWidth="80dp"
+        android:numColumns="@+integer/ab_cells"
+        android:verticalSpacing="30dp"
+        android:horizontalSpacing="10dp"
+        android:stretchMode="spacingWidth"
+        android:gravity="center"/>
+
+</FrameLayout>

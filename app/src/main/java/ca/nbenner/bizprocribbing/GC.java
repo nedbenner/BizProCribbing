@@ -3,6 +3,7 @@ package ca.nbenner.bizprocribbing;
 import android.content.ContentValues;
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.content.res.Resources;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.location.Location;
@@ -14,18 +15,14 @@ import com.google.android.gms.maps.model.LatLngBounds;
 import com.google.android.gms.maps.model.Marker;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 // Global Constants
+
 public class GC {
     // <editor-fold desc="Global Variables and Constants"
-    public final static int EDIT_RQ_CURRENT     = 1;			//  edit project at selected marker
-    public final static int EDIT_RQ_SHIFTED     = 2;			//  marker has been shifted in location
-    public final static int EDIT_RQ_NEW         = 4;			//  a new project is requested
-
     public final static int HIT_THUMB           = 0;			//  check to see which Thumb is chosen
     public final static int HIT_LABEL           = 1;			//  check to see which Project Label is chosen
-
-    public final static int MSG_CONNECTED       = 0;			//  communicate that we are connected to GoogleApiClient
 
     public static String    myEmployeeNumber    = null;
     public static LatLngBounds bounds;
@@ -34,30 +31,47 @@ public class GC {
     public static UsedList  mUsedList;
     public static Location  mCurrentLocation    = null;
     public static Marker    myLocnMarker        = null;
+    public static boolean   isLocationTracking  = false;
+    public static ArrayList<String> statusList, shortStatusList;
+    public static int       cells;
+    public static int       localABTestsVersion;
     private static float    maxEntry            = 0;
     private static float    viewEntry           = 0;
+    public static int       mapType             = 1;            // Roads or Satellite view, default = Roads
+
     // </editor-fold>
 
     public GC(Context context) {
         prefs = PreferenceManager.getDefaultSharedPreferences(context);
-        myEmployeeNumber = prefs.getString("pref_key_employee_number", "0");
-        displayRecordsSince = prefs.getLong("pref_key_display_records_since", 0);
-        LatLng southwest = new LatLng( prefs.getFloat("pref_key_bounds_sw_lat", 0),
-                                       prefs.getFloat("pref_key_bounds_sw_lng", 0) );
-        LatLng northeast = new LatLng( prefs.getFloat("pref_key_bounds_ne_lat", 1),
-                                       prefs.getFloat("pref_key_bounds_ne_lng", 1) );
-        bounds = new LatLngBounds( southwest, northeast );
+        myEmployeeNumber    = prefs.getString("pref_key_employee_number",      "0"    );
+        localABTestsVersion = prefs.getInt(   "pref_key_ab_tests_version",      0     );
+        displayRecordsSince = prefs.getLong(  "pref_key_display_records_since", 0     );
+        mapType             = prefs.getInt(   "pref_key_map_type",              1     );
+        LatLng southwest    = new LatLng( prefs.getFloat("pref_key_bounds_sw_lat", 0),
+                                          prefs.getFloat("pref_key_bounds_sw_lng", 0) );
+        LatLng northeast    = new LatLng( prefs.getFloat("pref_key_bounds_ne_lat", 1),
+                                          prefs.getFloat("pref_key_bounds_ne_lng", 1) );
+        bounds              = new LatLngBounds( southwest, northeast );
 
-        mUsedList = new UsedList(context);
+        mUsedList           = new UsedList(context);
+
+        Resources res       = context.getResources();
+        cells               = res.getInteger(R.integer.ab_cells);
+        statusList          = new ArrayList<String>( Arrays.asList(res.getStringArray(R.array.statusList)) );
+        shortStatusList     = (ArrayList<String>) statusList.clone();
+        shortStatusList.remove( shortStatusList.size()-1 );
+
     }
     public void putInternalData () {
         SharedPreferences.Editor mEditor = prefs.edit();
-        mEditor.putString("pref_key_employee_number", myEmployeeNumber);
-        mEditor.putLong("pref_key_display_records_since", displayRecordsSince);
-        mEditor.putFloat("pref_key_bounds_ne_lat", (float) bounds.northeast.latitude);
-        mEditor.putFloat("pref_key_bounds_ne_lng", (float) bounds.northeast.longitude);
-        mEditor.putFloat("pref_key_bounds_sw_lat", (float) bounds.southwest.latitude);
-        mEditor.putFloat("pref_key_bounds_sw_lng", (float) bounds.southwest.longitude);
+        mEditor.putString("pref_key_employee_number",       myEmployeeNumber);
+        mEditor.putInt(   "pref_key_ab_tests_version",      localABTestsVersion);
+        mEditor.putLong(  "pref_key_display_records_since", displayRecordsSince);
+        mEditor.putFloat( "pref_key_bounds_ne_lat", (float) bounds.northeast.latitude);
+        mEditor.putFloat( "pref_key_bounds_ne_lng", (float) bounds.northeast.longitude);
+        mEditor.putFloat( "pref_key_bounds_sw_lat", (float) bounds.southwest.latitude);
+        mEditor.putFloat( "pref_key_bounds_sw_lng", (float) bounds.southwest.longitude);
+        mEditor.putInt(   "pref_key_map_type",              mapType);
         mEditor.apply();
     }
 

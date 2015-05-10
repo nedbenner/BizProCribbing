@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                tools:context="ca.nbenner.bizprocribbing.ActivityABRecord">
+
+    <fragment
+        android:name="ca.nbenner.bizprocribbing.FragABStages"
+        android:id="@+id/ab_stages"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        tools:layout="@layout/fragment_as_built_stages"/>
+
+    <fragment
+        android:name="ca.nbenner.bizprocribbing.FragABTests"
+        android:id="@+id/ab_tests"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        tools:layout="@layout/fragment_as_built_tests"/>
+
+</LinearLayout>
+<!-- From: file:/C:/Users/Superlaptop/AndroidstudioProjects/BizProCribbing/app/src/main/res/layout/activity_record_as_built.xml -->

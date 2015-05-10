@@ -5,6 +5,11 @@
           android:icon			= "@drawable/view_satellite"
           android:showAsAction	= "ifRoom"
           android:onClick		= "onToggleRoads" />
+    <item android:id			= "@+id/track"
+          android:title			= "Track Locations"
+          android:icon			= "@drawable/ic_action_star"
+          android:showAsAction	= "ifRoom"
+          android:onClick		= "onTrack" />
     <item android:id			= "@+id/timeline_button"
           android:title			= "Adjust which projects are visible"
           android:icon			= "@drawable/time_input"
@@ -25,5 +30,15 @@
           android:icon			= "@drawable/copy_db"
           android:showAsAction	= "ifRoom"
           android:onClick		= "onCopyDB" />
+    <item android:id			= "@+id/syncDB"
+          android:title			= "Synchronize to Database"
+          android:icon			= "@drawable/copy_db"
+          android:showAsAction	= "ifRoom"
+          android:onClick		= "onSyncDB" />
+    <item android:id			= "@+id/listProjects"
+          android:title			= "List view of Projects"
+          android:icon			= "@drawable/copy_db"
+          android:showAsAction	= "ifRoom"
+          android:onClick		= "onListProjects" />
 
 </menu>

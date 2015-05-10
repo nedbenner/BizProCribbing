@@ -41,4 +41,47 @@
             android:layout_marginBottom="45dp"
             android:textSize="15sp"/>
 
+        <LinearLayout
+            android:id="@+id/locationButtons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:orientation="horizontal"
+            android:layout_gravity="bottom" >
+
+            <Button
+                android:id="@+id/earlierButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="pressedLocationButtons"
+                android:text="before" />
+
+            <Button
+                android:id="@+id/displayedDateButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="pressedLocationButtons"
+                android:text="Today" />
+
+
+            <Button
+                android:id="@+id/laterButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="pressedLocationButtons"
+                android:text="after" />
+
+          <Button
+                android:id="@+id/doneButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="pressedLocationButtons"
+                android:text="Done" />
+
+        </LinearLayout>
+
 </FrameLayout><!-- From: file:/C:/Users/Superlaptop/AndroidstudioProjects/BizProCribbing/app/src/main/res/layout/activity_main.xml -->

@@ -8,6 +8,7 @@ android:paddingLeft="15dp"
 android:scrollbars="vertical" >
 
 <TableLayout
+    android:id="@+id/edit_project"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content" >
 

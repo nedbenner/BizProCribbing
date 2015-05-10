@@ -1,0 +1,8 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+
+    <gradient
+        android:endColor="#f7ddb8"
+        android:startColor="#f5c98c"
+        android:angle="90"/>
+
+</shape><!-- From: file:/C:/Users/Superlaptop/AndroidstudioProjects/BizProCribbing/app/src/main/res/drawable/list_selector_focused.xml -->

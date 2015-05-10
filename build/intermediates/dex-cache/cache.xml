@@ -2,46 +2,172 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\exploded-aar\com.android.support\support-v13\20.0.0\classes.jar"
+        jar="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.0.0\classes.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="e128103d5281ddd26195a7f980b36d0d005a4e56">
-        <dex dex="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\pre-dexed\debug\classes-9f7ac729f851e91bbf459c752860848fc95853c3.jar" />
+        sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
+        <dex dex="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\pre-dexed\debug\classes-e493d7a519d8f6ef5e905a2ff290f55ca105eae4.jar" />
     </item>
     <item
-        jar="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\libs\internal_impl-21.0.0.jar"
+        jar="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\classes.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
-        <dex dex="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.0-482bf22ab0b43648c56fa186576600de81c06504.jar" />
+        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
+        <dex dex="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\pre-dexed\debug\classes-88d3d3f546ec71ff0b60bf150bbf18abac1d44c6.jar" />
     </item>
     <item
-        jar="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\exploded-aar\com.android.support\support-v13\20.0.0\libs\internal_impl-20.0.0.jar"
+        jar="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.0.0\classes.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="27bbd3982cdfe4468a9bf99c8c773734a9049e33">
-        <dex dex="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-be2a91649b6ae18dd5a41c12ccc30e05374e3ebb.jar" />
+        sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
+        <dex dex="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\pre-dexed\debug\classes-21d1b2a42619eb04eb9df982335e8c70526fb589.jar" />
     </item>
     <item
-        jar="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.5.87\classes.jar"
+        jar="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.0.0\classes.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
-        <dex dex="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\pre-dexed\debug\classes-6fd6adaccd2a2fab92c8e3ddaee36737dc7842f9.jar" />
+        sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
+        <dex dex="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\pre-dexed\debug\classes-e9f8dd72e25d581085015237d54a69f371e5a1d2.jar" />
     </item>
     <item
-        jar="C:\Program Files (x86)\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.0\support-annotations-21.0.0.jar"
+        jar="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\libs\internal_impl-22.0.0.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
-        <dex dex="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.0-8983e6e567b6edd74e462d5010829aae3b2038bb.jar" />
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-affef5c5e7251a9ec188b7e520ed4c839df9af8c.jar" />
     </item>
     <item
-        jar="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\classes.jar"
+        jar="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\exploded-aar\com.android.support\support-v13\22.0.0\classes.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
-        <dex dex="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\pre-dexed\debug\classes-92c2c40c0f29007ca80ecafb54728302a9edae6b.jar" />
+        sha1="7f9cca1caa023a880b00c382bcc5c90245ae4895">
+        <dex dex="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\pre-dexed\debug\classes-b92b80fe4fb0be1cb5ad7ffb1f94fda8c024cca6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
+        <dex dex="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\pre-dexed\debug\classes-2000ab21c188573ae03ea91e613d58f068ec9c43.jar" />
+    </item>
+    <item
+        jar="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
+        <dex dex="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\pre-dexed\debug\classes-5ec37180343ba542ca3b7bc11bf2a5f9ff7d197e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
+        <dex dex="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\pre-dexed\debug\classes-8838d17e39c1705487a89f396d00dd50cdee6868.jar" />
+    </item>
+    <item
+        jar="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3c0b099f9de16b265ecd6122fcb603e7d0d29f90">
+        <dex dex="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\pre-dexed\debug\classes-498655af308fc386494b52fb1bf939c61242d42d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
+        <dex dex="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\pre-dexed\debug\classes-6fb9f6b3dc106fa21abb45abc4b4cb412e47e5fb.jar" />
+    </item>
+    <item
+        jar="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
+        <dex dex="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\pre-dexed\debug\classes-f7a3befe7624cf4b2afd7d5dd5a28fa417883609.jar" />
+    </item>
+    <item
+        jar="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
+        <dex dex="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\pre-dexed\debug\classes-f52bfed15ae6fae7f012461335b01545a153a229.jar" />
+    </item>
+    <item
+        jar="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
+        <dex dex="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\pre-dexed\debug\classes-2f01cd6b98c75bbdce017155016196eda017a9c0.jar" />
+    </item>
+    <item
+        jar="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
+        <dex dex="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\pre-dexed\debug\classes-925e0fa31b260eefed8d64b40b68e0c261d5b9b6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="c976518693e89ad44fbfccfc654941eaec198d08">
+        <dex dex="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\pre-dexed\debug\classes-311ead7307d7137099a902b9de735c8a6044527d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\pre-dexed\debug\classes-d74e729e2fbd7a248fe298195af6a522ebaf21aa.jar" />
+    </item>
+    <item
+        jar="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\exploded-aar\com.android.support\support-v13\22.0.0\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="def3eff2b7b4774d96ae15b07b3fc0111edbfe24">
+        <dex dex="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-8774f038ad8e879193aec750d4800f411631dab9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
+        <dex dex="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\pre-dexed\debug\classes-b843b6a80268c108e6b35318ebf1b3fde03af35a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="7ff613bf78ab057293892fdbd4169eda899c89b9">
+        <dex dex="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\pre-dexed\debug\classes-ab3ab7640ec4d77470a69a21f6b8d63c629e4b9f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="1c5a76debf0c2857ccad422c4a80ed785982f8df">
+        <dex dex="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\pre-dexed\debug\classes-c54ffcc3db36bd54de817cc93aa5b2dd0a92f809.jar" />
+    </item>
+    <item
+        jar="C:\Program Files (x86)\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-8d653238a9e211de842e69bf85e03f5cc645ff2b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="055783146ba9654a725442563be78cad303aad1f">
+        <dex dex="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\pre-dexed\debug\classes-ca046e4b5318c5db1c5b14a9949d8e2d76fdd534.jar" />
+    </item>
+    <item
+        jar="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
+        <dex dex="C:\Users\Superlaptop\AndroidstudioProjects\BizProCribbing\app\build\intermediates\pre-dexed\debug\classes-2dcdf2596bbcae4e4e8bc8624f8abe4517b2d82d.jar" />
     </item>
 
 </items>
