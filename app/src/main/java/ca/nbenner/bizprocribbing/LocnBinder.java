@@ -178,13 +178,13 @@ public class LocnBinder extends Binder implements
     }
     public class NextLocn implements LocationListener {
         @Override public void onLocationChanged(Location location) {
-            Log.d("myDebug", "Got an answer!     Priority="      + priority     + ", " +
-                    "Fast Interval=" + fastInterval + ", " +
-                    "Interval="      + interval );
+            Log.d("myDebug", "Got an answer!     Priority=" + priority     + ", " +
+                                           "Fast Interval=" + fastInterval + ", " +
+                                                "Interval=" + interval );
             GC.mCurrentLocation = location;
             new LocationList().Update(location);
             if (reportListener != null) {
-                reportListener.showLocnMarkers();
+                reportListener.showCurrentLocn();
             }
 
             if (System.currentTimeMillis() > serviceEndTime)

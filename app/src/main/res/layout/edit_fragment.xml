@@ -88,5 +88,7 @@ android:scrollbars="vertical" >
             android:inputType="numberDecimal|numberSigned"
             android:typeface="monospace" />
     </TableRow>
+
 </TableLayout>
+
 </ScrollView>

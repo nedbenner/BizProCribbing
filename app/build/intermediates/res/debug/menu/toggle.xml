@@ -40,6 +40,11 @@
           android:icon			= "@drawable/copy_db"
           android:showAsAction	= "ifRoom"
           android:onClick		= "onListProjects" />
+    <item android:id			= "@+id/deleteLocations"
+          android:title			= "Delete some locations"
+          android:icon			= "@drawable/copy_db"
+          android:showAsAction	= "ifRoom"
+          android:onClick		= "onDeleteLocations" />
 
 </menu>
 <!-- From: file:/C:/Users/Superlaptop/AndroidstudioProjects/BizProCribbing/app/src/main/res/menu/toggle.xml -->

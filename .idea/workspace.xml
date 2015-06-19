@@ -66,11 +66,14 @@
       <file leaf-file-name="ActivityMain.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/ActivityMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1445">
-              <caret line="110" column="49" selection-start-line="110" selection-start-column="49" selection-end-line="110" selection-end-column="49" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="579" max-vertical-offset="1241">
+              <caret line="250" column="43" selection-start-line="250" selection-start-column="43" selection-end-line="250" selection-end-column="43" />
               <folding>
                 <element signature="n#!!doc;n#ma#0;n#ActivityMain#0" expanded="false" />
+                <element signature="method#onCreate#0;class#ActivityMain#0" expanded="false" />
                 <element signature="method#onResume#0;class#ActivityMain#0" expanded="false" />
+                <element signature="e#5578#5692#0" expanded="false" />
+                <element signature="e#6059#6132#0" expanded="false" />
                 <element signature="method#onStop#0;class#ActivityMain#0" expanded="false" />
                 <element signature="method#onSaveInstanceState#0;class#ActivityMain#0" expanded="false" />
                 <element signature="method#onRestoreInstanceState#0;class#ActivityMain#0" expanded="false" />
@@ -78,7 +81,7 @@
                 <element signature="method#onPrepareOptionsMenu#0;class#ActivityMain#0" expanded="false" />
                 <element signature="method#onMapReady#0;class#ActivityMain#0" expanded="false" />
                 <element signature="method#onActivityResult#0;class#ActivityMain#0" expanded="false" />
-                <element signature="e#9565#9646#0" expanded="false" />
+                <element signature="e#9708#9789#0" expanded="false" />
                 <element signature="method#onToggleRoads#0;class#ActivityMain#0" expanded="false" />
                 <element signature="method#onTrack#0;class#ActivityMain#0" expanded="false" />
                 <element signature="method#pressedLocationButtons#0;class#ActivityMain#0" expanded="false" />
@@ -88,83 +91,25 @@
                 <element signature="method#onStartTrackingTouch#0;class#ActivityMain#0" expanded="false" />
                 <element signature="method#onCopyDB#0;class#ActivityMain#0" expanded="false" />
                 <element signature="method#onSyncDB#0;class#ActivityMain#0" expanded="false" />
-                <element signature="e#15444#15465#0" expanded="false" />
+                <element signature="e#15840#15861#0" expanded="false" />
+                <element signature="method#onDeleteLocations#0;class#ActivityMain#0" expanded="false" />
                 <element signature="method#onListProjects#0;class#ActivityMain#0" expanded="false" />
                 <element signature="method#onServiceConnected#0;class#ActivityMain#0" expanded="false" />
-                <element signature="e#16621#16693#0" expanded="false" />
+                <element signature="e#17248#17320#0" expanded="false" />
                 <element signature="method#onServiceDisconnected#0;class#ActivityMain#0" expanded="false" />
-                <element signature="e#17250#17336#0" expanded="false" />
+                <element signature="e#17877#17963#0" expanded="false" />
                 <element signature="method#isMyServiceRunning#0;class#ActivityMain#0" expanded="false" />
                 <element signature="method#seeWholeMap#0;class#ActivityMain#0" expanded="false" />
-                <element signature="class#18821:19054" expanded="false" />
-                <element signature="method#onFinish#0;class#18821:19054" expanded="false" />
+                <element signature="class#19592:19825" expanded="false" />
+                <element signature="method#onFinish#0;class#19592:19825" expanded="false" />
                 <element signature="method#onMarkerClick#0;class#ActivityMain#0" expanded="false" />
                 <element signature="method#onMarkerDrag#0;class#ActivityMain#0" expanded="false" />
                 <element signature="method#onMarkerDragStart#0;class#ActivityMain#0" expanded="false" />
                 <element signature="method#onMarkerDragEnd#0;class#ActivityMain#0" expanded="false" />
                 <element signature="method#onMapClick#0;class#ActivityMain#0" expanded="false" />
                 <element signature="method#callActivityEditProject#0;class#ActivityMain#0" expanded="false" />
-                <element signature="method#showLocnMarkers#0;class#ActivityMain#0" expanded="false" />
+                <element signature="method#showCurrentLocn#0;class#ActivityMain#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LocnService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/LocnService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding>
-                <element signature="e#636#637#0" expanded="true" />
-                <element signature="e#681#682#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LocnBinder.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/LocnBinder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.28043142" vertical-offset="634" max-vertical-offset="1615">
-              <caret line="112" column="36" selection-start-line="112" selection-start-column="36" selection-end-line="112" selection-end-column="36" />
-              <folding>
-                <element signature="method#buildGoogleApiClient#0;class#LocnBinder#0" expanded="false" />
-                <element signature="method#checkGooglePlay#0;class#LocnBinder#0" expanded="false" />
-                <element signature="method#onConnectionSuspended#0;class#LocnBinder#0" expanded="false" />
-                <element signature="e#3220#3238#0" expanded="false" />
-                <element signature="method#onConnectionFailed#0;class#LocnBinder#0" expanded="false" />
-                <element signature="method#closeGoogleApiClient#0;class#LocnBinder#0" expanded="false" />
-                <element signature="method#showErrorDialog#0;class#LocnBinder#0" expanded="false" />
-                <element signature="class#ErrorDialogFragment#0;class#LocnBinder#0" expanded="false" />
-                <element signature="method#onCreateDialog#0;class#ErrorDialogFragment#0;class#LocnBinder#0" expanded="false" />
-                <element signature="class#NextLocn#0;class#LocnBinder#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Locations.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/Locations.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-              <caret line="82" column="5" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
-              <folding>
-                <element signature="method#display#0;class#Locations#0" expanded="false" />
-                <element signature="method#hideAllMarkers#0;class#Locations#0" expanded="false" />
-                <element signature="method#showSelectedMarkers#0;class#Locations#0" expanded="false" />
-                <element signature="method#changeDay#0;class#Locations#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LocnListener.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/LocnListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -172,8 +117,8 @@
       <file leaf-file-name="UpdateDatabases.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/UpdateDatabases.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="745" max-vertical-offset="1394">
-              <caret line="824" column="0" selection-start-line="824" selection-start-column="0" selection-end-line="824" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1399" max-vertical-offset="3009">
+              <caret line="819" column="26" selection-start-line="819" selection-start-column="26" selection-end-line="819" selection-end-column="26" />
               <folding>
                 <element signature="class#UpdateDatabases#0" expanded="false" />
                 <element signature="method#UpdateDatabases#0;class#UpdateDatabases#0" expanded="false" />
@@ -201,18 +146,16 @@
                 <element signature="method#addToDB#0;class#ProjectList#0" expanded="false" />
                 <element signature="method#update#0;class#ProjectList#0" expanded="false" />
                 <element signature="method#deleteAllData#0;class#ProjectList#0" expanded="false" />
-                <element signature="class#TimeSheetList#0" expanded="false" />
                 <element signature="n#!!doc;n#TABLE_NAME#0;n#TimeSheetList#0" expanded="false" />
                 <element signature="initializer##0;class#TimeSheetList#0" expanded="false" />
                 <element signature="method#TimeSheetList#0;class#TimeSheetList#0" expanded="false" />
-                <element signature="method#readTimeSheetsFromDB#0;class#TimeSheetList#0" expanded="false" />
                 <element signature="method#addToDB#0;class#TimeSheetList#0" expanded="false" />
                 <element signature="method#update#0;class#TimeSheetList#0" expanded="false" />
                 <element signature="method#getMaxRecord#0;class#TimeSheetList#0" expanded="false" />
                 <element signature="method#deleteAllData#0;class#TimeSheetList#0" expanded="false" />
                 <element signature="n#!!doc;n#TABLE_NAME#0;n#LocationList#0" expanded="false" />
                 <element signature="method#readLocationsFromDB#0;class#LocationList#0" expanded="false" />
-                <element signature="class#ABRecordList#0" expanded="false" />
+                <element signature="method#SetLocnPeriod#0;class#LocationList#0" expanded="false" />
                 <element signature="n#!!doc;n#TABLE_NAME#0;n#ABRecordList#0" expanded="false" />
                 <element signature="method#ABRecordList#0;class#ABRecordList#0" expanded="false" />
                 <element signature="method#readAsBuiltFromDB#0;class#ABRecordList#0" expanded="false" />
@@ -227,26 +170,22 @@
                 <element signature="n#!!doc;n#TABLE_NAME#0;n#ABTestList#0" expanded="false" />
                 <element signature="class#abDesc#0;class#ABTestList#0" expanded="false" />
                 <element signature="method#readTestsFromDB#0;class#ABTestList#0" expanded="false" />
-                <element signature="e#49274#49323#0" expanded="false" />
+                <element signature="e#52209#52258#0" expanded="false" />
                 <element signature="method#replaceListInDB#0;class#ABTestList#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GD.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/GD.java">
+      <file leaf-file-name="Locations.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/Locations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="748">
-              <caret line="99" column="76" selection-start-line="99" selection-start-column="76" selection-end-line="99" selection-end-column="76" />
+            <state vertical-scroll-proportion="0.6933535" vertical-offset="510" max-vertical-offset="1360">
+              <caret line="85" column="50" selection-start-line="85" selection-start-column="50" selection-end-line="85" selection-end-column="50" />
               <folding>
-                <element signature="method#onCreate#0;class#GD#0" expanded="false" />
-                <element signature="method#getAbMeasureTitles#0;class#GD#0" expanded="false" />
-                <element signature="class#resultType#0;class#GD#0" expanded="false" />
-                <element signature="class#doneCode#0;class#GD#0" expanded="false" />
-                <element signature="class#editProgress#0;class#GD#0" expanded="false" />
-                <element signature="class#codeIntent#0;class#GD#0" expanded="false" />
-                <element signature="class#listColumns#0;class#GD#0" expanded="false" />
+                <element signature="method#display#0;class#Locations#0" expanded="false" />
+                <element signature="method#hideAllMarkers#0;class#Locations#0" expanded="false" />
+                <element signature="method#changeDay#0;class#Locations#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -1049,8 +988,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/MyViewPager.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/integers.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/asbuilt.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/list_selector_pressed.xml" />
@@ -1069,7 +1006,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/FragABRecord.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/FragEditProject.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/GlobalClass.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/edit_fragment.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values-v14/styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values-v11/styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/EditTestBackEvent.java" />
@@ -1079,12 +1015,9 @@
         <option value="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_as_built_tests.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/AsBuilt.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/TimeSheet.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/TimeWindow.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/FragABStages.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/FragABTests.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/ActivityEditProject.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/menu/toggle.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/itemlistrow.xml" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
@@ -1093,13 +1026,19 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/row_data.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_list_project.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/ListProject.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/Project.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/GC.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/Locations.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/GD.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/UpdateDatabases.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/ActivityMain.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/Project.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/edit_fragment.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/LocnBinder.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/toggle.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/ActivityMain.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/ActivityEditProject.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/TimeSheet.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/ConfirmDeletion.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/DeleteLocnFromDB.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/UpdateDatabases.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/Locations.java" />
       </list>
     </option>
   </component>
@@ -1107,8 +1046,7 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1432" />
-    <option name="y" value="2" />
+    <option name="x" value="-1433" />
     <option name="width" value="1433" />
     <option name="height" value="860" />
   </component>
@@ -1154,9 +1092,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1277,6 +1212,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1298,7 +1236,7 @@
     <property name="LayoutCode.rearrangeEntriesJava" value="false" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MyTest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/java" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.WIDTH" value="454" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="DEBUGGABLE_DEVICE" value="asus-nexus_7-015d2994871be80c" />
@@ -1548,12 +1486,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1432" y="2" width="1433" height="860" extended-state="1" />
-    <editor active="true" />
+    <frame x="-1433" y="0" width="1433" height="860" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32708934" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33943662" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" x="226" y="57" width="1205" height="693" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33861673" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" x="226" y="57" width="1205" height="693" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2670537" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1567,12 +1505,12 @@
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="FLOATING" visible="false" weight="0.28674352" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" x="153" y="104" width="1248" height="638" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.32965517" sideWeight="0.5" order="14" side_tool="true" content_ui="tabs" x="121" y="328" width="1153" height="440" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2822757" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2428884" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49859154" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42363113" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" x="95" y="405" width="1371" height="337" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32968637" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24945295" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.39769453" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="6" y="51" width="1435" height="775" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.39769453" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="41" y="83" width="1435" height="740" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2670537" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1615,43 +1553,10 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="1182" />
+      <option name="time" value="1222" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/Program Files (x86)/Android/sdk/sources/android-19/android/database/AbstractWindowedCursor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="63" max-vertical-offset="2499">
-          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_record_as_built.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23647605" vertical-offset="0" max-vertical-offset="647">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files (x86)/Android/sdk/sources/android-19/com/android/internal/os/ZygoteInit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="9317" max-vertical-offset="10574">
-          <caret line="697" column="0" selection-start-line="697" selection-start-column="0" selection-end-line="697" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/integers.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
@@ -1675,54 +1580,6 @@
       </provider>
       <provider editor-type-id="android-designer">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/AsBuilt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12839879" vertical-offset="0" max-vertical-offset="782">
-          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#AsBuilt#0;class#AsBuilt#0" expanded="false" />
-            <element signature="method#AsBuilt#1;class#AsBuilt#0" expanded="false" />
-            <element signature="method#AsBuilt#2;class#AsBuilt#0" expanded="false" />
-            <element signature="method#createURLString#0;class#AsBuilt#0" expanded="false" />
-            <element signature="method#writeToParcel#0;class#AsBuilt#0" expanded="false" />
-            <element signature="class#3093:3324" expanded="false" />
-            <element signature="e#3176#3177#0" expanded="false" />
-            <element signature="e#3222#3223#0" expanded="false" />
-            <element signature="e#3268#3269#0" expanded="false" />
-            <element signature="e#3316#3317#0" expanded="false" />
-            <element signature="method#AsBuilt#3;class#AsBuilt#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/TimeSheet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="1037">
-          <caret line="212" column="53" selection-start-line="212" selection-start-column="53" selection-end-line="212" selection-end-column="53" />
-          <folding>
-            <element signature="method#TimeSheet#0;class#TimeSheet#0" expanded="false" />
-            <element signature="method#TimeSheet#2;class#TimeSheet#0" expanded="false" />
-            <element signature="method#TimeSheet#3;class#TimeSheet#0" expanded="false" />
-            <element signature="method#newInstance#0;class#TimeSheet#0" expanded="false" />
-            <element signature="method#whatDayS#0;class#TimeSheet#0" expanded="false" />
-            <element signature="method#whatDayD#0;class#TimeSheet#0" expanded="false" />
-            <element signature="method#whatDayL#0;class#TimeSheet#0" expanded="false" />
-            <element signature="method#maxRecord#0;class#TimeSheet#0" expanded="false" />
-            <element signature="method#equals#0;class#TimeSheet#0" expanded="false" />
-            <element signature="method#getProjectIndex#0;class#TimeSheet#0" expanded="false" />
-            <element signature="method#setTime#0;class#TimeSheet#0" expanded="false" />
-            <element signature="method#setProjectTime#0;class#TimeSheet#0" expanded="false" />
-            <element signature="method#billableTime#0;class#TimeSheet#0" expanded="false" />
-            <element signature="method#compareDate#0;class#TimeSheet#0" expanded="false" />
-            <element signature="method#createURLString#0;class#TimeSheet#0" expanded="false" />
-            <element signature="method#writeToParcel#0;class#TimeSheet#0" expanded="false" />
-            <element signature="class#8045:8286" expanded="false" />
-            <element signature="method#TimeSheet#4;class#TimeSheet#0" expanded="false" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/TimeWindow.java">
@@ -1805,17 +1662,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/toggle.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.84592146" vertical-offset="103" max-vertical-offset="850">
-          <caret line="39" column="53" selection-start-line="39" selection-start-column="53" selection-end-line="39" selection-end-column="53" />
-          <folding>
-            <element signature="e#177#198#0" expanded="false" />
-            <element signature="e#891#911#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1564">
@@ -1831,7 +1677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="631">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
@@ -1846,22 +1691,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/edit_fragment.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16164818" vertical-offset="595" max-vertical-offset="1666">
-          <caret line="41" column="36" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://C:/Program Files (x86)/Android/sdk/sources/android-19/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3323263" vertical-offset="6631" max-vertical-offset="11458">
           <caret line="817" column="0" selection-start-line="817" selection-start-column="0" selection-end-line="817" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1902,7 +1735,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33281973" vertical-offset="3150" max-vertical-offset="104805">
           <caret line="198" column="58" selection-start-line="198" selection-start-column="58" selection-end-line="198" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1910,154 +1742,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.81904763" vertical-offset="3802" max-vertical-offset="9724">
           <caret line="1855" column="24" selection-start-line="1855" selection-start-column="24" selection-end-line="1855" selection-end-column="24" />
-          <folding>
-            <element signature="class#FixedViewInfo#0;class#ListView#0" expanded="false" />
-            <element signature="method#ListView#1;class#ListView#0" expanded="false" />
-            <element signature="method#ListView#2;class#ListView#0" expanded="false" />
-            <element signature="method#adjustViewsUpOrDown#0;class#ListView#0" expanded="false" />
-            <element signature="e#7092#7153#0" expanded="false" />
-            <element signature="e#7353#7412#0" expanded="false" />
-            <element signature="e#8009#8067#0" expanded="false" />
-            <element signature="method#addHeaderView#0;class#ListView#0" expanded="false" />
-            <element signature="e#9753#9819#0" expanded="false" />
-            <element signature="method#removeHeaderView#0;class#ListView#0" expanded="false" />
-            <element signature="method#removeFixedViewInfo#0;class#ListView#0" expanded="false" />
-            <element signature="method#addFooterView#0;class#ListView#0" expanded="false" />
-            <element signature="e#13277#13343#0" expanded="false" />
-            <element signature="method#removeFooterView#0;class#ListView#0" expanded="false" />
-            <element signature="method#setAdapter#0;class#ListView#0" expanded="false" />
-            <element signature="method#resetList#0;class#ListView#0" expanded="false" />
-            <element signature="e#18335#18414#0" expanded="false" />
-            <element signature="method#clearRecycledState#0;class#ListView#0" expanded="false" />
-            <element signature="method#showingTopFadingEdge#0;class#ListView#0" expanded="false" />
-            <element signature="method#showingBottomFadingEdge#0;class#ListView#0" expanded="false" />
-            <element signature="method#requestChildRectangleOnScreen#0;class#ListView#0" expanded="false" />
-            <element signature="e#21268#21332#0" expanded="false" />
-            <element signature="e#22080#22145#0" expanded="false" />
-            <element signature="method#fillGap#0;class#ListView#0" expanded="false" />
-            <element signature="method#fillDown#0;class#ListView#0" expanded="false" />
-            <element signature="method#fillUp#0;class#ListView#0" expanded="false" />
-            <element signature="method#fillFromTop#0;class#ListView#0" expanded="false" />
-            <element signature="method#fillFromMiddle#0;class#ListView#0" expanded="false" />
-            <element signature="method#fillAboveAndBelow#0;class#ListView#0" expanded="false" />
-            <element signature="method#fillFromSelection#0;class#ListView#0" expanded="false" />
-            <element signature="e#30013#30081#0" expanded="false" />
-            <element signature="e#30187#30250#0" expanded="false" />
-            <element signature="e#30599#30665#0" expanded="false" />
-            <element signature="e#30773#30841#0" expanded="false" />
-            <element signature="method#getBottomSelectionPixel#0;class#ListView#0" expanded="false" />
-            <element signature="method#getTopSelectionPixel#0;class#ListView#0" expanded="false" />
-            <element signature="method#moveSelection#0;class#ListView#0" expanded="false" />
-            <element signature="e#38555#38619#0" expanded="false" />
-            <element signature="e#40082#40137#0" expanded="false" />
-            <element signature="class#FocusSelector#0;class#ListView#0" expanded="false" />
-            <element signature="method#setup#0;class#FocusSelector#0;class#ListView#0" expanded="false" />
-            <element signature="method#onSizeChanged#0;class#ListView#0" expanded="false" />
-            <element signature="method#onMeasure#0;class#ListView#0" expanded="false" />
-            <element signature="method#measureScrapChild#0;class#ListView#0" expanded="false" />
-            <element signature="method#measureHeightOfChildren#0;class#ListView#0" expanded="false" />
-            <element signature="e#47196#47267#0" expanded="false" />
-            <element signature="e#48403#48486#0" expanded="false" />
-            <element signature="e#49226#49296#0" expanded="false" />
-            <element signature="method#findMotionRow#0;class#ListView#0" expanded="false" />
-            <element signature="method#fillSpecific#0;class#ListView#0" expanded="false" />
-            <element signature="method#correctTooHigh#0;class#ListView#0" expanded="false" />
-            <element signature="e#52351#52423#0" expanded="false" />
-            <element signature="e#52925#53002#0" expanded="false" />
-            <element signature="e#53193#53269#0" expanded="false" />
-            <element signature="e#53813#53884#0" expanded="false" />
-            <element signature="method#correctTooLow#0;class#ListView#0" expanded="false" />
-            <element signature="e#54476#54549#0" expanded="false" />
-            <element signature="e#55064#55136#0" expanded="false" />
-            <element signature="e#55404#55479#0" expanded="false" />
-            <element signature="e#56073#56147#0" expanded="false" />
-            <element signature="method#layoutChildren#0;class#ListView#0" expanded="false" />
-            <element signature="e#58676#58738#0" expanded="false" />
-            <element signature="e#60101#60167#0" expanded="false" />
-            <element signature="e#60472#60513#0" expanded="false" />
-            <element signature="e#64555#64615#0" expanded="false" />
-            <element signature="e#65240#65303#0" expanded="false" />
-            <element signature="method#getAccessibilityFocusedChild#0;class#ListView#0" expanded="false" />
-            <element signature="method#makeAndAddView#0;class#ListView#0" expanded="false" />
-            <element signature="e#68470#68514#0" expanded="false" />
-            <element signature="e#70362#70442#0" expanded="false" />
-            <element signature="method#setSelectionFromTop#0;class#ListView#0" expanded="false" />
-            <element signature="method#setSelectionInt#0;class#ListView#0" expanded="false" />
-            <element signature="docComment;method#lookForSelectablePosition#0;class#ListView#0" expanded="false" />
-            <element signature="method#lookForSelectablePosition#0;class#ListView#0" expanded="false" />
-            <element signature="method#lookForSelectablePositionAfter#0;class#ListView#0" expanded="false" />
-            <element signature="method#setSelectionAfterHeaderView#0;class#ListView#0" expanded="false" />
-            <element signature="e#79886#79931#0" expanded="false" />
-            <element signature="method#onKeyMultiple#0;class#ListView#0" expanded="false" />
-            <element signature="method#commonKey#0;class#ListView#0" expanded="false" />
-            <element signature="e#84929#84997#0" expanded="false" />
-            <element signature="method#pageScroll#0;class#ListView#0" expanded="false" />
-            <element signature="method#fullScroll#0;class#ListView#0" expanded="false" />
-            <element signature="method#handleHorizontalFocusWithinListItem#0;class#ListView#0" expanded="false" />
-            <element signature="e#91104#91169#0" expanded="false" />
-            <element signature="method#arrowScroll#0;class#ListView#0" expanded="false" />
-            <element signature="method#nextSelectedPositionForDirection#0;class#ListView#0" expanded="false" />
-            <element signature="method#arrowScrollImpl#0;class#ListView#0" expanded="false" />
-            <element signature="e#95701#95759#0" expanded="false" />
-            <element signature="e#96252#96320#0" expanded="false" />
-            <element signature="e#97002#97080#0" expanded="false" />
-            <element signature="method#handleNewSelectionChange#0;class#ListView#0" expanded="false" />
-            <element signature="e#98665#98732#0" expanded="false" />
-            <element signature="method#measureAndAdjustDown#0;class#ListView#0" expanded="false" />
-            <element signature="method#measureItem#0;class#ListView#0" expanded="false" />
-            <element signature="method#relayoutMeasuredItem#0;class#ListView#0" expanded="false" />
-            <element signature="method#getArrowScrollPreviewLength#0;class#ListView#0" expanded="false" />
-            <element signature="method#amountToScroll#0;class#ListView#0" expanded="false" />
-            <element signature="class#ArrowScrollFocusResult#0;class#ListView#0" expanded="false" />
-            <element signature="method#populate#0;class#ArrowScrollFocusResult#0;class#ListView#0" expanded="false" />
-            <element signature="method#lookForSelectablePositionOnScreen#0;class#ListView#0" expanded="false" />
-            <element signature="method#arrowScrollFocused#0;class#ListView#0" expanded="false" />
-            <element signature="e#112065#112129#0" expanded="false" />
-            <element signature="e#113261#113281#0" expanded="false" />
-            <element signature="method#positionOfNewFocus#0;class#ListView#0" expanded="false" />
-            <element signature="method#isViewAncestorOf#0;class#ListView#0" expanded="false" />
-            <element signature="method#amountToScrollToNewFocus#0;class#ListView#0" expanded="false" />
-            <element signature="method#distanceToView#0;class#ListView#0" expanded="false" />
-            <element signature="method#scrollListItemsBy#0;class#ListView#0" expanded="false" />
-            <element signature="e#117418#117437#0" expanded="false" />
-            <element signature="e#117992#118058#0" expanded="false" />
-            <element signature="e#119170#119237#0" expanded="false" />
-            <element signature="method#addViewAbove#0;class#ListView#0" expanded="false" />
-            <element signature="method#addViewBelow#0;class#ListView#0" expanded="false" />
-            <element signature="method#setItemsCanFocus#0;class#ListView#0" expanded="false" />
-            <element signature="method#setCacheColorHint#0;class#ListView#0" expanded="false" />
-            <element signature="method#drawOverscrollHeader#0;class#ListView#0" expanded="false" />
-            <element signature="method#drawOverscrollFooter#0;class#ListView#0" expanded="false" />
-            <element signature="method#dispatchDraw#0;class#ListView#0" expanded="false" />
-            <element signature="e#124873#124937#0" expanded="false" />
-            <element signature="e#127361#127415#0" expanded="false" />
-            <element signature="e#130003#130057#0" expanded="false" />
-            <element signature="e#130784#130831#0" expanded="false" />
-            <element signature="method#drawChild#0;class#ListView#0" expanded="false" />
-            <element signature="method#drawDivider#0;class#ListView#0" expanded="false" />
-            <element signature="method#setDivider#0;class#ListView#0" expanded="false" />
-            <element signature="method#setDividerHeight#0;class#ListView#0" expanded="false" />
-            <element signature="method#setHeaderDividersEnabled#0;class#ListView#0" expanded="false" />
-            <element signature="method#setFooterDividersEnabled#0;class#ListView#0" expanded="false" />
-            <element signature="method#setOverscrollHeader#0;class#ListView#0" expanded="false" />
-            <element signature="method#setOverscrollFooter#0;class#ListView#0" expanded="false" />
-            <element signature="method#onFocusChanged#0;class#ListView#0" expanded="false" />
-            <element signature="e#137587#137653#0" expanded="false" />
-            <element signature="e#137883#137946#0" expanded="false" />
-            <element signature="method#onFinishInflate#0;class#ListView#0" expanded="false" />
-            <element signature="method#findViewTraversal#0;class#ListView#0" expanded="false" />
-            <element signature="method#findViewInHeadersOrFooters#0;class#ListView#0" expanded="false" />
-            <element signature="method#findViewWithTagTraversal#0;class#ListView#0" expanded="false" />
-            <element signature="method#findViewWithTagInHeadersOrFooters#0;class#ListView#0" expanded="false" />
-            <element signature="method#findViewByPredicateTraversal#0;class#ListView#0" expanded="false" />
-            <element signature="method#findViewByPredicateInHeadersOrFooters#0;class#ListView#0" expanded="false" />
-            <element signature="method#getCheckItemIds#0;class#ListView#0" expanded="false" />
-            <element signature="e#144174#144256#0" expanded="false" />
-            <element signature="e#144847#144909#0" expanded="false" />
-            <element signature="method#onInitializeAccessibilityEvent#0;class#ListView#0" expanded="false" />
-            <element signature="method#onInitializeAccessibilityNodeInfo#0;class#ListView#0" expanded="false" />
-            <element signature="method#onInitializeAccessibilityNodeInfoForItem#0;class#ListView#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2065,7 +1749,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.09375" vertical-offset="9140" max-vertical-offset="98226">
           <caret line="973" column="35" selection-start-line="973" selection-start-column="35" selection-end-line="973" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2073,7 +1756,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="69735" max-vertical-offset="86870">
           <caret line="5433" column="0" selection-start-line="5433" selection-start-column="0" selection-end-line="5433" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2081,9 +1763,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9010">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18819#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2133,15 +1812,15 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="193375">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#760180#0" expanded="true" />
-            <element signature="docComment;method#hasFocusable#0;class#View#0" expanded="true" />
-            <element signature="docComment;method#setActivated#0;class#View#0" expanded="true" />
-            <element signature="docComment;method#dispatchSetActivated#0;class#View#0" expanded="true" />
-            <element signature="docComment;method#getMinimumHeight#0;class#View#0" expanded="true" />
-            <element signature="docComment;method#getMinimumWidth#0;class#View#0" expanded="true" />
-            <element signature="docComment;method#setMinimumWidth#0;class#View#0" expanded="true" />
-            <element signature="docComment;method#getAnimation#0;class#View#0" expanded="true" />
-            <element signature="docComment;class#AccessibilityDelegate#0;class#View#0" expanded="true" />
+            <element signature="e#0#760180#0" expanded="false" />
+            <element signature="docComment;method#hasFocusable#0;class#View#0" expanded="false" />
+            <element signature="docComment;method#setActivated#0;class#View#0" expanded="false" />
+            <element signature="docComment;method#dispatchSetActivated#0;class#View#0" expanded="false" />
+            <element signature="docComment;method#getMinimumHeight#0;class#View#0" expanded="false" />
+            <element signature="docComment;method#getMinimumWidth#0;class#View#0" expanded="false" />
+            <element signature="docComment;method#setMinimumWidth#0;class#View#0" expanded="false" />
+            <element signature="docComment;method#getAnimation#0;class#View#0" expanded="false" />
+            <element signature="docComment;class#AccessibilityDelegate#0;class#View#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2163,10 +1842,10 @@
             <element signature="method#onLongClick#0;class#ListProject#0" expanded="false" />
             <element signature="method#onClick#0;class#ResortData#0;class#ListProject#0" expanded="false" />
             <element signature="class#AddressAdapter#0;class#ListProject#0" expanded="false" />
-            <element signature="e#11062#11063#0" expanded="true" />
-            <element signature="e#11117#11118#0" expanded="true" />
-            <element signature="e#12046#12047#0" expanded="true" />
-            <element signature="e#12101#12102#0" expanded="true" />
+            <element signature="e#11062#11063#0" expanded="false" />
+            <element signature="e#11117#11118#0" expanded="false" />
+            <element signature="e#12046#12047#0" expanded="false" />
+            <element signature="e#12101#12102#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2175,18 +1854,204 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3984375" vertical-offset="0" max-vertical-offset="640">
           <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Android/sdk/sources/android-19/android/app/ActivityThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="44150" max-vertical-offset="82008">
+          <caret line="2787" column="0" selection-start-line="2787" selection-start-column="0" selection-end-line="2787" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.0.0/classes.jar!/com/google/android/gms/internal/zzoz.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="595">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Android/sdk/sources/android-19/android/content/Intent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="35082" max-vertical-offset="50490">
+          <caret line="6022" column="0" selection-start-line="6022" selection-start-column="0" selection-end-line="6022" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;field#ACTION_SEARCH_LONG_PRESS#0;class#Intent#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/GD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="107" max-vertical-offset="918">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding>
+            <element signature="method#onCreate#0;class#GD#0" expanded="false" />
+            <element signature="method#getAbMeasureTitles#0;class#GD#0" expanded="false" />
+            <element signature="class#resultType#0;class#GD#0" expanded="false" />
+            <element signature="class#doneCode#0;class#GD#0" expanded="false" />
+            <element signature="class#editProgress#0;class#GD#0" expanded="false" />
+            <element signature="class#listColumns#0;class#GD#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Android/sdk/sources/android-19/com/android/internal/os/RuntimeInit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3323263" vertical-offset="324" max-vertical-offset="5474">
+          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.0.0/classes.jar!/com/google/android/gms/maps/model/BitmapDescriptorFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.84" vertical-offset="94" max-vertical-offset="731">
+          <caret line="21" column="66" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/edit_fragment.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24564184" vertical-offset="1035" max-vertical-offset="1700">
+          <caret line="70" column="33" selection-start-line="70" selection-start-column="33" selection-end-line="70" selection-end-column="33" />
+          <folding>
+            <element signature="e#897#918#0" expanded="true" />
+            <element signature="e#1509#1531#0" expanded="true" />
+            <element signature="e#2047#2065#0" expanded="true" />
+            <element signature="e#2186#2203#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/LocnListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/LocnService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/GC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="392" max-vertical-offset="1207">
+          <caret line="64" column="22" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="31" />
+          <folding>
+            <element signature="class#UsedList#0;class#GC#0" expanded="false" />
+            <element signature="method#GetList#0;class#UsedList#0;class#GC#0" expanded="false" />
+            <element signature="method#Update#0;class#UsedList#0;class#GC#0" expanded="false" />
+            <element signature="method#Update#1;class#UsedList#0;class#GC#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/toggle.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.897281" vertical-offset="188" max-vertical-offset="935">
+          <caret line="46" column="52" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="52" />
+          <folding>
+            <element signature="e#177#198#0" expanded="true" />
+            <element signature="e#891#911#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/AsBuilt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+          <folding>
+            <element signature="method#AsBuilt#0;class#AsBuilt#0" expanded="false" />
+            <element signature="method#AsBuilt#1;class#AsBuilt#0" expanded="false" />
+            <element signature="method#AsBuilt#2;class#AsBuilt#0" expanded="false" />
+            <element signature="method#createURLString#0;class#AsBuilt#0" expanded="false" />
+            <element signature="method#writeToParcel#0;class#AsBuilt#0" expanded="false" />
+            <element signature="class#3093:3324" expanded="false" />
+            <element signature="method#AsBuilt#3;class#AsBuilt#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/TimeSheet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="273" max-vertical-offset="1037">
+          <caret line="71" column="45" selection-start-line="71" selection-start-column="45" selection-end-line="71" selection-end-column="45" />
+          <folding>
+            <element signature="method#TimeSheet#0;class#TimeSheet#0" expanded="false" />
+            <element signature="method#TimeSheet#2;class#TimeSheet#0" expanded="false" />
+            <element signature="method#TimeSheet#3;class#TimeSheet#0" expanded="false" />
+            <element signature="method#newInstance#0;class#TimeSheet#0" expanded="false" />
+            <element signature="method#whatDayS#0;class#TimeSheet#0" expanded="false" />
+            <element signature="method#whatDayD#0;class#TimeSheet#0" expanded="false" />
+            <element signature="method#whatDayL#0;class#TimeSheet#0" expanded="false" />
+            <element signature="method#maxRecord#0;class#TimeSheet#0" expanded="false" />
+            <element signature="method#equals#0;class#TimeSheet#0" expanded="false" />
+            <element signature="method#getProjectIndex#0;class#TimeSheet#0" expanded="false" />
+            <element signature="method#setTime#0;class#TimeSheet#0" expanded="false" />
+            <element signature="method#setProjectTime#0;class#TimeSheet#0" expanded="false" />
+            <element signature="method#billableTime#0;class#TimeSheet#0" expanded="false" />
+            <element signature="method#compareDate#0;class#TimeSheet#0" expanded="false" />
+            <element signature="method#createURLString#0;class#TimeSheet#0" expanded="false" />
+            <element signature="method#writeToParcel#0;class#TimeSheet#0" expanded="false" />
+            <element signature="class#8108:8349" expanded="false" />
+            <element signature="method#TimeSheet#4;class#TimeSheet#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/ActivityEditProject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2359" max-vertical-offset="3434">
+          <caret line="435" column="69" selection-start-line="435" selection-start-column="69" selection-end-line="435" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#onResume#0;class#ActivityEditProject#0" expanded="false" />
+            <element signature="method#onSaveInstanceState#0;class#ActivityEditProject#0" expanded="false" />
+            <element signature="e#5134#5161#0" expanded="false" />
+            <element signature="method#setupActionBar#0;class#ActivityEditProject#0" expanded="false" />
+            <element signature="class#ViewPagerChanges#0;class#ActivityEditProject#0" expanded="false" />
+            <element signature="method#onPageSelected#0;class#ViewPagerChanges#0;class#ActivityEditProject#0" expanded="false" />
+            <element signature="method#hideKeyboard#0;class#ActivityEditProject#0" expanded="false" />
+            <element signature="class#ProjectPagerAdapter#0;class#ActivityEditProject#0" expanded="false" />
+            <element signature="method#getItem#0;class#ProjectPagerAdapter#0;class#ActivityEditProject#0" expanded="false" />
+            <element signature="class#TimeFragment#0;class#ActivityEditProject#0" expanded="false" />
+            <element signature="method#onCreateView#0;class#TimeFragment#0;class#ActivityEditProject#0" expanded="false" />
+            <element signature="class#AsBuiltRecords#0;class#ActivityEditProject#0" expanded="false" />
+            <element signature="method#onCreateView#0;class#AsBuiltRecords#0;class#ActivityEditProject#0" expanded="false" />
+            <element signature="class#ExecuteSaveOnClickListener#0;class#ActivityEditProject#0" expanded="false" />
+            <element signature="method#onClick#0;class#ExecuteSaveOnClickListener#0;class#ActivityEditProject#0" expanded="false" />
+            <element signature="method#saveProject#0;class#ExecuteSaveOnClickListener#0;class#ActivityEditProject#0" expanded="false" />
+            <element signature="method#saveTimeSheets#0;class#ExecuteSaveOnClickListener#0;class#ActivityEditProject#0" expanded="false" />
+            <element signature="method#saveAsBuilts#0;class#ExecuteSaveOnClickListener#0;class#ActivityEditProject#0" expanded="false" />
+            <element signature="class#ExtractData#0;class#ActivityEditProject#0" expanded="false" />
+            <element signature="method#FromEditPage#0;class#ExtractData#0;class#ActivityEditProject#0" expanded="false" />
+            <element signature="method#onClick#0;class#ActivityEditProject#0" expanded="false" />
+            <element signature="method#launchIntent#0;class#ActivityEditProject#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/Project.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="1003">
-          <caret line="117" column="0" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="1037">
+          <caret line="144" column="0" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
           <folding>
             <element signature="method#Project#0;class#Project#0" expanded="false" />
             <element signature="method#setIcon#0;class#Project#0" expanded="false" />
-            <element signature="method#Project#1;class#Project#0" expanded="false" />
             <element signature="method#equals#0;class#Project#0" expanded="false" />
             <element signature="method#copy#0;class#Project#0" expanded="false" />
             <element signature="method#setMarker#0;class#Project#0" expanded="false" />
@@ -2202,137 +2067,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/DBBaseAdapter.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/LocnBinder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.42920354" vertical-offset="427" max-vertical-offset="1717">
-          <caret line="11" column="68" selection-start-line="11" selection-start-column="68" selection-end-line="11" selection-end-column="68" />
+        <state vertical-scroll-proportion="0.23661971" vertical-offset="2143" max-vertical-offset="2533">
+          <caret line="168" column="75" selection-start-line="168" selection-start-column="75" selection-end-line="168" selection-end-column="75" />
           <folding>
-            <element signature="method#openDb#0;class#DBBaseAdapter#0" expanded="false" />
-            <element signature="method#onUpgrade#0;class#DatabaseHelper#0;class#DBBaseAdapter#0" expanded="false" />
+            <element signature="e#3220#3238#0" expanded="false" />
+            <element signature="method#closeGoogleApiClient#0;class#LocnBinder#0" expanded="false" />
+            <element signature="method#showErrorDialog#0;class#LocnBinder#0" expanded="false" />
+            <element signature="class#NextLocn#0;class#LocnBinder#0" expanded="false" />
+            <element signature="method#onLocationChanged#0;class#NextLocn#0;class#LocnBinder#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/LocnListener.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/DeleteLocnFromDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.10271903" vertical-offset="0" max-vertical-offset="662">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/GC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="1020">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding>
-            <element signature="method#putInternalData#0;class#GC#0" expanded="false" />
-            <element signature="class#UsedList#0;class#GC#0" expanded="false" />
-            <element signature="method#GetList#0;class#UsedList#0;class#GC#0" expanded="false" />
-            <element signature="method#Update#0;class#UsedList#0;class#GC#0" expanded="false" />
-            <element signature="method#Update#1;class#UsedList#0;class#GC#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/GD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="748">
-          <caret line="99" column="76" selection-start-line="99" selection-start-column="76" selection-end-line="99" selection-end-column="76" />
-          <folding>
-            <element signature="method#onCreate#0;class#GD#0" expanded="false" />
-            <element signature="method#getAbMeasureTitles#0;class#GD#0" expanded="false" />
-            <element signature="class#resultType#0;class#GD#0" expanded="false" />
-            <element signature="class#doneCode#0;class#GD#0" expanded="false" />
-            <element signature="class#editProgress#0;class#GD#0" expanded="false" />
-            <element signature="class#codeIntent#0;class#GD#0" expanded="false" />
-            <element signature="class#listColumns#0;class#GD#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files (x86)/Android/sdk/sources/android-19/android/app/ActivityThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="44150" max-vertical-offset="82008">
-          <caret line="2787" column="0" selection-start-line="2787" selection-start-column="0" selection-end-line="2787" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.0.0/classes.jar!/com/google/android/gms/internal/zzoz.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="595">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/Locations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-          <caret line="82" column="5" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
-          <folding>
-            <element signature="method#display#0;class#Locations#0" expanded="false" />
-            <element signature="method#hideAllMarkers#0;class#Locations#0" expanded="false" />
-            <element signature="method#showSelectedMarkers#0;class#Locations#0" expanded="false" />
-            <element signature="method#changeDay#0;class#Locations#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files (x86)/Android/sdk/sources/android-19/android/content/Intent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="35082" max-vertical-offset="50490">
-          <caret line="6022" column="0" selection-start-line="6022" selection-start-column="0" selection-end-line="6022" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;field#ACTION_SEARCH_LONG_PRESS#0;class#Intent#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/ActivityEditProject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30664653" vertical-offset="52" max-vertical-offset="2074">
-          <caret line="70" column="17" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
-          <folding>
-            <element signature="n#!!doc;n#aep#0;n#ActivityEditProject#0" expanded="false" />
-            <element signature="method#onSaveInstanceState#0;class#ActivityEditProject#0" expanded="false" />
-            <element signature="e#5098#5125#0" expanded="false" />
-            <element signature="method#setupActionBar#0;class#ActivityEditProject#0" expanded="false" />
-            <element signature="method#addDateTabToActionBar#0;class#ActivityEditProject#0" expanded="false" />
-            <element signature="method#onTabSelected#0;class#ActivityEditProject#0" expanded="false" />
-            <element signature="class#ViewPagerChanges#0;class#ActivityEditProject#0" expanded="false" />
-            <element signature="method#onPageSelected#0;class#ViewPagerChanges#0;class#ActivityEditProject#0" expanded="false" />
-            <element signature="method#hideKeyboard#0;class#ActivityEditProject#0" expanded="false" />
-            <element signature="class#ProjectPagerAdapter#0;class#ActivityEditProject#0" expanded="false" />
-            <element signature="method#getItem#0;class#ProjectPagerAdapter#0;class#ActivityEditProject#0" expanded="false" />
-            <element signature="class#Chooser#0;class#ActivityEditProject#0" expanded="false" />
-            <element signature="method#onCreateDialog#0;class#Chooser#0;class#ActivityEditProject#0" expanded="false" />
-            <element signature="class#TimeFragment#0;class#ActivityEditProject#0" expanded="false" />
-            <element signature="method#onCreateView#0;class#TimeFragment#0;class#ActivityEditProject#0" expanded="false" />
-            <element signature="class#AsBuiltRecords#0;class#ActivityEditProject#0" expanded="false" />
-            <element signature="method#onCreateView#0;class#AsBuiltRecords#0;class#ActivityEditProject#0" expanded="false" />
-            <element signature="class#ExecuteSaveOnClickListener#0;class#ActivityEditProject#0" expanded="false" />
-            <element signature="method#onClick#0;class#ExecuteSaveOnClickListener#0;class#ActivityEditProject#0" expanded="false" />
-            <element signature="method#saveProject#0;class#ExecuteSaveOnClickListener#0;class#ActivityEditProject#0" expanded="false" />
-            <element signature="method#saveTimeSheets#0;class#ExecuteSaveOnClickListener#0;class#ActivityEditProject#0" expanded="false" />
-            <element signature="method#saveAsBuilts#0;class#ExecuteSaveOnClickListener#0;class#ActivityEditProject#0" expanded="false" />
-            <element signature="class#ExtractData#0;class#ActivityEditProject#0" expanded="false" />
-            <element signature="method#FromEditPage#0;class#ExtractData#0;class#ActivityEditProject#0" expanded="false" />
-            <element signature="method#onClick#0;class#ActivityEditProject#0" expanded="false" />
-            <element signature="method#onActivityResult#0;class#ActivityEditProject#0" expanded="false" />
-            <element signature="method#launchIntent#0;class#ActivityEditProject#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/ActivityMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1445">
-          <caret line="110" column="49" selection-start-line="110" selection-start-column="49" selection-end-line="110" selection-end-column="49" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="579" max-vertical-offset="1241">
+          <caret line="250" column="43" selection-start-line="250" selection-start-column="43" selection-end-line="250" selection-end-column="43" />
           <folding>
             <element signature="n#!!doc;n#ma#0;n#ActivityMain#0" expanded="false" />
+            <element signature="method#onCreate#0;class#ActivityMain#0" expanded="false" />
             <element signature="method#onResume#0;class#ActivityMain#0" expanded="false" />
+            <element signature="e#5578#5692#0" expanded="false" />
+            <element signature="e#6059#6132#0" expanded="false" />
             <element signature="method#onStop#0;class#ActivityMain#0" expanded="false" />
             <element signature="method#onSaveInstanceState#0;class#ActivityMain#0" expanded="false" />
             <element signature="method#onRestoreInstanceState#0;class#ActivityMain#0" expanded="false" />
@@ -2340,7 +2106,7 @@
             <element signature="method#onPrepareOptionsMenu#0;class#ActivityMain#0" expanded="false" />
             <element signature="method#onMapReady#0;class#ActivityMain#0" expanded="false" />
             <element signature="method#onActivityResult#0;class#ActivityMain#0" expanded="false" />
-            <element signature="e#9565#9646#0" expanded="false" />
+            <element signature="e#9708#9789#0" expanded="false" />
             <element signature="method#onToggleRoads#0;class#ActivityMain#0" expanded="false" />
             <element signature="method#onTrack#0;class#ActivityMain#0" expanded="false" />
             <element signature="method#pressedLocationButtons#0;class#ActivityMain#0" expanded="false" />
@@ -2350,42 +2116,43 @@
             <element signature="method#onStartTrackingTouch#0;class#ActivityMain#0" expanded="false" />
             <element signature="method#onCopyDB#0;class#ActivityMain#0" expanded="false" />
             <element signature="method#onSyncDB#0;class#ActivityMain#0" expanded="false" />
-            <element signature="e#15444#15465#0" expanded="false" />
+            <element signature="e#15840#15861#0" expanded="false" />
+            <element signature="method#onDeleteLocations#0;class#ActivityMain#0" expanded="false" />
             <element signature="method#onListProjects#0;class#ActivityMain#0" expanded="false" />
             <element signature="method#onServiceConnected#0;class#ActivityMain#0" expanded="false" />
-            <element signature="e#16621#16693#0" expanded="false" />
+            <element signature="e#17248#17320#0" expanded="false" />
             <element signature="method#onServiceDisconnected#0;class#ActivityMain#0" expanded="false" />
-            <element signature="e#17250#17336#0" expanded="false" />
+            <element signature="e#17877#17963#0" expanded="false" />
             <element signature="method#isMyServiceRunning#0;class#ActivityMain#0" expanded="false" />
             <element signature="method#seeWholeMap#0;class#ActivityMain#0" expanded="false" />
-            <element signature="class#18821:19054" expanded="false" />
-            <element signature="method#onFinish#0;class#18821:19054" expanded="false" />
+            <element signature="class#19592:19825" expanded="false" />
+            <element signature="method#onFinish#0;class#19592:19825" expanded="false" />
             <element signature="method#onMarkerClick#0;class#ActivityMain#0" expanded="false" />
             <element signature="method#onMarkerDrag#0;class#ActivityMain#0" expanded="false" />
             <element signature="method#onMarkerDragStart#0;class#ActivityMain#0" expanded="false" />
             <element signature="method#onMarkerDragEnd#0;class#ActivityMain#0" expanded="false" />
             <element signature="method#onMapClick#0;class#ActivityMain#0" expanded="false" />
             <element signature="method#callActivityEditProject#0;class#ActivityMain#0" expanded="false" />
-            <element signature="method#showLocnMarkers#0;class#ActivityMain#0" expanded="false" />
+            <element signature="method#showCurrentLocn#0;class#ActivityMain#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/LocnService.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/DBBaseAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="1717">
+          <caret line="44" column="65" selection-start-line="44" selection-start-column="65" selection-end-line="44" selection-end-column="65" />
           <folding>
-            <element signature="e#636#637#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
+            <element signature="method#openDb#0;class#DBBaseAdapter#0" expanded="false" />
+            <element signature="method#onUpgrade#0;class#DatabaseHelper#0;class#DBBaseAdapter#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/UpdateDatabases.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="745" max-vertical-offset="1394">
-          <caret line="824" column="0" selection-start-line="824" selection-start-column="0" selection-end-line="824" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1399" max-vertical-offset="3009">
+          <caret line="819" column="26" selection-start-line="819" selection-start-column="26" selection-end-line="819" selection-end-column="26" />
           <folding>
             <element signature="class#UpdateDatabases#0" expanded="false" />
             <element signature="method#UpdateDatabases#0;class#UpdateDatabases#0" expanded="false" />
@@ -2413,18 +2180,16 @@
             <element signature="method#addToDB#0;class#ProjectList#0" expanded="false" />
             <element signature="method#update#0;class#ProjectList#0" expanded="false" />
             <element signature="method#deleteAllData#0;class#ProjectList#0" expanded="false" />
-            <element signature="class#TimeSheetList#0" expanded="false" />
             <element signature="n#!!doc;n#TABLE_NAME#0;n#TimeSheetList#0" expanded="false" />
             <element signature="initializer##0;class#TimeSheetList#0" expanded="false" />
             <element signature="method#TimeSheetList#0;class#TimeSheetList#0" expanded="false" />
-            <element signature="method#readTimeSheetsFromDB#0;class#TimeSheetList#0" expanded="false" />
             <element signature="method#addToDB#0;class#TimeSheetList#0" expanded="false" />
             <element signature="method#update#0;class#TimeSheetList#0" expanded="false" />
             <element signature="method#getMaxRecord#0;class#TimeSheetList#0" expanded="false" />
             <element signature="method#deleteAllData#0;class#TimeSheetList#0" expanded="false" />
             <element signature="n#!!doc;n#TABLE_NAME#0;n#LocationList#0" expanded="false" />
             <element signature="method#readLocationsFromDB#0;class#LocationList#0" expanded="false" />
-            <element signature="class#ABRecordList#0" expanded="false" />
+            <element signature="method#SetLocnPeriod#0;class#LocationList#0" expanded="false" />
             <element signature="n#!!doc;n#TABLE_NAME#0;n#ABRecordList#0" expanded="false" />
             <element signature="method#ABRecordList#0;class#ABRecordList#0" expanded="false" />
             <element signature="method#readAsBuiltFromDB#0;class#ABRecordList#0" expanded="false" />
@@ -2439,27 +2204,20 @@
             <element signature="n#!!doc;n#TABLE_NAME#0;n#ABTestList#0" expanded="false" />
             <element signature="class#abDesc#0;class#ABTestList#0" expanded="false" />
             <element signature="method#readTestsFromDB#0;class#ABTestList#0" expanded="false" />
-            <element signature="e#49274#49323#0" expanded="false" />
+            <element signature="e#52209#52258#0" expanded="false" />
             <element signature="method#replaceListInDB#0;class#ABTestList#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/LocnBinder.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/nbenner/bizprocribbing/Locations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28043142" vertical-offset="634" max-vertical-offset="1615">
-          <caret line="112" column="36" selection-start-line="112" selection-start-column="36" selection-end-line="112" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.6933535" vertical-offset="510" max-vertical-offset="1360">
+          <caret line="85" column="50" selection-start-line="85" selection-start-column="50" selection-end-line="85" selection-end-column="50" />
           <folding>
-            <element signature="method#buildGoogleApiClient#0;class#LocnBinder#0" expanded="false" />
-            <element signature="method#checkGooglePlay#0;class#LocnBinder#0" expanded="false" />
-            <element signature="method#onConnectionSuspended#0;class#LocnBinder#0" expanded="false" />
-            <element signature="e#3220#3238#0" expanded="false" />
-            <element signature="method#onConnectionFailed#0;class#LocnBinder#0" expanded="false" />
-            <element signature="method#closeGoogleApiClient#0;class#LocnBinder#0" expanded="false" />
-            <element signature="method#showErrorDialog#0;class#LocnBinder#0" expanded="false" />
-            <element signature="class#ErrorDialogFragment#0;class#LocnBinder#0" expanded="false" />
-            <element signature="method#onCreateDialog#0;class#ErrorDialogFragment#0;class#LocnBinder#0" expanded="false" />
-            <element signature="class#NextLocn#0;class#LocnBinder#0" expanded="false" />
+            <element signature="method#display#0;class#Locations#0" expanded="false" />
+            <element signature="method#hideAllMarkers#0;class#Locations#0" expanded="false" />
+            <element signature="method#changeDay#0;class#Locations#0" expanded="false" />
           </folding>
         </state>
       </provider>

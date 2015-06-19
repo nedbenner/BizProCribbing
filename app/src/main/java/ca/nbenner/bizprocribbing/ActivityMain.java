@@ -1,6 +1,7 @@
 package ca.nbenner.bizprocribbing;
 
 import android.app.ActivityManager;
+import android.app.DialogFragment;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
@@ -68,6 +69,7 @@ public class ActivityMain extends FragmentActivity implements
     public static   int                 maxNumOfProjects    = 3;
     private static  CameraPosition      currentView         = null;
     private static  LocnBinder          locnBinder          = null;
+    private final   Handler             handler             = new Handler();
     private static  int                 cameraMoveCnt       = 0;        // Counter to see if second mapClick zooms on projects or locations
     public static   GC                  mGC;
 
@@ -110,7 +112,7 @@ public class ActivityMain extends FragmentActivity implements
         allProjects = new ProjectList(this).readProjectsFromDB();
         new UpdateDatabases(this).downloadData();
 
-        startTrackingIntent = LocationList.SetLocnPeriod(SLOW);
+        startTrackingIntent = LocationList.SetLocnPeriod(FAST);
 
 	}
     @Override protected void onResume() {
@@ -139,6 +141,7 @@ public class ActivityMain extends FragmentActivity implements
         if (locnBinder != null)
             locnBinder.reportStopListening();
         unbindService(this);            // The service will stop after some time (like a day) unless something re-binds to it.
+        mGC.putInternalData();
     }
     @Override public void onSaveInstanceState(Bundle savedInstanceState) {
         super.onSaveInstanceState(savedInstanceState);
@@ -169,7 +172,7 @@ public class ActivityMain extends FragmentActivity implements
         mMap.setOnMarkerDragListener(this);
         mMap.setOnCameraChangeListener(this);
 
-        showLocnMarkers();
+        showCurrentLocn();
         if (ActivityMain.allProjects != null) {
             Iterator itr = ActivityMain.allProjects.iterator();
             while (itr.hasNext()) {
@@ -225,14 +228,23 @@ public class ActivityMain extends FragmentActivity implements
         GC.isLocationTracking = !GC.isLocationTracking;
         findViewById(R.id.locationButtons).setVisibility(GC.isLocationTracking ? View.VISIBLE : View.INVISIBLE);
         Locations.display(GC.isLocationTracking);
+
+        if (locnBinder != null)
+            if ( GC.isLocationTracking )
+                locnBinder.reportStopListening();
+            else {
+                showCurrentLocn();
+                locnBinder.reportLocations(this);
+            }
+
     }
     public void pressedLocationButtons(View v) {
         if (v.getId() == R.id.earlierButton)
-            Locations.changeDay(-1);
+            Locations.changeDay(-1, v);
         if (v.getId() == R.id.displayedDateButton)
-            Locations.changeDay(0);                         // i.e. Today
+            Locations.changeDay( 0, v);                         // i.e. Today
         if (v.getId() == R.id.laterButton)
-            Locations.changeDay(+1);
+            Locations.changeDay(+1, v);
         if (v.getId() == R.id.doneButton)
             onTrack(null);                                  // toggles displayed positions off
     }
@@ -345,6 +357,11 @@ public class ActivityMain extends FragmentActivity implements
 
         }
     }
+    public void onDeleteLocations(MenuItem item) {
+        Log.i("myDebug", "in on DeleteLocations");
+        DialogFragment newFragment = new DeleteLocnFromDB();
+        newFragment.show(getFragmentManager(), "datePicker");
+    }
     public void onListProjects(MenuItem item) {
         startActivity( new Intent(this, ListProject.class) );
     }
@@ -380,8 +397,8 @@ public class ActivityMain extends FragmentActivity implements
 
         LatLngBounds.Builder setOfBounds = new LatLngBounds.Builder();
 
-        if (GC.isLocationTracking && cameraMoveCnt > 0) {
-            cameraMoveCnt = 0;
+        if (GC.isLocationTracking && cameraMoveCnt > 0) {       // cameraMoveCnt is used to add extra "zoom level on tap" for
+            cameraMoveCnt = 0;                                  //     zooming into the location data only
             setOfBounds = Locations.locnBounds;
         } else {
             cameraMoveCnt = 1;
@@ -397,7 +414,7 @@ public class ActivityMain extends FragmentActivity implements
         }
         GC.bounds  = setOfBounds.build();
 
-        mMap.animateCamera(CameraUpdateFactory.newLatLngBounds(GC.bounds, 50), new GoogleMap.CancelableCallback() {
+        mMap.animateCamera(CameraUpdateFactory.newLatLngBounds(GC.bounds, 75), new GoogleMap.CancelableCallback() {
             @Override public void onFinish() {
                 if (GC.isLocationTracking)
                     cameraMoveCnt--;
@@ -425,6 +442,11 @@ public class ActivityMain extends FragmentActivity implements
                 50                                                                //    Max resolution of click (units = dp)
                         * earthCircum                                                        //  * earth circumference at this Latitude (units = km)
                         / (256 * Math.pow(2, ActivityMain.mMap.getCameraPosition().zoom)); //  / size of earth (units = dp)
+
+        if (clickAddProject) {                      // if we are in Add Project state, skip clicking on Markers
+            onMapClick( marker.getPosition() );
+            return true;
+        }
 
         LatLngBounds.Builder setOfBounds = new LatLngBounds.Builder();
         for (Project mProject : allProjects) {
@@ -467,6 +489,7 @@ public class ActivityMain extends FragmentActivity implements
         } else {                                                    // If just one (i.e. our project) then shift and display dialog
 
             mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(markerLat, markerLon), TightZoom), 1000, null);
+            selectedMarker = null;
 
             String markerID = marker.getId();
             for (int i = 0; i < allProjects.size(); i++) {
@@ -487,10 +510,10 @@ public class ActivityMain extends FragmentActivity implements
     @Override public void onMarkerDragEnd(Marker marker){
     	String 		markerID 		= marker.getId();
     	for (int i = 0; i < allProjects.size(); i++ ) {
-            GD.projectToEdit = allProjects.get(i);
-    		if ( markerID.compareTo(GD.projectToEdit.getMarker().getId()) == 0 ) {
+    		if ( markerID.compareTo(allProjects.get(i).getMarker().getId()) == 0 ) {
+                GD.projectToEdit = allProjects.get(i);
                 GD.projectToEdit.setLatitude(  marker.getPosition().latitude  );
-                GD.projectToEdit.setLongitude(marker.getPosition().longitude);
+                GD.projectToEdit.setLongitude( marker.getPosition().longitude );
     			callActivityEditProject(i, GD.codeIntent.EDIT_RQ_SHIFTED);
     			break;
     		}
@@ -506,7 +529,9 @@ public class ActivityMain extends FragmentActivity implements
 		}
 	}
     public void callActivityEditProject(int projectIndex, GD.codeIntent requestCode) {
-        GC.mUsedList.Update(allProjects.get(projectIndex).getId(), false);
+        try {
+            GC.mUsedList.Update(allProjects.get(projectIndex).getId(), false);
+        } catch (ArrayIndexOutOfBoundsException e) {}  // no problem, just don't add to UsedList
         if (justGettingPID)
             finish();
         else {
@@ -515,7 +540,7 @@ public class ActivityMain extends FragmentActivity implements
             startActivity(intent);
         }
     }
-    public void showLocnMarkers() {
+    public void showCurrentLocn() {
         final SimpleDateFormat sdf      = new SimpleDateFormat("yyyy-MM-dd h:mm a");
 
         if (GC.mCurrentLocation == null)
@@ -526,24 +551,29 @@ public class ActivityMain extends FragmentActivity implements
 
         GC.myLocnMarker = mMap.addMarker(new MarkerOptions()
                 .position(new LatLng(GC.mCurrentLocation.getLatitude(), GC.mCurrentLocation.getLongitude()))
-                .icon(BitmapDescriptorFactory.fromResource(R.drawable.my_locn))
+                .icon(BitmapDescriptorFactory.fromResource(R.drawable.stationary))
                 .draggable(false)
                 .title(sdf.format(GC.mCurrentLocation.getTime()))
                 .alpha(1f));
+        GC.myLocnMarker.setAnchor(0.5f, 0.5f);
 
-        final Handler handler = new Handler();
+
         final long start = SystemClock.uptimeMillis();
         final long duration = 1500;
 
         final Interpolator interpolator = new CycleInterpolator(1);
 
+        handler.removeCallbacksAndMessages(null);
         handler.post(new Runnable() {
             @Override public void run() {
-                long elapsed = SystemClock.uptimeMillis() - start;
-                float t = Math.max(1 - interpolator.getInterpolation((float) elapsed / duration), 0) * 0.8f + 0.2f;
-                GC.myLocnMarker.setAlpha(t);
-                handler.postDelayed(this, 16);
-
+                if ( GC.isLocationTracking ) {
+                    GC.myLocnMarker.remove();
+                } else {
+                    long elapsed = SystemClock.uptimeMillis() - start;
+                    float t = Math.max(1 - interpolator.getInterpolation((float) elapsed / duration), 0) * 0.8f + 0.2f;
+                    GC.myLocnMarker.setAlpha(t);
+                    handler.postDelayed(this, 50);
+                }
             }
         });
 

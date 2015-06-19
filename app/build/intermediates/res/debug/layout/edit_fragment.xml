@@ -88,6 +88,8 @@ android:scrollbars="vertical" >
             android:inputType="numberDecimal|numberSigned"
             android:typeface="monospace" />
     </TableRow>
+
 </TableLayout>
+
 </ScrollView>
 <!-- From: file:/C:/Users/Superlaptop/AndroidstudioProjects/BizProCribbing/app/src/main/res/layout/edit_fragment.xml -->

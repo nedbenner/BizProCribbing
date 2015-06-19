@@ -9,6 +9,7 @@ import java.text.SimpleDateFormat;
 import java.util.Arrays;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.GregorianCalendar;
 import java.util.List;
 import java.util.Locale;
 
@@ -63,19 +64,19 @@ public class TimeSheet implements Parcelable {
 
 
     public static String whatDayS(int daysAgo) {
-        Calendar t = Calendar.getInstance();
+        Calendar t = GregorianCalendar.getInstance();
         t.add(Calendar.DAY_OF_MONTH, -daysAgo);
 
         return sdf.format(t.getTime());
     }
     public static Date whatDayD(int daysAgo) {
-        Calendar t = Calendar.getInstance();
+        Calendar t = GregorianCalendar.getInstance();
         t.add(Calendar.DAY_OF_MONTH, -daysAgo);
 
         return t.getTime();
     }
     public static long whatDayL(int daysAgo) {
-        Calendar t = Calendar.getInstance();
+        Calendar t = GregorianCalendar.getInstance();
         t.add(Calendar.DAY_OF_MONTH, -daysAgo);
         t.set(Calendar.HOUR_OF_DAY, 0);
         t.set(Calendar.MINUTE, 0);

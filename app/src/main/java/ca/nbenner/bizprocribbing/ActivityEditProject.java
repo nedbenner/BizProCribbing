@@ -36,6 +36,7 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.GregorianCalendar;
 import java.util.Iterator;
 import java.util.Locale;
 
@@ -168,7 +169,7 @@ public class ActivityEditProject extends FragmentActivity implements
         addDateTabToActionBar(daysAgo);
     }
     public void addDateTabToActionBar(int daysAgo) {
-        Calendar t = Calendar.getInstance();
+        Calendar t = GregorianCalendar.getInstance();
         t.add(Calendar.DAY_OF_MONTH, -daysAgo);
         String title = (new SimpleDateFormat("MMM d", Locale.CANADA)).format(t.getTime());
 
@@ -251,10 +252,10 @@ public class ActivityEditProject extends FragmentActivity implements
                     spinner.setSelection(i);
 
             ((TextView) v.findViewById(R.id.projectId)).setText(String.valueOf(          selectedProject.getId())        );
-            ((TextView) v.findViewById(R.id.address))  .setText(                         selectedProject.getAddress()    );
-            ((TextView) v.findViewById(R.id.lat))      .setText(String.format("% 10.5f", selectedProject.getLatitude())  );
+            ((TextView) v.findViewById(R.id.address))  .setText(selectedProject.getAddress());
+            ((TextView) v.findViewById(R.id.lat))      .setText(String.format("% 10.5f", selectedProject.getLatitude()));
             ((TextView) v.findViewById(R.id.lng))      .setText(String.format("% 10.5f", selectedProject.getLongitude()) );
-            ((TextView) v.findViewById(R.id.customer)) .setText(                         selectedProject.getCustomer()   );
+            ((TextView) v.findViewById(R.id.customer)) .setText(selectedProject.getCustomer());
 
             return v;
         }

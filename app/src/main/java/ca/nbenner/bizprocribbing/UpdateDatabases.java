@@ -717,7 +717,7 @@ class TimeSheetList extends DBBaseAdapter implements BaseColumns {
 }
 
 class LocationList extends DBBaseAdapter implements BaseColumns, GD.Constants {
-    static int rate = SLOW;
+    static int rate = FAST;
 
     // <editor-fold desc="Column definitions and Constants"
     public static final String TABLE_NAME                   = "where_i_was";
@@ -739,8 +739,14 @@ class LocationList extends DBBaseAdapter implements BaseColumns, GD.Constants {
         super( GD.getAppContext() );
     }
 
-    public ArrayList<Location> readLocationsFromDB(long startTime) {
-        SQLiteDatabase db = openDb();
+    public ArrayList<Location> readLocationsFromDB(long startTime, SQLiteDatabase dbIn) {
+        SQLiteDatabase db;
+
+        if (dbIn == null)
+            db = openDb();
+        else
+            db = dbIn;
+
         Cursor c = db.query(
                 TABLE_NAME,                             // The table to query
                 QUERY_STRING,                           // The columns to return from the query
@@ -748,7 +754,7 @@ class LocationList extends DBBaseAdapter implements BaseColumns, GD.Constants {
                 null,                                   // The values for the where clause
                 null,                                   // don't group the rows
                 null,                                   // don't filter by row groups
-                null);                                  // The sort order
+                COLUMN_NAME_TIMESTAMP + " ASC");                                  // The sort order
 
         ArrayList<Location> list = new ArrayList<Location>();
         c.moveToFirst();
@@ -771,39 +777,91 @@ class LocationList extends DBBaseAdapter implements BaseColumns, GD.Constants {
             c.moveToNext();
         }
 
-        closeDb();
+        if (dbIn == null)
+            closeDb();
 
         return list;
     }
+    public void deleteLocationsFromDB(long startTime, long endTime, SQLiteDatabase dbIn) {
+        SQLiteDatabase db;
+
+        if (dbIn == null)
+            db = openDb();
+        else
+            db = dbIn;
+
+        db.delete( TABLE_NAME,                                               // The table to query
+                   COLUMN_NAME_TIMESTAMP + ">=" + String.valueOf(startTime) + " AND " +
+                   COLUMN_NAME_TIMESTAMP + "<=" + String.valueOf(endTime),   // The WHERE clause
+                   null);                                                    // Optional arguments for the WHERE clause
+
+        if (dbIn == null)
+            closeDb();
+
+    }
     public void Update( Location locn ) {
+        ContentValues values;
+        float range = 0;
+
         SQLiteDatabase db = openDb();
 
+        long startTime = locn.getTime() - 10 * 60 * 1000;
+        ArrayList<Location> setOfLocn = readLocationsFromDB(startTime, db);
+
+        if (setOfLocn.size() > 0) {
+            double avgLat = locn.getLatitude();
+            double avgLng = locn.getLongitude();
+            for (Location pastLoc : setOfLocn) {
+                range = Math.max(range, locn.distanceTo(pastLoc));
+                avgLat += locn.getLatitude();
+                avgLng += locn.getLongitude();
+            }
+
+            if (range < 75) {
+                deleteLocationsFromDB(startTime, System.currentTimeMillis(), db);
+                locn.setLatitude(avgLat / (setOfLocn.size() + 1));  // TODO, this averaging is not right - weights too high on the last entry
+                locn.setLongitude(avgLng / (setOfLocn.size() + 1));
+                locn.setSpeed(-2);
+
+                Location firstEpoch = setOfLocn.get(0);
+                if (firstEpoch.getSpeed() != -2) {  // Do I need to put the start of the stationary period in?  There are 3 possibilities:
+                                                    //      FirstEpoch speed >=0:  no stationary period determined yet >> YES
+                                                    //      FirstEpoch speed =-1:  stationary period determined >> YES (must replace what was deleted above)
+                                                    //      FirstEpoch speed =-2:  stationary period but longer than the 20 minutes selected above >> NO
+                    values = new ContentValues();
+                    values.put( COLUMN_NAME_TIMESTAMP,  firstEpoch.getTime());
+                    values.put( COLUMN_NAME_LATITUDE,   firstEpoch.getLatitude()  );
+                    values.put( COLUMN_NAME_LONGITUDE,  firstEpoch.getLongitude() );
+                    values.put( COLUMN_NAME_ACCURACY,   firstEpoch.getAccuracy()  );
+                    values.put( COLUMN_NAME_SPEED,      -1.0     );
+
+                    db.insert(TABLE_NAME,                                       // The table to query
+                            null,                                               // Set to NULL so that it won't insert a blank row (if values = null)
+                            values);                                            // Optional arguments for the WHERE clause
+
+                }
+            }
+        }
+
         // Insert the record into the database
-        ContentValues values = new ContentValues();
+        values = new ContentValues();
         values.put( COLUMN_NAME_TIMESTAMP,  locn.getTime());
         values.put( COLUMN_NAME_LATITUDE,   locn.getLatitude()  );
         values.put( COLUMN_NAME_LONGITUDE,  locn.getLongitude() );
         values.put( COLUMN_NAME_ACCURACY,   locn.getAccuracy()  );
-//        values.put( COLUMN_NAME_SPEED,      locn.getSpeed()     );
-        values.put( COLUMN_NAME_SPEED,      (float) rate );
+        values.put( COLUMN_NAME_SPEED,      locn.getSpeed()     );
 
         db.insert(TABLE_NAME,                                       // The table to query
                 null,                                               // Set to NULL so that it won't insert a blank row (if values = null)
                 values);                                            // Optional arguments for the WHERE clause
 
-        db.close();
-
-        ArrayList<Location>  setOfLocn = readLocationsFromDB(locn.getTime() - 20 * 60 * 1000);
-
-        float range = 0;
-        for (Location pastLoc : setOfLocn )
-            range = Math.max( range, locn.distanceTo( pastLoc ) );
-
         Log.d("myDebug Locn", "Range estimate is " + range + ((range < 200) ? ":  SLOW" : ":  FAST"));
-        if (range < 200)
-            SetLocnPeriod(SLOW);
-        else
-            SetLocnPeriod(FAST);
+//        if (range < 200)
+//            SetLocnPeriod(SLOW);
+//        else
+//            SetLocnPeriod(FAST);
+
+        db.close();
     }
     static public Intent SetLocnPeriod(int periodicity) {
         Context c = GD.getAppContext();
@@ -816,8 +874,8 @@ class LocationList extends DBBaseAdapter implements BaseColumns, GD.Constants {
         }
 
         if (rate == FAST) {
-            startTrackingIntent.putExtra( LOCN_REG_INTERVAL,  (long) (0.5 * 60 * 1000) );
-            startTrackingIntent.putExtra( LOCN_FAST_INTERVAL, (long) (0.3 * 60 * 1000) );
+            startTrackingIntent.putExtra( LOCN_REG_INTERVAL,  (long) (1.0 * 60 * 1000) );
+            startTrackingIntent.putExtra( LOCN_FAST_INTERVAL, (long) (0.5 * 60 * 1000) );
         }
 
         startTrackingIntent.putExtra( LOCN_DURATION,  (long) (2 * 24 * 60 * 60 * 1000) );

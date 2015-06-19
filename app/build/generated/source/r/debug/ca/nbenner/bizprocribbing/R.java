@@ -526,7 +526,7 @@ containing a value of this type.
         public static final int ab_result_todo=0x7f020004;
         public static final int ab_sample_photo=0x7f020005;
         public static final int add_project=0x7f020006;
-        public static final int blue=0x7f02004a;
+        public static final int blue=0x7f02004b;
         public static final int button_background=0x7f020007;
         public static final int button_onoff_indicator_off=0x7f020008;
         public static final int button_onoff_indicator_on=0x7f020009;
@@ -559,7 +559,7 @@ containing a value of this type.
         public static final int copy_db=0x7f020024;
         public static final int edit_icon=0x7f020025;
         public static final int edit_query=0x7f020026;
-        public static final int green=0x7f02004b;
+        public static final int green=0x7f02004c;
         public static final int highlight_pressed2=0x7f020027;
         public static final int highlight_selected2=0x7f020028;
         public static final int ic_action_locate=0x7f020029;
@@ -579,7 +579,7 @@ containing a value of this type.
         public static final int not_add_project=0x7f020037;
         public static final int powered_by_google_dark=0x7f020038;
         public static final int powered_by_google_light=0x7f020039;
-        public static final int red=0x7f02004c;
+        public static final int red=0x7f02004d;
         public static final int s1plannedx=0x7f02003a;
         public static final int s2stakedx=0x7f02003b;
         public static final int s3excavatorx=0x7f02003c;
@@ -587,19 +587,20 @@ containing a value of this type.
         public static final int s5wallx=0x7f02003e;
         public static final int s6strippedx=0x7f02003f;
         public static final int s7clean=0x7f020040;
-        public static final int screen_background_black=0x7f02004d;
-        public static final int stopwatch_start_deselect=0x7f020041;
-        public static final int stopwatch_start_selected=0x7f020042;
-        public static final int stopwatch_stop_deselect=0x7f020043;
-        public static final int stopwatch_stop_selected=0x7f020044;
-        public static final int stopwatch_unset=0x7f020045;
-        public static final int time_icon=0x7f020046;
-        public static final int time_input=0x7f020047;
-        public static final int translucent_background=0x7f02004e;
-        public static final int transparent_background=0x7f02004f;
-        public static final int view_road=0x7f020048;
-        public static final int view_satellite=0x7f020049;
-        public static final int yellow=0x7f020050;
+        public static final int screen_background_black=0x7f02004e;
+        public static final int stationary=0x7f020041;
+        public static final int stopwatch_start_deselect=0x7f020042;
+        public static final int stopwatch_start_selected=0x7f020043;
+        public static final int stopwatch_stop_deselect=0x7f020044;
+        public static final int stopwatch_stop_selected=0x7f020045;
+        public static final int stopwatch_unset=0x7f020046;
+        public static final int time_icon=0x7f020047;
+        public static final int time_input=0x7f020048;
+        public static final int translucent_background=0x7f02004f;
+        public static final int transparent_background=0x7f020050;
+        public static final int view_road=0x7f020049;
+        public static final int view_satellite=0x7f02004a;
+        public static final int yellow=0x7f020051;
     }
     public static final class id {
         public static final int ab_stages=0x7f080025;
@@ -621,6 +622,7 @@ containing a value of this type.
         public static final int col_status=0x7f080048;
         public static final int copyDB=0x7f080055;
         public static final int customer=0x7f08002c;
+        public static final int deleteLocations=0x7f080058;
         public static final int dismissButtons=0x7f080041;
         public static final int displayedDateButton=0x7f080022;
         public static final int donate_with_google=0x7f080014;
