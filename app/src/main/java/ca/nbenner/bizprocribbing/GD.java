@@ -2,17 +2,32 @@ package ca.nbenner.bizprocribbing;
 
 import android.app.Application;
 import android.content.Context;
+import com.microsoft.windowsazure.mobileservices.*;
+
+import java.net.MalformedURLException;
 
 public class GD extends Application {               // Global Data
     private static Context      context;
     public  static String[][]   abTests;
     public  static int[]        abRequired;
     public  static Project      projectToEdit;
+    private MobileServiceClient mClient;
 
     @Override public void onCreate() {
         super.onCreate();
         GD.context = getApplicationContext();
         getAbMeasureTitles();
+
+        try {
+            mClient = new MobileServiceClient(
+                    "https://bizpro-cribbing.azure-mobile.net/",
+                    "laaefjjcbrguuUKMeoffNolWQuhUPQ29",
+                    this
+            );
+        }
+        catch (MalformedURLException e) {
+            // todo what to do with no connection
+        }
     }
 
     public static Context getAppContext() {
